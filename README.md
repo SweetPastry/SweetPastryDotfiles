@@ -25,6 +25,6 @@ mkdir -p ~/.dotfiles/<Username>/.config/nvim
 cd ~/.dotfiles
 stow <Username>
 ```
-This will automatically link all files in the <Username> folder to your $HOME directory following the same file structure. It is similar to using ln -s, but stow handles more complex symlink structures for you.
+This will automatically link all files in the `<Username>` folder to your `$HOME` directory following the same file structure. It is similar to using `ln -s`, but stow handles more complex symlink structures for you.
 
 By using this approach, you can keep your configuration files neatly organized, version-controlled, and easily portable across different environments.
