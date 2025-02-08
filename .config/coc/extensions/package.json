@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "coc-python": ">=1.2.13",
+    "coc-clangd": ">=0.31.0",
+    "coc-tsserver": ">=2.2.0"
+  }
+}

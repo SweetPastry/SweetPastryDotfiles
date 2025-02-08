@@ -28,3 +28,21 @@ stow <Username>
 This will automatically link all files in the `<Username>` folder to your `$HOME` directory following the same file structure. It is similar to using `ln -s`, but stow handles more complex symlink structures for you.
 
 By using this approach, you can keep your configuration files neatly organized, version-controlled, and easily portable across different environments.
+
+## `--adopt` option
+You may encounter some problems like
+    (base) ~/.dotfiles (main ✗) stow vim
+    WARNING! stowing vim would cause conflicts:
+    * cannot stow .dotfiles/vim/.vimrc over existing target .vimrc since neither a link nor a directory and --adopt not specified
+    All operations aborted.
+
+This issue occurs because your local configuration file (in this case, ~/.vimrc) already exists and is not a symbolic link managed by stow. To resolve this, you can use the following command:
+
+```sh
+stow -v --adopt vim
+```
+The --adopt option has two effects:
+	1.	It moves the existing ~/.vimrc file to your ~/.dotfiles directory.
+	2.	It creates a symbolic link for ~/.vimrc pointing to ~/.dotfiles/vim/.vimrc.
+
+This is generally safe, as it preserves your existing file and allows stow to manage it going forward.
