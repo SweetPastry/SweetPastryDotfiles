@@ -22,6 +22,6 @@ highlight PmenuSel guibg=blue guifg=white
 highlight PmenuSbar guibg=lightgray
 highlight PmenuThumb guibg=darkgray
 
-# 代码补全快捷键映射
+" 代码补全快捷键映射
 inoremap <expr> <Tab> pumvisible() ? "\<C-y>" : "\<Tab>"
 inoremap <expr> <Enter> pumvisible() ? "\<C-y>" : "\<Enter>"
