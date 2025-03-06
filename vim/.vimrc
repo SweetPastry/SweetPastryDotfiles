@@ -25,3 +25,9 @@ highlight PmenuThumb guibg=darkgray
 " 代码补全快捷键映射
 inoremap <expr> <Tab> pumvisible() ? "\<C-y>" : "\<Tab>"
 inoremap <expr> <Enter> pumvisible() ? "\<C-y>" : "\<Enter>"
+
+" tab 键为四个空格
+set expandtab
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4

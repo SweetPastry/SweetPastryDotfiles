@@ -35,3 +35,5 @@ export PATH="/Applications/MATLAB_R2024b.app/bin:$PATH"
 
 # Alacrity
 export PATH="$PATH:/Applications/Alacritty.app/Contents/MacOS"
+
+. "$HOME/.local/bin/env"
