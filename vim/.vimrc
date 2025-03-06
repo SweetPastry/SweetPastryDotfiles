@@ -31,3 +31,6 @@ set expandtab
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
+
+" 光标
+set guicursor=n-v:block,i:ver25
