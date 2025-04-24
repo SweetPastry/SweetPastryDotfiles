@@ -1,0 +1,183 @@
+{
+  "lastUpgradeScriptRun": "v10.6.0",
+  "appId": "9cb7cd8b02994e660ab57091bea9600d8c0dda64",
+  "appLocale": "en-CN",
+  "appDateFormat": null,
+  "appDateTimeFormat": null,
+  "appDateWordFormat": null,
+  "appDateVerboseFormat": null,
+  "userMilestones": {
+    "installId": "49b5b69c-8647-4a9d-897b-45ec1f340605",
+    "firstAppOpen": true,
+    "firstLoginRegister": true,
+    "firstProfileCreated": true,
+    "completedNewUserOnboarding": true,
+    "firstRepoOpened": true,
+    "startATrial": true,
+    "introTutorialWelcomeStepCompleted": true,
+    "makeABranch": true,
+    "firstTimeCommitSelected": true,
+    "createACommit": true,
+    "mergeABranch": true,
+    "introTutorialWelcomeStepSkipped": true
+  },
+  "sslWhitelist": [],
+  "lastReleaseNotesDisplayed": "10.8.1",
+  "ui": {
+    "shouldShowStartupPromoModal": false
+  },
+  "aliases": {
+    "repo": {},
+    "tabs": {}
+  },
+  "registration": {
+    "email": "SweetPastryLHX@gmail.com",
+    "name": "Sweet Pastry",
+    "status": "activated",
+    "loginType": "github",
+    "date": "2025-02-27T09:31:55.005Z",
+    "EULA": {
+      "status": "agree_verified",
+      "version": "8.3.1"
+    }
+  },
+  "userId": "c8935397-c732-4341-a8c8-d379c1b9ce44",
+  "licensedFeatures": [],
+  "windowSettings": {
+    "x": 0,
+    "y": 6,
+    "width": 1470,
+    "height": 924,
+    "fullScreen": false,
+    "maximized": true
+  },
+  "orgSettingsByOrgId": {
+    "67c03106ff26aa5186c4a78d": {
+      "aiSettings": {
+        "enabled": true,
+        "createdAt": "2025-02-27T09:31:50.430763Z",
+        "updatedAt": "2025-02-27T09:31:50.43516Z"
+      },
+      "draftsSettings": {
+        "enabled": true,
+        "createdAt": "2025-02-27T09:31:59.620036Z",
+        "updatedAt": "2025-02-27T09:31:59.620036Z"
+      },
+      "ssoSettings": {
+        "enabled": false,
+        "enforced": false,
+        "provision": false,
+        "createdAt": "2025-02-27T09:31:50.430763Z",
+        "updatedAt": "2025-02-27T09:31:50.43516Z"
+      },
+      "memberInvitesRequireApproval": true,
+      "conflictDetectionEnabled": true,
+      "createdAt": "2025-02-27T09:31:50.430763Z",
+      "updatedAt": "2025-02-27T09:31:50.43516Z"
+    }
+  },
+  "fuzzyFinderMetadata": {
+    "itemMetadata": {
+      "OPEN_REPO": {
+        "openRepo-/Users/pastrysweet/.gitkraken/tutorial/Intro": {
+          "id": "openRepo-/Users/pastrysweet/.gitkraken/tutorial/Intro",
+          "timestamps": [
+            1740648731390
+          ],
+          "total": 1
+        },
+        "openRepo-/Users/pastrysweet/Documents/GitHub/spTemplate": {
+          "id": "openRepo-/Users/pastrysweet/Documents/GitHub/spTemplate",
+          "timestamps": [
+            1740648967571,
+            1742278072494
+          ],
+          "total": 2
+        },
+        "openRepo-/Users/pastrysweet/Documents/GitHub/Hand-TeX": {
+          "id": "openRepo-/Users/pastrysweet/Documents/GitHub/Hand-TeX",
+          "timestamps": [
+            1741266128772
+          ],
+          "total": 1
+        }
+      }
+    }
+  },
+  "tutorial": {
+    "isLifecycleAlreadyTriggeredByTutorialKey": {
+      "INTRO_TUTORIAL": {
+        "TUTORIAL_OPENED": true,
+        "TUTORIAL_STARTED": true,
+        "TUTORIAL_COMPLETED": true,
+        "TUTORIAL_CLOSED": true
+      }
+    }
+  },
+  "userFeatures": [
+    {
+      "name": "activityStatus"
+    },
+    {
+      "name": "changePriceEnabled"
+    },
+    {
+      "name": "cli"
+    },
+    {
+      "name": "experimentalAiCommmitMsg"
+    },
+    {
+      "name": "experimentalGitBinary"
+    },
+    {
+      "name": "experimentalGitBinaryDefaultOn971"
+    },
+    {
+      "name": "experimentalGitBinarySpawnServer961"
+    },
+    {
+      "name": "gitBash"
+    },
+    {
+      "name": "gitkraken"
+    },
+    {
+      "name": "gkApi"
+    },
+    {
+      "name": "gkdOnboardingTutorial_10_5_0"
+    },
+    {
+      "name": "gkDotDevAutomations"
+    },
+    {
+      "name": "gkdTutorialSkipFirstStep_10_8_0"
+    },
+    {
+      "name": "goldenTicketSpecial"
+    },
+    {
+      "name": "onboardingGuide"
+    },
+    {
+      "name": "privateRepoModalTest_10_5_0"
+    },
+    {
+      "name": "registeredForGST"
+    },
+    {
+      "name": "terminalInsideRepoTab"
+    },
+    {
+      "name": "unregisteredTrials"
+    },
+    {
+      "name": "velocityInClient_9_0_0"
+    },
+    {
+      "name": "workspacesPRComplexity"
+    }
+  ],
+  "hasSeenTrialStartedModal": true
+}

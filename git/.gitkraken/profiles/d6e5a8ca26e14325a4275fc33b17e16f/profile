@@ -1,0 +1,46 @@
+{
+  "integration": {
+    "hasConnectedIntegrationByType": {}
+  },
+  "tabInfo": {
+    "permanentTabs": {
+      "FOCUS_VIEW": {
+        "closed": true
+      },
+      "REPO_MANAGEMENT": {}
+    },
+    "selectedTabId": "1f2c32d9-6865-40a8-b779-a58ae49f3364",
+    "tabs": [
+      {
+        "id": "1f2c32d9-6865-40a8-b779-a58ae49f3364",
+        "type": "REPO",
+        "isWorktree": false,
+        "repoName": "spTemplate",
+        "repoPath": "/Users/pastrysweet/Documents/GitHub/spTemplate/",
+        "skipWSLChecks": false
+      }
+    ]
+  },
+  "projects": {},
+  "editor": {
+    "fontFamily": "Menlo"
+  },
+  "cli": {
+    "fontFamily": "Menlo"
+  },
+  "organizationId": "67c03106ff26aa5186c4a78d",
+  "userEmail": "SweetPastryLHX@gmail.com",
+  "userName": "Sweet Pastry",
+  "gpg": {
+    "commitGpgSign": false,
+    "tagForceSignAnnotated": false
+  },
+  "repoInit": {
+    "lastOpenedRepoPath": "/Users/pastrysweet/Documents/GitHub/Hand-TeX"
+  },
+  "layout": {
+    "HistoryPanel": {
+      "width": 352
+    }
+  }
+}

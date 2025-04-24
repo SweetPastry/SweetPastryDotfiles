@@ -1,0 +1,52 @@
+{
+  "remoteParents": {},
+  "teams": {
+    "hasFinishedSettingUpTeams": true
+  },
+  "remoteHeadCollectionByRemoteName": {
+    "origin": {
+      "refs/tags/1.0.0": {
+        "name": "refs/tags/1.0.0",
+        "oid": "5db80b3aeae16a67f243247d6d47be5f0dde5815",
+        "local": null,
+        "symrefTarget": null
+      },
+      "refs/tags/1.0.1": {
+        "name": "refs/tags/1.0.1",
+        "oid": "a6605a2b6d6f851d7a2b29dbbdc382c067f44932",
+        "local": null,
+        "symrefTarget": null
+      },
+      "refs/tags/1.0.1^{}": {
+        "name": "refs/tags/1.0.1^{}",
+        "oid": "95dc43b8e69d8dfcda46b9f87490ee18d44bf677",
+        "local": null,
+        "symrefTarget": null
+      },
+      "refs/tags/1.0.2": {
+        "name": "refs/tags/1.0.2",
+        "oid": "4400014d9406e99e2e7ed97f94ef19101426a2e5",
+        "local": null,
+        "symrefTarget": null
+      },
+      "refs/tags/1.0.2^{}": {
+        "name": "refs/tags/1.0.2^{}",
+        "oid": "31234eb7f19a99f38e8b0504278d3dab4da1899a",
+        "local": null,
+        "symrefTarget": null
+      },
+      "refs/tags/database": {
+        "name": "refs/tags/database",
+        "oid": "a31cae880e0ac6282ca1d2612ed2458003cc7bf9",
+        "local": null,
+        "symrefTarget": null
+      },
+      "refs/tags/model": {
+        "name": "refs/tags/model",
+        "oid": "a93aa1f17efb1cb0187508ddc33ef515f3bc5b1c",
+        "local": null,
+        "symrefTarget": null
+      }
+    }
+  }
+}
