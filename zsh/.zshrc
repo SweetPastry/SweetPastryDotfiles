@@ -6,19 +6,6 @@ ZSH_THEME="simple"
 plugins=(git) # Nov 9, swtpstry disabled this line, deleted 'git'
 source $ZSH/oh-my-zsh.sh
 
-# conda
-__conda_setup="$('/opt/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/opt/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/opt/anaconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/opt/anaconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-
 # Cling
 export PATH="/Volumes/MacintoshHD/Applications/Github/CKernelCling/cling-build/bin:$PATH"
 export CLING_STANDARD_PCH="/Volumes/MacintoshHD/Applications/Github/CKernelCling/cling-build/lib/clang/other_version"
@@ -37,3 +24,23 @@ export PATH="/Applications/MATLAB_R2024b.app/bin:$PATH"
 export PATH="$PATH:/Applications/Alacritty.app/Contents/MacOS"
 
 . "$HOME/.local/bin/env"
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/opt/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/opt/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/opt/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/opt/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
