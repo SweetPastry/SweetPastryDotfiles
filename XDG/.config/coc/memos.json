@@ -65,20 +65,20 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.12.3-final",
+          "raw": "3.11.0-final",
           "major": 3,
-          "minor": 12,
-          "patch": 3,
+          "minor": 11,
+          "patch": 0,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.12.3-final"
+          "version": "3.11.0-final"
         },
         "sysPrefix": "/opt/anaconda3",
-        "fileHash": "dbdf0e646013289d65cb34dca1753efde527d06bc3c5ca33c3324b11a106dac8af16731f3d4f8188d30483c934f09d21cb669082018da0d6923e859ca3403e29"
+        "fileHash": "9850f4aa132adabd2511219b57c0a1f53801061a2d3151cc4271decb1a55d39c81b5fc60f5f524265f9a78bea078cd3869cd3ac86bab8400ee7900f87579754d"
       },
-      "expiry": 1742658115151
+      "expiry": 1746694842072
     },
     "/opt/anaconda3/bin/python3.v3": {
       "data": {
@@ -90,20 +90,20 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.12.3-final",
+          "raw": "3.11.0-final",
           "major": 3,
-          "minor": 12,
-          "patch": 3,
+          "minor": 11,
+          "patch": 0,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.12.3-final"
+          "version": "3.11.0-final"
         },
         "sysPrefix": "/opt/anaconda3",
-        "fileHash": "200aace33f65f5a1665d83c945ccc98366b807ce2d050303b0289c2d2bccd8a24a94e74c0d7d87d0681467fb59e4639921529195038727dc62b86303de007cbe"
+        "fileHash": "03ab37d7b3b96fb9f161ac675d4e2a018590ad94c20a3c4e81314db9d47dd3dee17310a84ae689351961a74841473ab578c8fd46abcec3365017c3138b2b26e4"
       },
-      "expiry": 1742658115144
+      "expiry": 1746694841947
     },
     "/opt/anaconda3/bin/python3.1.v3": {
       "data": {
@@ -115,20 +115,20 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.12.3-final",
+          "raw": "3.11.0-final",
           "major": 3,
-          "minor": 12,
-          "patch": 3,
+          "minor": 11,
+          "patch": 0,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.12.3-final"
+          "version": "3.11.0-final"
         },
         "sysPrefix": "/opt/anaconda3",
-        "fileHash": "3a9be6627b7628f724e738c9a6d8e251b1fd56e2942e602880b1d848e779a0e0c31511d9a4b4681f53da97faf8619d12b616b771cb5c3b03bb6810eff0315aba"
+        "fileHash": "476f61494b622b50c087bf477b8563e32dcb0d9204249bcddf6d77507a8bbea1cdf6589027a2f93c444dad3929112f48dc7d5dbc8f574ab6533f8689711e7bf5"
       },
-      "expiry": 1742658115124
+      "expiry": 1746694842027
     },
     "INTERPRETERS_CACHE_v3_CurrentPathService": [
       {
@@ -140,18 +140,18 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.12.3-final",
+          "raw": "3.11.0-final",
           "major": 3,
-          "minor": 12,
-          "patch": 3,
+          "minor": 11,
+          "patch": 0,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.12.3-final"
+          "version": "3.11.0-final"
         },
         "sysPrefix": "/opt/anaconda3",
-        "fileHash": "200aace33f65f5a1665d83c945ccc98366b807ce2d050303b0289c2d2bccd8a24a94e74c0d7d87d0681467fb59e4639921529195038727dc62b86303de007cbe",
+        "fileHash": "03ab37d7b3b96fb9f161ac675d4e2a018590ad94c20a3c4e81314db9d47dd3dee17310a84ae689351961a74841473ab578c8fd46abcec3365017c3138b2b26e4",
         "type": "Unknown"
       },
       {
@@ -163,18 +163,18 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.12.3-final",
+          "raw": "3.11.0-final",
           "major": 3,
-          "minor": 12,
-          "patch": 3,
+          "minor": 11,
+          "patch": 0,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.12.3-final"
+          "version": "3.11.0-final"
         },
         "sysPrefix": "/opt/anaconda3",
-        "fileHash": "dbdf0e646013289d65cb34dca1753efde527d06bc3c5ca33c3324b11a106dac8af16731f3d4f8188d30483c934f09d21cb669082018da0d6923e859ca3403e29",
+        "fileHash": "9850f4aa132adabd2511219b57c0a1f53801061a2d3151cc4271decb1a55d39c81b5fc60f5f524265f9a78bea078cd3869cd3ac86bab8400ee7900f87579754d",
         "type": "Unknown"
       },
       {
@@ -186,18 +186,18 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.12.3-final",
+          "raw": "3.11.0-final",
           "major": 3,
-          "minor": 12,
-          "patch": 3,
+          "minor": 11,
+          "patch": 0,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.12.3-final"
+          "version": "3.11.0-final"
         },
         "sysPrefix": "/opt/anaconda3",
-        "fileHash": "dbdf0e646013289d65cb34dca1753efde527d06bc3c5ca33c3324b11a106dac8af16731f3d4f8188d30483c934f09d21cb669082018da0d6923e859ca3403e29",
+        "fileHash": "9850f4aa132adabd2511219b57c0a1f53801061a2d3151cc4271decb1a55d39c81b5fc60f5f524265f9a78bea078cd3869cd3ac86bab8400ee7900f87579754d",
         "type": "Unknown"
       }
     ],
@@ -210,46 +210,47 @@
           "includePrerelease": false
         },
         "loose": false,
-        "raw": "3.12.3-final",
+        "raw": "3.11.0-final",
         "major": 3,
-        "minor": 12,
-        "patch": 3,
+        "minor": 11,
+        "patch": 0,
         "prerelease": [
           "final"
         ],
         "build": [],
-        "version": "3.12.3-final"
+        "version": "3.11.0-final"
       },
       "sysPrefix": "/opt/anaconda3",
-      "fileHash": "dbdf0e646013289d65cb34dca1753efde527d06bc3c5ca33c3324b11a106dac8af16731f3d4f8188d30483c934f09d21cb669082018da0d6923e859ca3403e29",
+      "fileHash": "9850f4aa132adabd2511219b57c0a1f53801061a2d3151cc4271decb1a55d39c81b5fc60f5f524265f9a78bea078cd3869cd3ac86bab8400ee7900f87579754d",
       "type": "Unknown"
     },
     "preferredGlobalPyInterpreter": {
       "architecture": 3,
-      "path": "/opt/anaconda3/bin/python",
+      "path": "/opt/homebrew/bin/python3",
       "version": {
         "options": {
           "loose": false,
           "includePrerelease": false
         },
         "loose": false,
-        "raw": "3.12.3-final",
+        "raw": "3.13.2-final",
         "major": 3,
-        "minor": 12,
-        "patch": 3,
+        "minor": 13,
+        "patch": 2,
         "prerelease": [
           "final"
         ],
         "build": [],
-        "version": "3.12.3-final"
+        "version": "3.13.2-final"
       },
-      "sysPrefix": "/opt/anaconda3",
-      "fileHash": "dbdf0e646013289d65cb34dca1753efde527d06bc3c5ca33c3324b11a106dac8af16731f3d4f8188d30483c934f09d21cb669082018da0d6923e859ca3403e29",
-      "type": "Unknown"
+      "sysPrefix": "/opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13",
+      "fileHash": "fa80f8ca544819733a1f92b996b63fe71d6c8f38bb163e49d68463429fb48eee5eb89f72b04d47889adbe60593cad43e294a4a32147c7ed89dd01f05c27c98e1",
+      "type": "Unknown",
+      "displayName": "Python 3.13.2 64-bit"
     },
     "/opt/anaconda3/bin/python.interpreter.Details.v7": {
       "data": {
-        "fileHash": "dbdf0e646013289d65cb34dca1753efde527d06bc3c5ca33c3324b11a106dac8af16731f3d4f8188d30483c934f09d21cb669082018da0d6923e859ca3403e29",
+        "fileHash": "9850f4aa132adabd2511219b57c0a1f53801061a2d3151cc4271decb1a55d39c81b5fc60f5f524265f9a78bea078cd3869cd3ac86bab8400ee7900f87579754d",
         "info": {
           "architecture": 3,
           "path": "/opt/anaconda3/bin/python",
@@ -259,27 +260,23 @@
               "includePrerelease": false
             },
             "loose": false,
-            "raw": "3.12.3-final",
+            "raw": "3.11.0-final",
             "major": 3,
-            "minor": 12,
-            "patch": 3,
+            "minor": 11,
+            "patch": 0,
             "prerelease": [
               "final"
             ],
             "build": [],
-            "version": "3.12.3-final"
+            "version": "3.11.0-final"
           },
           "sysPrefix": "/opt/anaconda3",
-          "fileHash": "dbdf0e646013289d65cb34dca1753efde527d06bc3c5ca33c3324b11a106dac8af16731f3d4f8188d30483c934f09d21cb669082018da0d6923e859ca3403e29",
-          "companyDisplayName": "Anaconda, Inc.",
-          "type": "Conda",
-          "envPath": "/opt/anaconda3",
-          "envName": "base",
-          "displayName": "Python 3.12.3 64-bit ('base': conda)",
-          "__store": true
+          "fileHash": "9850f4aa132adabd2511219b57c0a1f53801061a2d3151cc4271decb1a55d39c81b5fc60f5f524265f9a78bea078cd3869cd3ac86bab8400ee7900f87579754d",
+          "type": "Unknown",
+          "displayName": "Python 3.11.0 64-bit"
         }
       },
-      "expiry": 1742658116743
+      "expiry": 1746694842153
     },
     "/opt/anaconda3/envs/Manim/bin/python.v3": {
       "data": {
@@ -291,20 +288,20 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.12.2-final",
+          "raw": "3.12.10-final",
           "major": 3,
           "minor": 12,
-          "patch": 2,
+          "patch": 10,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.12.2-final"
+          "version": "3.12.10-final"
         },
         "sysPrefix": "/opt/anaconda3/envs/Manim",
-        "fileHash": "f448b71665a70ee5a205a0cfe2b416e5ca5c3eaed29c4257851cdf23e51c2911704324871085fdca4b282d5955c952287d5e51f19c0d05cb43b5a833cb092668"
+        "fileHash": "2a291b7c17a0824c4d053c0247e53abfdc626f6209494569cd90543d28dcc514f771e494160c7b15019c361e8cf6bfe9463476387ca6118190ed406f10c8bb78"
       },
-      "expiry": 1742658115196
+      "expiry": 1746694842084
     },
     "/usr/bin/python3.v3": {
       "data": {
@@ -327,9 +324,9 @@
           "version": "3.9.6-final"
         },
         "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9",
-        "fileHash": "8aa3d41252b6375ac0ea56232fd84657b0a517a34365e7fde03d1fc1fc5e964f831204bac5bcacb88c5be9a8cc43de8864e96e8c9653f5d5ad6f64cd8485a1d1"
+        "fileHash": "a917b93e25c466f91b1bd05646e94d9c8e864b9b900d35603c1f5f9a6b135c7ace0638c90bfbacf2a1adc797fe256c0d9d055177038a5b24f0d3643a2bd5216e"
       },
-      "expiry": 1742658115198
+      "expiry": 1746694842068
     },
     "/opt/anaconda3/envs/Pytorch/bin/python.v3": {
       "data": {
@@ -341,20 +338,20 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.13.2-final",
+          "raw": "3.11.11-final",
           "major": 3,
-          "minor": 13,
-          "patch": 2,
+          "minor": 11,
+          "patch": 11,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.13.2-final"
+          "version": "3.11.11-final"
         },
         "sysPrefix": "/opt/anaconda3/envs/Pytorch",
-        "fileHash": "d0989fbc9e4cbf227100f87bcbf9d69a8df0e8e593fd42dc92a50a6a39264e0c6d319c1b40e00cf68bb4ff1f21861b1d109559b84e4af82074965c4c58658460"
+        "fileHash": "a30320a16f660ec95c05eae8c40ac5074ae5d1e34789c95ef0f8cf88a1f3048b803d2ba008ec0d88eb8c28a81e79e19940262f838faae2bb926beed06b8b8d6e"
       },
-      "expiry": 1742658115198
+      "expiry": 1746694842085
     },
     "/opt/homebrew/bin/python3.12.v3": {
       "data": {
@@ -366,27 +363,27 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.12.8-final",
+          "raw": "3.12.10-final",
           "major": 3,
           "minor": 12,
-          "patch": 8,
+          "patch": 10,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.12.8-final"
+          "version": "3.12.10-final"
         },
         "sysPrefix": "/opt/homebrew/opt/python@3.12/Frameworks/Python.framework/Versions/3.12",
-        "fileHash": "78203ad3ae01b9a13bb22298fddf69ae6848ac7172c553b9a5dbd82e84844c4697f7632ac49651a308a3afb6fae758970b43930ea4cd59b4f816b37f490f0585"
+        "fileHash": "b96ab8f554f3b76e149a52ddfba271aba45f6a93f2178c595c61d00eceeaa086d25fc7163b15b64e132d3cc9e0f820f9dcb37cf10a967b27509439a7157feab8"
       },
-      "expiry": 1742658115199
+      "expiry": 1746694842066
     },
     "/opt/anaconda3/bin/python.interpreter.displayName.v7": {
       "data": {
-        "displayName": "Python 3.12.3 64-bit ('base': conda)",
-        "hash": "dbdf0e646013289d65cb34dca1753efde527d06bc3c5ca33c3324b11a106dac8af16731f3d4f8188d30483c934f09d21cb669082018da0d6923e859ca3403e29-b83b866ea646c2d7275bc078c1fc76a1"
+        "displayName": "Python 3.11.0 64-bit",
+        "hash": "9850f4aa132adabd2511219b57c0a1f53801061a2d3151cc4271decb1a55d39c81b5fc60f5f524265f9a78bea078cd3869cd3ac86bab8400ee7900f87579754d-961b08fa754f70ba047bd3ab450b47a9"
       },
-      "expiry": 1742658116742
+      "expiry": 1746694842141
     },
     "/opt/homebrew/bin/python3.v3": {
       "data": {
@@ -398,20 +395,20 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.13.2-final",
+          "raw": "3.13.3-final",
           "major": 3,
           "minor": 13,
-          "patch": 2,
+          "patch": 3,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.13.2-final"
+          "version": "3.13.3-final"
         },
         "sysPrefix": "/opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13",
-        "fileHash": "fa80f8ca544819733a1f92b996b63fe71d6c8f38bb163e49d68463429fb48eee5eb89f72b04d47889adbe60593cad43e294a4a32147c7ed89dd01f05c27c98e1"
+        "fileHash": "397e8a5bec623d8187cdae2e02eecad3db2585a0f2bcf9172c73676643e2fdf7e6a504e1504ebf47c66b4b3fab6f22c9fb979173345d100a9e145137fc6cd592"
       },
-      "expiry": 1742658115204
+      "expiry": 1746694842070
     },
     "/opt/homebrew/bin/python3.13.v3": {
       "data": {
@@ -423,20 +420,20 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.13.2-final",
+          "raw": "3.13.3-final",
           "major": 3,
           "minor": 13,
-          "patch": 2,
+          "patch": 3,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.13.2-final"
+          "version": "3.13.3-final"
         },
         "sysPrefix": "/opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13",
-        "fileHash": "cc40d698ad4eda13cb99bf0181a4756fef01a775fee27d9893a62a5c6d3c95b9fca75e38d67b2ec1ec2255647a9c62206743a1ec2cffe7c2a2616558fbb46b40"
+        "fileHash": "9afec86a954add665e879bc100b77bb015c0d1fc57dfd377c4c72b58daca7538b2fd7468b5ec052dbe6b6b077e8b2adf80c43304aabdc810fd6037444f799a68"
       },
-      "expiry": 1742658115204
+      "expiry": 1746694842069
     },
     "INTERPRETERS_CACHE_v3_KnownPathsService": [
       {
@@ -448,18 +445,18 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.12.3-final",
+          "raw": "3.11.0-final",
           "major": 3,
-          "minor": 12,
-          "patch": 3,
+          "minor": 11,
+          "patch": 0,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.12.3-final"
+          "version": "3.11.0-final"
         },
         "sysPrefix": "/opt/anaconda3",
-        "fileHash": "dbdf0e646013289d65cb34dca1753efde527d06bc3c5ca33c3324b11a106dac8af16731f3d4f8188d30483c934f09d21cb669082018da0d6923e859ca3403e29",
+        "fileHash": "9850f4aa132adabd2511219b57c0a1f53801061a2d3151cc4271decb1a55d39c81b5fc60f5f524265f9a78bea078cd3869cd3ac86bab8400ee7900f87579754d",
         "type": "Unknown"
       },
       {
@@ -471,18 +468,18 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.12.3-final",
+          "raw": "3.11.0-final",
           "major": 3,
-          "minor": 12,
-          "patch": 3,
+          "minor": 11,
+          "patch": 0,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.12.3-final"
+          "version": "3.11.0-final"
         },
         "sysPrefix": "/opt/anaconda3",
-        "fileHash": "200aace33f65f5a1665d83c945ccc98366b807ce2d050303b0289c2d2bccd8a24a94e74c0d7d87d0681467fb59e4639921529195038727dc62b86303de007cbe",
+        "fileHash": "03ab37d7b3b96fb9f161ac675d4e2a018590ad94c20a3c4e81314db9d47dd3dee17310a84ae689351961a74841473ab578c8fd46abcec3365017c3138b2b26e4",
         "type": "Unknown"
       },
       {
@@ -494,41 +491,41 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.12.3-final",
+          "raw": "3.11.0-final",
           "major": 3,
-          "minor": 12,
-          "patch": 3,
+          "minor": 11,
+          "patch": 0,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.12.3-final"
+          "version": "3.11.0-final"
         },
         "sysPrefix": "/opt/anaconda3",
-        "fileHash": "3a9be6627b7628f724e738c9a6d8e251b1fd56e2942e602880b1d848e779a0e0c31511d9a4b4681f53da97faf8619d12b616b771cb5c3b03bb6810eff0315aba",
+        "fileHash": "476f61494b622b50c087bf477b8563e32dcb0d9204249bcddf6d77507a8bbea1cdf6589027a2f93c444dad3929112f48dc7d5dbc8f574ab6533f8689711e7bf5",
         "type": "Unknown"
       },
       {
         "architecture": 3,
-        "path": "/opt/anaconda3/bin/python3.12",
+        "path": "/opt/anaconda3/bin/python3.11",
         "version": {
           "options": {
             "loose": false,
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.12.3-final",
+          "raw": "3.11.0-final",
           "major": 3,
-          "minor": 12,
-          "patch": 3,
+          "minor": 11,
+          "patch": 0,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.12.3-final"
+          "version": "3.11.0-final"
         },
         "sysPrefix": "/opt/anaconda3",
-        "fileHash": "86d0031a9ec931a46a896ce9aa212f40b731f87beb407a1269b69f06c5682d599911bf7a3f1170168611338ed578ca6c913ba80762e90f16e5021181c0218b34",
+        "fileHash": "520c32bb1e5ddb8d7ddbc2120764f35d9ff0c172da2e51a77a834e657a69de3636f8ef753cd6a9e124a1ecd407e1abdd59d230a6f3c94e58df8432f9d41703d0",
         "type": "Unknown"
       },
       {
@@ -551,7 +548,7 @@
           "version": "3.9.6-final"
         },
         "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9",
-        "fileHash": "8aa3d41252b6375ac0ea56232fd84657b0a517a34365e7fde03d1fc1fc5e964f831204bac5bcacb88c5be9a8cc43de8864e96e8c9653f5d5ad6f64cd8485a1d1",
+        "fileHash": "a917b93e25c466f91b1bd05646e94d9c8e864b9b900d35603c1f5f9a6b135c7ace0638c90bfbacf2a1adc797fe256c0d9d055177038a5b24f0d3643a2bd5216e",
         "type": "Unknown"
       },
       {
@@ -563,18 +560,18 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.13.2-final",
+          "raw": "3.13.3-final",
           "major": 3,
           "minor": 13,
-          "patch": 2,
+          "patch": 3,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.13.2-final"
+          "version": "3.13.3-final"
         },
         "sysPrefix": "/opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13",
-        "fileHash": "fa80f8ca544819733a1f92b996b63fe71d6c8f38bb163e49d68463429fb48eee5eb89f72b04d47889adbe60593cad43e294a4a32147c7ed89dd01f05c27c98e1",
+        "fileHash": "397e8a5bec623d8187cdae2e02eecad3db2585a0f2bcf9172c73676643e2fdf7e6a504e1504ebf47c66b4b3fab6f22c9fb979173345d100a9e145137fc6cd592",
         "type": "Unknown"
       },
       {
@@ -586,18 +583,18 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.12.8-final",
+          "raw": "3.12.10-final",
           "major": 3,
           "minor": 12,
-          "patch": 8,
+          "patch": 10,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.12.8-final"
+          "version": "3.12.10-final"
         },
         "sysPrefix": "/opt/homebrew/opt/python@3.12/Frameworks/Python.framework/Versions/3.12",
-        "fileHash": "78203ad3ae01b9a13bb22298fddf69ae6848ac7172c553b9a5dbd82e84844c4697f7632ac49651a308a3afb6fae758970b43930ea4cd59b4f816b37f490f0585",
+        "fileHash": "b96ab8f554f3b76e149a52ddfba271aba45f6a93f2178c595c61d00eceeaa086d25fc7163b15b64e132d3cc9e0f820f9dcb37cf10a967b27509439a7157feab8",
         "type": "Unknown"
       },
       {
@@ -609,18 +606,18 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.13.2-final",
+          "raw": "3.13.3-final",
           "major": 3,
           "minor": 13,
-          "patch": 2,
+          "patch": 3,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.13.2-final"
+          "version": "3.13.3-final"
         },
         "sysPrefix": "/opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13",
-        "fileHash": "cc40d698ad4eda13cb99bf0181a4756fef01a775fee27d9893a62a5c6d3c95b9fca75e38d67b2ec1ec2255647a9c62206743a1ec2cffe7c2a2616558fbb46b40",
+        "fileHash": "9afec86a954add665e879bc100b77bb015c0d1fc57dfd377c4c72b58daca7538b2fd7468b5ec052dbe6b6b077e8b2adf80c43304aabdc810fd6037444f799a68",
         "type": "Unknown"
       },
       {
@@ -643,7 +640,7 @@
           "version": "3.9.6-final"
         },
         "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9",
-        "fileHash": "8aa3d41252b6375ac0ea56232fd84657b0a517a34365e7fde03d1fc1fc5e964f831204bac5bcacb88c5be9a8cc43de8864e96e8c9653f5d5ad6f64cd8485a1d1",
+        "fileHash": "a917b93e25c466f91b1bd05646e94d9c8e864b9b900d35603c1f5f9a6b135c7ace0638c90bfbacf2a1adc797fe256c0d9d055177038a5b24f0d3643a2bd5216e",
         "type": "Unknown"
       },
       {
@@ -666,7 +663,7 @@
           "version": "3.9.6-final"
         },
         "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9",
-        "fileHash": "8aa3d41252b6375ac0ea56232fd84657b0a517a34365e7fde03d1fc1fc5e964f831204bac5bcacb88c5be9a8cc43de8864e96e8c9653f5d5ad6f64cd8485a1d1",
+        "fileHash": "a917b93e25c466f91b1bd05646e94d9c8e864b9b900d35603c1f5f9a6b135c7ace0638c90bfbacf2a1adc797fe256c0d9d055177038a5b24f0d3643a2bd5216e",
         "type": "Unknown"
       }
     ],
@@ -682,20 +679,38 @@
           "path": "/opt/anaconda3/envs/Manim"
         },
         {
-          "name": "PyMatlab",
-          "path": "/opt/anaconda3/envs/PyMatlab"
-        },
-        {
           "name": "Pytorch",
           "path": "/opt/anaconda3/envs/Pytorch"
-        },
-        {
-          "name": "cling",
-          "path": "/opt/anaconda3/envs/cling"
         }
       ]
     },
     "INTERPRETERS_CACHE_v3_CondaEnvFileService": [
+      {
+        "architecture": 3,
+        "path": "/opt/anaconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.11.0-final",
+          "major": 3,
+          "minor": 11,
+          "patch": 0,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.11.0-final"
+        },
+        "sysPrefix": "/opt/anaconda3",
+        "fileHash": "9850f4aa132adabd2511219b57c0a1f53801061a2d3151cc4271decb1a55d39c81b5fc60f5f524265f9a78bea078cd3869cd3ac86bab8400ee7900f87579754d",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/opt/anaconda3",
+        "envName": "base"
+      },
       {
         "architecture": 3,
         "path": "/opt/anaconda3/envs/Manim/bin/python",
@@ -705,18 +720,18 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.12.2-final",
+          "raw": "3.12.10-final",
           "major": 3,
           "minor": 12,
-          "patch": 2,
+          "patch": 10,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.12.2-final"
+          "version": "3.12.10-final"
         },
         "sysPrefix": "/opt/anaconda3/envs/Manim",
-        "fileHash": "f448b71665a70ee5a205a0cfe2b416e5ca5c3eaed29c4257851cdf23e51c2911704324871085fdca4b282d5955c952287d5e51f19c0d05cb43b5a833cb092668",
+        "fileHash": "2a291b7c17a0824c4d053c0247e53abfdc626f6209494569cd90543d28dcc514f771e494160c7b15019c361e8cf6bfe9463476387ca6118190ed406f10c8bb78",
         "companyDisplayName": "Anaconda, Inc.",
         "type": "Conda",
         "envPath": "/opt/anaconda3/envs/Manim",
@@ -731,18 +746,18 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.13.2-final",
+          "raw": "3.11.11-final",
           "major": 3,
-          "minor": 13,
-          "patch": 2,
+          "minor": 11,
+          "patch": 11,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.13.2-final"
+          "version": "3.11.11-final"
         },
         "sysPrefix": "/opt/anaconda3/envs/Pytorch",
-        "fileHash": "d0989fbc9e4cbf227100f87bcbf9d69a8df0e8e593fd42dc92a50a6a39264e0c6d319c1b40e00cf68bb4ff1f21861b1d109559b84e4af82074965c4c58658460",
+        "fileHash": "a30320a16f660ec95c05eae8c40ac5074ae5d1e34789c95ef0f8cf88a1f3048b803d2ba008ec0d88eb8c28a81e79e19940262f838faae2bb926beed06b8b8d6e",
         "companyDisplayName": "Anaconda, Inc.",
         "type": "Conda",
         "envPath": "/opt/anaconda3/envs/Pytorch",
@@ -809,18 +824,18 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.12.3-final",
+          "raw": "3.11.0-final",
           "major": 3,
-          "minor": 12,
-          "patch": 3,
+          "minor": 11,
+          "patch": 0,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.12.3-final"
+          "version": "3.11.0-final"
         },
         "sysPrefix": "/opt/anaconda3",
-        "fileHash": "dbdf0e646013289d65cb34dca1753efde527d06bc3c5ca33c3324b11a106dac8af16731f3d4f8188d30483c934f09d21cb669082018da0d6923e859ca3403e29",
+        "fileHash": "9850f4aa132adabd2511219b57c0a1f53801061a2d3151cc4271decb1a55d39c81b5fc60f5f524265f9a78bea078cd3869cd3ac86bab8400ee7900f87579754d",
         "companyDisplayName": "Anaconda, Inc.",
         "type": "Conda",
         "envPath": "/opt/anaconda3",
@@ -835,48 +850,22 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.12.2-final",
+          "raw": "3.12.10-final",
           "major": 3,
           "minor": 12,
-          "patch": 2,
-          "prerelease": [
-            "final"
-          ],
-          "build": [],
-          "version": "3.12.2-final"
-        },
-        "sysPrefix": "/opt/anaconda3/envs/Manim",
-        "fileHash": "f448b71665a70ee5a205a0cfe2b416e5ca5c3eaed29c4257851cdf23e51c2911704324871085fdca4b282d5955c952287d5e51f19c0d05cb43b5a833cb092668",
-        "companyDisplayName": "Anaconda, Inc.",
-        "type": "Conda",
-        "envPath": "/opt/anaconda3/envs/Manim",
-        "envName": "Manim"
-      },
-      {
-        "architecture": 3,
-        "path": "/opt/anaconda3/envs/PyMatlab/bin/python",
-        "version": {
-          "options": {
-            "loose": false,
-            "includePrerelease": false
-          },
-          "loose": false,
-          "raw": "3.11.10-final",
-          "major": 3,
-          "minor": 11,
           "patch": 10,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.11.10-final"
+          "version": "3.12.10-final"
         },
-        "sysPrefix": "/opt/anaconda3/envs/PyMatlab",
-        "fileHash": "00b5aa0b7621789cf45b2cd3aae6a47a919ec6baa43dbea224311e9ef9111f261ed7dc2ccea0d17d6689202c3c09398d195665ae310d754c1a070630128df6b7",
+        "sysPrefix": "/opt/anaconda3/envs/Manim",
+        "fileHash": "2a291b7c17a0824c4d053c0247e53abfdc626f6209494569cd90543d28dcc514f771e494160c7b15019c361e8cf6bfe9463476387ca6118190ed406f10c8bb78",
         "companyDisplayName": "Anaconda, Inc.",
         "type": "Conda",
-        "envPath": "/opt/anaconda3/envs/PyMatlab",
-        "envName": "PyMatlab"
+        "envPath": "/opt/anaconda3/envs/Manim",
+        "envName": "Manim"
       },
       {
         "architecture": 3,
@@ -887,48 +876,22 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.13.2-final",
+          "raw": "3.11.11-final",
           "major": 3,
-          "minor": 13,
-          "patch": 2,
+          "minor": 11,
+          "patch": 11,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.13.2-final"
+          "version": "3.11.11-final"
         },
         "sysPrefix": "/opt/anaconda3/envs/Pytorch",
-        "fileHash": "d0989fbc9e4cbf227100f87bcbf9d69a8df0e8e593fd42dc92a50a6a39264e0c6d319c1b40e00cf68bb4ff1f21861b1d109559b84e4af82074965c4c58658460",
+        "fileHash": "a30320a16f660ec95c05eae8c40ac5074ae5d1e34789c95ef0f8cf88a1f3048b803d2ba008ec0d88eb8c28a81e79e19940262f838faae2bb926beed06b8b8d6e",
         "companyDisplayName": "Anaconda, Inc.",
         "type": "Conda",
         "envPath": "/opt/anaconda3/envs/Pytorch",
         "envName": "Pytorch"
-      },
-      {
-        "architecture": 3,
-        "path": "/opt/anaconda3/envs/cling/bin/python",
-        "version": {
-          "options": {
-            "loose": false,
-            "includePrerelease": false
-          },
-          "loose": false,
-          "raw": "3.12.5-final",
-          "major": 3,
-          "minor": 12,
-          "patch": 5,
-          "prerelease": [
-            "final"
-          ],
-          "build": [],
-          "version": "3.12.5-final"
-        },
-        "sysPrefix": "/opt/anaconda3/envs/cling",
-        "fileHash": "13d82ee70e2bc1ade378eb4a1659414fc447e79da5a62192dda746d7cf97a64628bc260af6fbcbccd6943430bf6c60f217247365b4a4a71693ca353198e81349",
-        "companyDisplayName": "Anaconda, Inc.",
-        "type": "Conda",
-        "envPath": "/opt/anaconda3/envs/cling",
-        "envName": "cling"
       },
       {
         "architecture": 3,
@@ -939,18 +902,18 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.12.3-final",
+          "raw": "3.11.0-final",
           "major": 3,
-          "minor": 12,
-          "patch": 3,
+          "minor": 11,
+          "patch": 0,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.12.3-final"
+          "version": "3.11.0-final"
         },
         "sysPrefix": "/opt/anaconda3",
-        "fileHash": "dbdf0e646013289d65cb34dca1753efde527d06bc3c5ca33c3324b11a106dac8af16731f3d4f8188d30483c934f09d21cb669082018da0d6923e859ca3403e29",
+        "fileHash": "9850f4aa132adabd2511219b57c0a1f53801061a2d3151cc4271decb1a55d39c81b5fc60f5f524265f9a78bea078cd3869cd3ac86bab8400ee7900f87579754d",
         "companyDisplayName": "Anaconda, Inc.",
         "type": "Conda",
         "envPath": "/opt/anaconda3",
@@ -988,24 +951,24 @@
     },
     "/opt/homebrew/bin/python3.interpreter.displayName.v7": {
       "data": {
-        "displayName": "Python 3.13.2 64-bit",
-        "hash": "fa80f8ca544819733a1f92b996b63fe71d6c8f38bb163e49d68463429fb48eee5eb89f72b04d47889adbe60593cad43e294a4a32147c7ed89dd01f05c27c98e1-108ffee94bd8e9301581a9059c280864"
+        "displayName": "Python 3.13.3 64-bit",
+        "hash": "397e8a5bec623d8187cdae2e02eecad3db2585a0f2bcf9172c73676643e2fdf7e6a504e1504ebf47c66b4b3fab6f22c9fb979173345d100a9e145137fc6cd592-f88681997aa464806e4cf5cc29601213"
       },
-      "expiry": 1742658116668
+      "expiry": 1746694842142
     },
     "/opt/homebrew/bin/python3.12.interpreter.displayName.v7": {
       "data": {
-        "displayName": "Python 3.12.8 64-bit",
-        "hash": "78203ad3ae01b9a13bb22298fddf69ae6848ac7172c553b9a5dbd82e84844c4697f7632ac49651a308a3afb6fae758970b43930ea4cd59b4f816b37f490f0585-43cb763ee9dacced1c895d40d335df45"
+        "displayName": "Python 3.12.10 64-bit",
+        "hash": "b96ab8f554f3b76e149a52ddfba271aba45f6a93f2178c595c61d00eceeaa086d25fc7163b15b64e132d3cc9e0f820f9dcb37cf10a967b27509439a7157feab8-a1b85e68e9d6980a2e7eb4e13e094da4"
       },
-      "expiry": 1742658116668
+      "expiry": 1746694842144
     },
     "/usr/bin/python3.interpreter.displayName.v7": {
       "data": {
         "displayName": "Python 3.9.6 64-bit",
-        "hash": "8aa3d41252b6375ac0ea56232fd84657b0a517a34365e7fde03d1fc1fc5e964f831204bac5bcacb88c5be9a8cc43de8864e96e8c9653f5d5ad6f64cd8485a1d1-450f6290228d4049f546af582623b2d2"
+        "hash": "a917b93e25c466f91b1bd05646e94d9c8e864b9b900d35603c1f5f9a6b135c7ace0638c90bfbacf2a1adc797fe256c0d9d055177038a5b24f0d3643a2bd5216e-0228da0f20ba9ed69c64c877a5413407"
       },
-      "expiry": 1742658116683
+      "expiry": 1746694842145
     },
     "InterpreterAutoSeletionRule-system": {
       "architecture": 3,
@@ -1016,20 +979,20 @@
           "includePrerelease": false
         },
         "loose": false,
-        "raw": "3.13.2-final",
+        "raw": "3.13.3-final",
         "major": 3,
         "minor": 13,
-        "patch": 2,
+        "patch": 3,
         "prerelease": [
           "final"
         ],
         "build": [],
-        "version": "3.13.2-final"
+        "version": "3.13.3-final"
       },
       "sysPrefix": "/opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13",
-      "fileHash": "fa80f8ca544819733a1f92b996b63fe71d6c8f38bb163e49d68463429fb48eee5eb89f72b04d47889adbe60593cad43e294a4a32147c7ed89dd01f05c27c98e1",
+      "fileHash": "397e8a5bec623d8187cdae2e02eecad3db2585a0f2bcf9172c73676643e2fdf7e6a504e1504ebf47c66b4b3fab6f22c9fb979173345d100a9e145137fc6cd592",
       "type": "Unknown",
-      "displayName": "Python 3.13.2 64-bit"
+      "displayName": "Python 3.13.3 64-bit"
     },
     "/opt/anaconda3/envs/Manim/bin/python.interpreter.Details.v7": {
       "data": {
@@ -1165,7 +1128,7 @@
     },
     "/opt/homebrew/bin/python3.interpreter.Details.v7": {
       "data": {
-        "fileHash": "fa80f8ca544819733a1f92b996b63fe71d6c8f38bb163e49d68463429fb48eee5eb89f72b04d47889adbe60593cad43e294a4a32147c7ed89dd01f05c27c98e1",
+        "fileHash": "397e8a5bec623d8187cdae2e02eecad3db2585a0f2bcf9172c73676643e2fdf7e6a504e1504ebf47c66b4b3fab6f22c9fb979173345d100a9e145137fc6cd592",
         "info": {
           "architecture": 3,
           "path": "/opt/homebrew/bin/python3",
@@ -1175,27 +1138,27 @@
               "includePrerelease": false
             },
             "loose": false,
-            "raw": "3.13.2-final",
+            "raw": "3.13.3-final",
             "major": 3,
             "minor": 13,
-            "patch": 2,
+            "patch": 3,
             "prerelease": [
               "final"
             ],
             "build": [],
-            "version": "3.13.2-final"
+            "version": "3.13.3-final"
           },
           "sysPrefix": "/opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13",
-          "fileHash": "fa80f8ca544819733a1f92b996b63fe71d6c8f38bb163e49d68463429fb48eee5eb89f72b04d47889adbe60593cad43e294a4a32147c7ed89dd01f05c27c98e1",
+          "fileHash": "397e8a5bec623d8187cdae2e02eecad3db2585a0f2bcf9172c73676643e2fdf7e6a504e1504ebf47c66b4b3fab6f22c9fb979173345d100a9e145137fc6cd592",
           "type": "Unknown",
-          "displayName": "Python 3.13.2 64-bit"
+          "displayName": "Python 3.13.3 64-bit"
         }
       },
-      "expiry": 1742658116734
+      "expiry": 1746694842156
     },
     "/opt/homebrew/bin/python3.12.interpreter.Details.v7": {
       "data": {
-        "fileHash": "78203ad3ae01b9a13bb22298fddf69ae6848ac7172c553b9a5dbd82e84844c4697f7632ac49651a308a3afb6fae758970b43930ea4cd59b4f816b37f490f0585",
+        "fileHash": "b96ab8f554f3b76e149a52ddfba271aba45f6a93f2178c595c61d00eceeaa086d25fc7163b15b64e132d3cc9e0f820f9dcb37cf10a967b27509439a7157feab8",
         "info": {
           "architecture": 3,
           "path": "/opt/homebrew/bin/python3.12",
@@ -1205,27 +1168,27 @@
               "includePrerelease": false
             },
             "loose": false,
-            "raw": "3.12.8-final",
+            "raw": "3.12.10-final",
             "major": 3,
             "minor": 12,
-            "patch": 8,
+            "patch": 10,
             "prerelease": [
               "final"
             ],
             "build": [],
-            "version": "3.12.8-final"
+            "version": "3.12.10-final"
           },
           "sysPrefix": "/opt/homebrew/opt/python@3.12/Frameworks/Python.framework/Versions/3.12",
-          "fileHash": "78203ad3ae01b9a13bb22298fddf69ae6848ac7172c553b9a5dbd82e84844c4697f7632ac49651a308a3afb6fae758970b43930ea4cd59b4f816b37f490f0585",
+          "fileHash": "b96ab8f554f3b76e149a52ddfba271aba45f6a93f2178c595c61d00eceeaa086d25fc7163b15b64e132d3cc9e0f820f9dcb37cf10a967b27509439a7157feab8",
           "type": "Unknown",
-          "displayName": "Python 3.12.8 64-bit"
+          "displayName": "Python 3.12.10 64-bit"
         }
       },
-      "expiry": 1742658116737
+      "expiry": 1746694842159
     },
     "/usr/bin/python3.interpreter.Details.v7": {
       "data": {
-        "fileHash": "8aa3d41252b6375ac0ea56232fd84657b0a517a34365e7fde03d1fc1fc5e964f831204bac5bcacb88c5be9a8cc43de8864e96e8c9653f5d5ad6f64cd8485a1d1",
+        "fileHash": "a917b93e25c466f91b1bd05646e94d9c8e864b9b900d35603c1f5f9a6b135c7ace0638c90bfbacf2a1adc797fe256c0d9d055177038a5b24f0d3643a2bd5216e",
         "info": {
           "architecture": 3,
           "path": "/usr/bin/python3",
@@ -1246,12 +1209,92 @@
             "version": "3.9.6-final"
           },
           "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9",
-          "fileHash": "8aa3d41252b6375ac0ea56232fd84657b0a517a34365e7fde03d1fc1fc5e964f831204bac5bcacb88c5be9a8cc43de8864e96e8c9653f5d5ad6f64cd8485a1d1",
+          "fileHash": "a917b93e25c466f91b1bd05646e94d9c8e864b9b900d35603c1f5f9a6b135c7ace0638c90bfbacf2a1adc797fe256c0d9d055177038a5b24f0d3643a2bd5216e",
           "type": "Unknown",
           "displayName": "Python 3.9.6 64-bit"
         }
       },
-      "expiry": 1742658116739
+      "expiry": 1746694842162
+    },
+    "InterpreterAutoSeletionRule-cachedInterpreters": {
+      "architecture": 3,
+      "path": "/opt/homebrew/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.13.2-final",
+        "major": 3,
+        "minor": 13,
+        "patch": 2,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.13.2-final"
+      },
+      "sysPrefix": "/opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13",
+      "fileHash": "fa80f8ca544819733a1f92b996b63fe71d6c8f38bb163e49d68463429fb48eee5eb89f72b04d47889adbe60593cad43e294a4a32147c7ed89dd01f05c27c98e1",
+      "type": "Unknown",
+      "cachedEntry": true,
+      "displayName": "Python 3.13.2 64-bit"
+    },
+    "/opt/anaconda3/bin/python3.11.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/opt/anaconda3/bin/python3.11",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.11.0-final",
+          "major": 3,
+          "minor": 11,
+          "patch": 0,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.11.0-final"
+        },
+        "sysPrefix": "/opt/anaconda3",
+        "fileHash": "520c32bb1e5ddb8d7ddbc2120764f35d9ff0c172da2e51a77a834e657a69de3636f8ef753cd6a9e124a1ecd407e1abdd59d230a6f3c94e58df8432f9d41703d0"
+      },
+      "expiry": 1746694842028
     }
+  },
+  "coc-python|/Users/pastrysweet/Documents/GitHub/cling-src": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:aa9c66d8d8f012f54db1c13db4e00d55": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:aa9c66d8d8f012f54db1c13db4e00d55": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/pastrysweet/Documents/GitHub/cling-src": {
+      "architecture": 3,
+      "path": "/opt/homebrew/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.13.2-final",
+        "major": 3,
+        "minor": 13,
+        "patch": 2,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.13.2-final"
+      },
+      "sysPrefix": "/opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13",
+      "fileHash": "fa80f8ca544819733a1f92b996b63fe71d6c8f38bb163e49d68463429fb48eee5eb89f72b04d47889adbe60593cad43e294a4a32147c7ed89dd01f05c27c98e1",
+      "type": "Unknown",
+      "displayName": "Python 3.13.2 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
   }
 }

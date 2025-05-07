@@ -7,9 +7,13 @@ plugins=(git) # Nov 9, swtpstry disabled this line, deleted 'git'
 source $ZSH/oh-my-zsh.sh
 
 # Cling
-export PATH="/Volumes/MacintoshHD/Applications/Github/CKernelCling/cling-build/bin:$PATH"
-export CLING_STANDARD_PCH="/Volumes/MacintoshHD/Applications/Github/CKernelCling/cling-build/lib/clang/other_version"
-
+export CPLUS_INCLUDE_PATH="$(xcrun --show-sdk-path)/usr/include:$CPLUS_INCLUDE_PATH"
+export LIBRARY_PATH="$(brew --prefix ncurses)/lib:$LIBRARY_PATH"
+export DYLD_LIBRARY_PATH="$(brew --prefix ncurses)/lib:$DYLD_LIBRARY_PATH"
+export CLING_RESOURCE_DIR="$HOME/Documents/GitHub/cling/lib/clang/18"
+export PATH="$HOME/Documents/GitHub/cling/bin:$PATH"
+## export PATH="/Volumes/MacintoshHD/Applications/Github/CKernelCling/cling-build/bin:$PATH"
+## export CLING_STANDARD_PCH="/Volumes/MacintoshHD/Applications/Github/CKernelCling/cling-build/lib/clang/other_version"
 
 # Mathematica/Wolfram Engine
 export WOLFRAMSCRIPT_KERNELPATH="/Applications/Wolfram/Wolfram Engine.app/Contents/MacOS/WolframKernel"
@@ -43,6 +47,6 @@ unset __conda_setup
 # cargo
 export PATH="$HOME/.cargo/bin:$PATH"
 
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+# THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"

@@ -19,8 +19,8 @@ Place all configuration files you want to manage (e.g., for Neovim, Zsh, Git, et
 ```sh
 mkdir -p ~/.dotfiles/<Username>/.config/nvim
 ```
-2.	Add your Neovim config files (e.g., init.vim or init.lua) to the ~/.dotfiles/<Username>/.config/nvim folder.
-3.	Run stow from within your ~/.dotfiles directory to create symbolic links:
+2.	Add your Neovim config files (e.g., init.vim or init.lua) to the `~/.dotfiles/<Username>/`.config/nvim folder.
+3.	Run stow from within your `~/.dotfiles` directory to create symbolic links:
 ```sh
 cd ~/.dotfiles
 stow <Username>
@@ -31,18 +31,20 @@ By using this approach, you can keep your configuration files neatly organized, 
 
 ## `--adopt` option
 You may encounter some problems like
+
     (base) ~/.dotfiles (main ✗) stow vim
     WARNING! stowing vim would cause conflicts:
     * cannot stow .dotfiles/vim/.vimrc over existing target .vimrc since neither a link nor a directory and --adopt not specified
     All operations aborted.
 
-This issue occurs because your local configuration file (in this case, ~/.vimrc) already exists and is not a symbolic link managed by stow. To resolve this, you can use the following command:
+This issue occurs because your local configuration file (in this case, `~/.vimrc`) already exists and is not a symbolic link managed by stow. To resolve this, you can use the following command:
 
 ```sh
 stow -v --adopt vim
 ```
 The --adopt option has two effects:
-	1.	It moves the existing ~/.vimrc file to your ~/.dotfiles directory.
-	2.	It creates a symbolic link for ~/.vimrc pointing to ~/.dotfiles/vim/.vimrc.
+
+1.	It moves the existing `~/.vimrc` file to your `~/.dotfiles` directory.
+2.	It creates a symbolic link for `~/.vimrc` pointing to `~/.dotfiles/vim/.vimrc`.
 
 This is generally safe, as it preserves your existing file and allows stow to manage it going forward.
