@@ -1,0 +1,23 @@
+\documentclass[
+    ref = refDemo.bib,
+    coverpage = cover.pdf,
+    geometry = b5,
+    lang = cn
+]{spBook}
+\spTitle{\texttt{spTitle} Document}
+\spAuthor{Sweet Pastry}
+\date{\today}
+
+\begin{document}
+    \frontmatter
+    \maketitle
+    \tableofcontents
+    \chapter{Preface}
+    \lipsum[1-10]
+
+    \mainmatter
+    
+    \backmatter
+    \chapter{Appendix A}
+    \lipsum[21-30]
+\end{document}

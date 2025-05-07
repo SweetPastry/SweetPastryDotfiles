@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 2
+    },
+    "auditLog": "/Users/pastrysweet/Library/Application Support/Code/User/workspaceStorage/480887a11eed66228ba45c3e0e0772a5/redhat.java/.6237c258bbb99991a59a029c4c11cdf497beba82-audit.json",
+    "files": [
+        {
+            "date": 1720505940254,
+            "name": "/Users/pastrysweet/Library/Application Support/Code/User/workspaceStorage/480887a11eed66228ba45c3e0e0772a5/redhat.java/client.log.2024-07-09",
+            "hash": "a7661cb9bd593cfba1d1e126e6d5fb5c81cab968f7abd5ca869c8acccc55da71"
+        }
+    ],
+    "hashType": "sha256"
+}

@@ -1,0 +1,7 @@
+{
+    "slidev.force-enabled": true,
+    "slidev.include": [
+        "**/slides.md",
+        "Draft/main.md"
+    ]
+}

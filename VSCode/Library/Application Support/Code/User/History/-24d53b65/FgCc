@@ -1,0 +1,7 @@
+default:
+	xelatex homework
+	biber homework
+	xelatex homework
+	xelatex homework
+	latexmk -c homework
+	rm 

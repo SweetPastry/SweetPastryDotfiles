@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+    <libraryInfo home="/Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home" version="21.0.3"/>
+    <libraryInfo home="/Users/pastrysweet/.vscode/extensions/redhat.java-1.40.0-darwin-arm64/jre/21.0.6-macosx-aarch64" version="21.0.6"/>
+    <libraryInfo home="/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home" version="11.0.24"/>
+    <libraryInfo home="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home" version="23.0.2"/>
+</libraryInfos>

@@ -1,0 +1,3 @@
+12/14/2024 5:39:38 PM [NORMAL] - Visual Studio Code: v1.96.0 64-bit on MacOS 64-bit
+12/14/2024 5:39:38 PM [NORMAL] - PowerShell Extension: v2024.4.0
+12/14/2024 5:39:41 PM [ERROR] - Unable to find PowerShell! Do you have it installed? You can also configure custom installations with the 'powershell.powerShellAdditionalExePaths' setting.

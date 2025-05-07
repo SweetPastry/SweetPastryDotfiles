@@ -1,0 +1,10 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/pastrysweet/Documents/Mathematical-Physics-Methods/2025/NOTE'
+xelatex spMathmaticalPhysics
+biber spMathmaticalPhysics
+xelatex spMathmaticalPhysics
+xelatex spMathmaticalPhysics
+latexmk -c spMathmaticalPhysics
+rm -f *.aux *.log *.idx *.ind *.ilg *.thm *.toc *.blg *.bbl *.bcf *.out -f *.fls *.fdb_latexmk *.run.xml *.synctex.gz *.xdv *~ *.lof *.lot .metadonnees*
+make: Leaving directory `/Users/pastrysweet/Documents/Mathematical-Physics-Methods/2025/NOTE'
+ 

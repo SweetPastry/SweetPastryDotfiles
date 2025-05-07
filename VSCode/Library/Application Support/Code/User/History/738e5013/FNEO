@@ -1,0 +1,10 @@
+XE_COMPILE = XE_COMPILE = xelatex -interaction=nonstopmode -shell-escape 
+
+en:
+	$(XE_COMPILE) en
+	biber en
+	$(XE_COMPILE) en
+	$(XE_COMPILE) en
+	@rm -f *.aux *.log *.idx *.ind *.ilg *.thm *.toc *.blg *.bbl *.bcf *.out
+	@rm -f *.fls *.fdb_latexmk *.run.xml *.synctex.gz *.xdv *~ *.lof *.lot
+	@rm -f .metadonnees*

@@ -1,0 +1,10 @@
+MAINFILE = testArticle
+
+default:
+	xelatex $(MAINFILE)
+
+clean:
+	latexmk -c $(MAINFILE)
+
+Clean:
+	latexmk -C $(MAINFILE)

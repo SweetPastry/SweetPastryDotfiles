@@ -1,0 +1,7 @@
+XE_COMPILE = xelatex -interaction=nonstopmode -shell-escape 
+
+default:
+	$(XE_COMPILE) doc
+	biber dpc
+	$(XE_COMPILE) doc
+	$(XE_COMPILE) doc

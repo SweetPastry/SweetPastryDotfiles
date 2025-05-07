@@ -1,0 +1,314 @@
+\documentclass[
+    lang=cn,
+    column=onecolumn
+]{spArticle}
+\spTitle{热力学与统计物理第五次作业}
+\spAuthor{林海轩}
+\spAbstract{ }
+\spAffiliation{复旦大学物理学系}
+
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest}
+%% the following commands are needed for some matlab2tikz features
+\usetikzlibrary{plotmarks}
+\usetikzlibrary{arrows.meta}
+\usepgfplotslibrary{patchplots}
+\usepackage{grffile}
+\usepackage{amsmath}
+
+\begin{document}
+    \section{7-6}
+        在 Einstein 的固体模型中, 每个格点有三个方向的振动自由度, 视作振子. 振子的能量是量子化的:
+        $$
+        \varepsilon _n=\left( n+\frac{1}{2} \right) h\nu ,\qquad \left( n=0,1,2,\cdots \right) .
+        $$
+        将每个振子 (振动自由度) 视为一个近独立子系, 则子系配分函数为
+        $$
+        Z=\sum_n{\mathrm{e}^{-\beta \left( n+\frac{1}{2} \right) h\nu}}=\frac{\mathrm{e}^{-\beta h\nu /2}}{1-\mathrm{e}^{-\beta h\nu}},
+        $$
+        该模型每一个振动自由度互不干扰, 振子之间是定域的, 根据热力学公式
+        $$
+        S=3Nk_{\mathrm{B}}\left( 1-\beta \partial _{\beta} \right) \ln Z=3Nk_{\mathrm{B}}\left( \frac{\beta h\nu}{\mathrm{e}^{\beta h\nu}-1}-\ln \left( 1-\mathrm{e}^{-\beta h\nu} \right) \right) =3Nk_{\mathrm{B}}\left( \frac{h\nu /k_{\mathrm{B}}T}{\mathrm{e}^{h\nu /k_{\mathrm{B}}T}-1}-\ln \left( 1-\mathrm{e}^{-h\nu /k_{\mathrm{B}}T} \right) \right) .
+        $$
+    \section{7-7}
+        硬算:
+        \begin{align*}
+            \int_0^{\infty}{g\left( \nu \right) \ln Z\left( \nu \right) \mathrm{d}\nu}&=\int_0^{\infty}{\frac{8\pi V}{c^3}\nu ^2\ln \left( 1-\mathrm{e}^{-\beta h\nu} \right) ^{-1}\mathrm{d}\nu}=-\frac{8\pi V}{c^3}\int_0^{\infty}{\nu ^2\ln \left( 1-\mathrm{e}^{-\beta h\nu} \right) \mathrm{d}\nu}
+            \\
+            &=\frac{8\pi V}{c^3}\int_0^{\infty}{\nu ^2\sum_{n=1}^{\infty}{\frac{\mathrm{e}^{-n\beta h\nu}}{n}}\mathrm{d}\nu}=\frac{8\pi V}{c^3}\sum_{n=1}^{\infty}{\frac{1}{n}\int_0^{\infty}{\nu ^2\mathrm{e}^{-n\beta h\nu}\mathrm{d}\nu}}
+            \\
+            &=\frac{8\pi V}{c^3}\frac{1}{\left( \beta h \right) ^3}\sum_{n=1}^{\infty}{\frac{1}{n^4}\int_0^{\infty}{x^2\mathrm{e}^{-x}\mathrm{d}x}}=\frac{8\pi V}{c^3}\frac{2}{\left( \beta h \right) ^3}\sum_{n=1}^{\infty}{\frac{1}{n^4}}
+            \\
+            &=\frac{8\pi V}{c^3}\frac{2}{\left( \beta h \right) ^3}\frac{\pi ^4}{90},
+        \end{align*}
+        $$
+        S=k_{\mathrm{B}}\left( 1-\partial _{\beta} \right) \int_0^{\infty}{g\left( \nu \right) \ln Z\left( \nu \right) \mathrm{d}\nu}=\frac{32\pi ^5k_{\mathrm{B}}^{4}V}{45h^3c^3}T^3.
+        $$
+    \section{7-8}
+        \subsection{(1)}
+            每一个磁矩仅有两个取向, 所以
+            $$
+            Z=\mathrm{e}^{\beta \mu \mathscr{H}}+\mathrm{e}^{-\beta \mu \mathscr{H}}=2\cosh \beta \mu \mathscr{H} .
+            $$
+        \subsection{(2)}
+            $$
+            F=-\frac{N}{\beta}\ln Z=-Nk_{\mathrm{B}}T\ln 2\cosh \frac{\mu \mathscr{H}}{k_{\mathrm{B}}T},
+            $$
+            $$
+            S=Nk_{\mathrm{B}}\left( 1-\partial _{\beta} \right) \ln Z=Nk_{\mathrm{B}}\left( \ln 2\cosh \frac{\mu \mathscr{H}}{k_{\mathrm{B}}T}-\frac{\mu \mathscr{H}}{k_{\mathrm{B}}T}\tanh \frac{\mu \mathscr{H}}{k_{\mathrm{B}}T} \right) ,
+            $$
+            $$
+            E=-N\frac{\partial}{\partial \beta}\ln Z=-N\mu \mathscr{H} \tanh \frac{\mu \mathscr{H}}{k_{\mathrm{B}}T},
+            $$
+            $$
+            C_{\mathscr{H}}=\left( \frac{\partial E}{\partial T} \right) _{\mathscr{H}}=-\left( \frac{\partial}{\partial T}N\frac{\partial}{\partial \beta}\ln Z \right) _{\mathscr{H}}=Nk_{\mathrm{B}}\left( \frac{\mu \mathscr{H} /k_{\mathrm{B}}T}{\cosh \frac{\mu \mathscr{H}}{k_{\mathrm{B}}T}} \right) ^2.
+            $$
+        \subsection{(3)}
+            对一个子系而言有
+            $$
+            \bar{\mu}=\frac{\mu \mathrm{e}^{\beta \mu \mathscr{H}}-\mu \mathrm{e}^{-\beta \mu \mathscr{H}}}{Z}=\mu \tanh \frac{\mu \mathscr{H}}{k_{\mathrm{B}}T},
+            $$
+            所以整个系统有
+            $$
+            \bar{\mathscr{M}}=N\mu \tanh \frac{\mu \mathscr{H}}{k_{\mathrm{B}}T}.
+            $$
+        \subsection{(4)}
+            高温弱场下将表达式 Tailor 展开至一阶项得到
+            $$
+            \bar{\mathscr{M}}=N\mu \tanh \frac{\mu \mathscr{H}}{k_{\mathrm{B}}T}\sim N\mu \frac{\mu \mathscr{H}}{k_{\mathrm{B}}T}=\frac{N\mu ^2}{k_{\mathrm{B}}T}\mathscr{H},
+            $$
+            $$
+            \chi =\frac{\partial}{\partial \mathscr{H}}\frac{\bar{\mathscr{M}}}{V}=\frac{N}{V}\frac{\mu ^2}{k_{\mathrm{B}}T}=\frac{n\mu ^2}{k_{\mathrm{B}}T}.
+            $$
+            在低温强场下, 根据函数极限关系 $\tanh x\rightarrow 1, \left( x\rightarrow +\infty \right)$ 得到
+            $$
+            \bar{\mathscr{M}}=N\mu \tanh \frac{\mu \mathscr{H}}{k_{\mathrm{B}}T}\sim N\mu ,
+            $$
+            $$
+            \chi =\frac{\partial}{\partial \mathscr{H}}\frac{\bar{\mathscr{M}}}{V}=0.
+            $$
+        \subsection{(5)}
+            图片通过 MATLAB 绘制, 源代码
+            \begin{mdframed}
+            \begin{Verbatim}
+            x = linspace(0, 6.5, 1000);
+            S = @(x) log(2.*cosh(1./x)) - 1./x .* tanh(1./x);
+            E = @(x) -tanh(1./x);
+            M = @(x) tanh(1./x);
+            C = @(x) (1 ./ (x.*cosh(1./x))).^2;
+
+            figure;
+            plot(x, S(x), "LineWidth", 2);
+            hold on;
+            plot(x, E(x), "LineWidth", 1.5);
+            plot(x, M(x), "LineWidth", 1.5);
+            plot(x, C(x), "LineWidth", 1.5);
+            yline(log(2), '--r', 'LineWidth', 1.5);
+
+            ax = gca;
+            current_ticks = ax.YTick;
+            new_ticks = sort([current_ticks, log(2)]);
+            ax.YTick = new_ticks;
+            [~, idx] = ismember(log(2), new_ticks);
+            if idx > 0
+                ax.YTickLabel{idx} = '\color{red}ln(2)';
+            end
+
+            legend(...
+                "$S$", "$E$", "$\bar{M}$", "$C$", ...
+                "Location", "southeast", 'Interpreter', 'latex' ...
+            );
+            grid on;
+
+            matlab2tikz('draw.tex', 'standalone', true);
+            \end{Verbatim}
+            \end{mdframed}
+            并使用开源仓库 \href{https://github.com/matlab2tikz/matlab2tikz.git}{matlab2tikz} 转 tikz 代码保证解析性.
+            \input{draw.tex}
+    \section{7-17}
+        \subsection{(1)}
+            \subsubsection{(a)}
+                根据定义直接求解
+                $$
+                D\left( \varepsilon \right) \mathrm{d}\varepsilon =\frac{1}{h^3}\int_{\varepsilon \le H\le \varepsilon +\mathrm{d}\varepsilon}{\mathrm{d}q\mathrm{d}p}=\frac{V}{h^3}\int_{\varepsilon \le H\le \varepsilon +\mathrm{d}\varepsilon}{\mathrm{d}p_x\mathrm{d}p_y\mathrm{d}p_z}=\frac{V}{h^3}4\pi p^2\mathrm{d}p,
+                $$
+                最后一个等号利用了相空间, 动量的三个维度构成了积分区域上的一个球壳, 满足约束
+                $$
+                p_{x}^{2}+p_{y}^{2}+p_{z}^{2}=2m\varepsilon ,
+                $$
+                定义 $p_{x}^{2}+p_{y}^{2}+p_{z}^{2}=p^2$, 于是
+                $$
+                D\left( \varepsilon \right) \mathrm{d}\varepsilon =\frac{V}{h^3}4\pi \left( 2m\varepsilon \right) \mathrm{d}\sqrt{2m\varepsilon}=V\frac{2\pi}{h^3}\left( 2m \right) ^{3/2}\varepsilon ^{1/2}.
+                $$
+            \subsubsection{(b)}
+                仿照上例可得
+                $$
+                D\left( \varepsilon \right) \mathrm{d}\varepsilon =\frac{1}{h^2}\int_{\varepsilon \le H\le \varepsilon +\mathrm{d}\varepsilon}{\mathrm{d}q\mathrm{d}p}=\frac{A}{h^2}\int_{\varepsilon \le H\le \varepsilon +\mathrm{d}\varepsilon}{\mathrm{d}p_x\mathrm{d}p_y}=\frac{A}{h^2}2\pi p\mathrm{d}p=\frac{2\pi Am}{h^2}\mathrm{d}\varepsilon .
+                $$
+            \subsubsection{(c)}
+                仿照上上例可得
+                $$
+                D\left( \varepsilon \right) \mathrm{d}\varepsilon =\frac{1}{h}\int_{\varepsilon \le H\le \varepsilon +\mathrm{d}\varepsilon}{\mathrm{d}q\mathrm{d}p}=\frac{L}{h}\int_{\varepsilon \le H\le \varepsilon +\mathrm{d}\varepsilon}{\mathrm{d}p_x}=\frac{L}{h}2\mathrm{d}p=\frac{L}{h}\sqrt{\frac{2m}{\varepsilon}}\mathrm{d}\varepsilon .
+                $$
+        \subsection{(2)}
+            从 1 维到 3 维, 计算得到
+            $$
+            D\left( \varepsilon \right) =\frac{1}{h^3\mathrm{d}\varepsilon}\int_{\varepsilon \le c\left| p_x \right|\le \varepsilon +\mathrm{d}\varepsilon}{\mathrm{d}q\mathrm{d}p}=\frac{2L}{hc},
+            $$
+            $$
+            D\left( \varepsilon \right) =\frac{1}{h^2\mathrm{d}\varepsilon}\int_{\varepsilon \le c\sqrt{p_{x}^{2}+p_{y}^{2}}\le \varepsilon +\mathrm{d}\varepsilon}{\mathrm{d}q\mathrm{d}p}=\frac{2\pi A\varepsilon}{h^2c^2},
+            $$
+            $$
+            D\left( \varepsilon \right) =\frac{1}{h^3\mathrm{d}\varepsilon}\int_{\varepsilon \le c\sqrt{p_{x}^{2}+p_{y}^{2}+p_{z}^{2}}\le \varepsilon +\mathrm{d}\varepsilon}{\mathrm{d}q\mathrm{d}p}=\frac{4\pi V\varepsilon ^2}{h^3c^3}.
+            $$
+
+    \section{7-18}
+        \subsection{(1)}
+            使用配分函数 $Z$ 表达所有量:
+            $$
+            pV=\frac{1}{\beta}\frac{\partial}{\partial V}\ln Z\cdot V=\frac{V}{\beta}\frac{\partial}{\partial V}\ln Z,
+            $$
+            $$
+            \frac{2}{3}\bar{E}=\frac{2}{3}\frac{-\partial}{\partial \beta}\ln Z,
+            $$
+            求体系的配分函数:
+            $$
+            Z=\frac{1}{h^3}\int_{\Gamma}{\mathrm{d}x\mathrm{d}y\mathrm{d}z\mathrm{d}p_x\mathrm{d}p_y\mathrm{d}p_z\mathrm{e}^{-\frac{\beta}{2m}\left( p_{x}^{2}+p_{y}^{2}+p_{z}^{2} \right)}}
+            =\frac{V}{h^3}\left( \int_{-\infty}^{\infty}{\mathrm{e}^{-\frac{\beta}{2m}p_{i}^{2}}\mathrm{d}p_i} \right) ^3=\frac{V}{h^3}\left( 2m\pi \beta ^{-1} \right) ^{\frac{3}{2}},
+            $$
+            于是
+            $$
+            \ln Z=\ln V-\frac{3}{2}\ln \beta +\cdots ,
+            $$
+            代入两个表达式
+            $$
+            \frac{V}{\beta}\frac{\partial}{\partial V}\ln Z=\frac{1}{\beta},
+            $$
+            $$
+            \frac{2}{3}\frac{-\partial}{\partial \beta}\ln Z=\frac{1}{\beta},
+            $$
+            所以可以下结论
+            $$
+            pV=\frac{2}{3}\bar{E}.
+            $$
+        \subsection{(2)}
+            依旧是求配分函数
+            $$
+            Z=\frac{1}{h^3}\int_{\Gamma}{\mathrm{d}x\mathrm{d}y\mathrm{d}z\mathrm{d}p_x\mathrm{d}p_y\mathrm{d}p_z\mathrm{e}^{-\beta c\sqrt{p_{x}^{2}+p_{y}^{2}+p_{z}^{2}}}}
+            =\frac{V}{h^3}\int_{\mathbb{R} ^3}{\mathrm{e}^{-\beta c\left| \mathbf{x} \right|}\mathrm{d}\mathbf{x}}=\frac{8\pi V}{\beta ^3h^3c^3},
+            $$
+            然后求取对数表达式
+            $$
+            \ln Z=\ln V-3\ln \beta ,
+            $$
+            因此
+            $$
+            \frac{1}{3}\bar{E}=\frac{1}{3}\frac{-\partial}{\partial \beta}\ln Z=\frac{1}{\beta},
+            $$
+            $$
+            pV=V\frac{1}{\beta}\frac{\partial}{\partial V}\ln Z=\frac{1}{\beta},
+            $$
+            从而可以下结论
+            $$
+            pV=\frac{1}{3}\bar{E}.
+            $$
+
+    \section{7-21}
+        当例子能量 $\varepsilon \gg \hbar \omega $ 时, 可以忽略零点能:
+        $$
+        \varepsilon \left( n_1,n_2,n_3 \right) \doteq \left( n_1+n_2+n_3 \right) \hbar \omega ,
+        $$
+        在 $n_1,n_2,n_3$ 作为三个坐标张成的直角坐标系中, 每一个状态 $(n_1,n_2,n_3)$ 平均占据体积为 1 的小正方体, 于是
+        $$
+        G\left( \varepsilon \right) =\iiint{\mathrm{d}n_1\mathrm{d}n_2\mathrm{d}n_3}=\int_0^{\frac{\varepsilon}{\hbar \omega}}{\mathrm{d}n_1\int_0^{\frac{\varepsilon}{\hbar \omega}-n_1}{\mathrm{d}n_2\int_0^{\frac{\varepsilon}{\hbar \omega}-n_1-n_2}{\mathrm{d}n_3}=\frac{1}{6}\frac{\varepsilon ^3}{\hbar ^3\omega ^3}}},
+        $$
+        $$
+        D\left( \varepsilon \right) =\frac{\mathrm{d}}{\mathrm{d}\varepsilon}G\left( \varepsilon \right) =\frac{\varepsilon ^2}{2\hbar ^3\omega ^3}.
+        $$
+
+    \section{7-22}
+        根据 Bose-Einstern 分布, 给定激发态 $\mu=0$, 忽略小量的前提下所有的粒子均处于这个能级上
+        $$
+        N=\int_0^{\infty}{\frac{D\left( \varepsilon \right) \mathrm{d}\varepsilon}{\mathrm{e}^{\varepsilon /k_{\mathrm{B}}T_{\mathrm{c}}}-1}}=\frac{1}{2\hbar ^3\omega ^3}\int_0^{\infty}{\frac{\varepsilon ^2\mathrm{d}\varepsilon}{\mathrm{e}^{\varepsilon /k_{\mathrm{B}}T_{\mathrm{c}}}-1}}=\frac{1}{2}\left( \frac{k_{\mathrm{B}}T_{\mathrm{c}}}{\hbar \omega} \right) ^3\int_0^{\infty}{\frac{x^2\mathrm{d}x}{\mathrm{e}^x-1}=\frac{1}{2}\left( \frac{k_{\mathrm{B}}T_{\mathrm{c}}}{\hbar \omega} \right) ^32\zeta \left( 3 \right)},
+        $$
+        $$
+        k_{\mathrm{B}}T_{\mathrm{c}}=\hbar \omega \frac{N^{1/3}}{\zeta ^{1/3}\left( 3 \right)}.
+        $$
+
+    \section{7-26}
+        \subsection{(1)}
+            空窑内光子的简正模谱密度为
+            $$
+            g\left( \nu \right) =\frac{8\pi V}{c^3}\nu ^2,
+            $$
+            据此有
+            $$
+            g\left( \nu \right) \mathrm{d}\nu =g\left( \varepsilon \right) \mathrm{d}\varepsilon \qquad \Longrightarrow \qquad g\left( \varepsilon \right) =g\left( \nu \right) \frac{\mathrm{d}\nu}{\mathrm{d}\varepsilon}=\frac{8\pi V}{h^3c^3}\varepsilon ^2,
+            $$
+            此即简并度, 那么根据 Bose-Einstein 分布有
+            $$
+            \bar{N}\left( \varepsilon \right) =\frac{\frac{8\pi V}{h^3c^3}\varepsilon ^2}{\mathrm{e}^{\beta \varepsilon}-1}=\frac{8\pi V}{h^3c^3}\frac{\varepsilon ^2}{\mathrm{e}^{\varepsilon /k_{\mathrm{B}}T}-1},
+            $$
+            此即能量在 $\varepsilon$ 附近单位能量内的光子数.
+        \subsection{(2)}
+            $$
+            \bar{N}=\int{\bar{N}\left( \varepsilon \right) \mathrm{d}\varepsilon}=\frac{8\pi V}{h^3c^3}k_{\mathrm{B}}^{3}T^3\int_0^{\infty}{\frac{x^2}{\mathrm{e}^x-1}\mathrm{d}x}=16\pi V\left( \frac{k_{\mathrm{B}}T}{hc} \right) ^3\zeta \left( 3 \right) ,
+            $$
+            $$
+            \bar{n}=\frac{\bar{N}}{V}=16\pi \left( \frac{k_{\mathrm{B}}T}{hc} \right) ^3\zeta \left( 3 \right).
+            $$
+            $$
+            \bar{N}\left( 1000\mathrm{K} \right) \doteq 2.0\times 10^{10}\mathrm{cm}^{-3}
+            \qquad
+            \bar{N}\left( 3\mathrm{K} \right) \doteq 5.5\times 10^2\mathrm{cm}^{-3}.
+            $$
+        \subsection{(3)}
+            设 $n\left( \boldsymbol{p} \right) $ 为光子数密度关于动量的分布律, $n\left( p \right) $ 为光子数密度关于动量的模长的分布律, $n\left( \varepsilon \right) $ 为光子疏密度关于能量的分布律. 根据光子在动量空间中的布居有各向同性的特点, 存在关系
+            $$
+            4\pi p^2n\left( \boldsymbol{p} \right) =n\left( p \right) ,
+            $$
+            又根据分布密度换算关系
+            $$
+            n\left( p \right) \mathrm{d}p=n\left( \varepsilon \right) \mathrm{d}\varepsilon ,
+            $$
+            推导得到
+            $$
+            n\left( \boldsymbol{p} \right) =\frac{1}{4\pi p^2}n\left( \varepsilon \right) \frac{\mathrm{d}\varepsilon}{\mathrm{d}p}=\frac{c}{4\pi p^2}n\left( \varepsilon \right) =\frac{c}{4\pi p^2}\frac{8\pi}{h^3c^3}\frac{\varepsilon ^2}{\mathrm{e}^{\varepsilon /k_{\mathrm{B}}T}-1}=\frac{2}{h^3}\frac{1}{\mathrm{e}^{cp/k_{\mathrm{B}}T}-1}.
+            $$
+
+            根据粒子微分通量式
+            $$
+            \mathrm{d}\varGamma =c\cos \theta n\left( \boldsymbol{p} \right) \mathrm{d}^3\boldsymbol{p}=c\cos \theta \frac{2}{h^3}\frac{1}{\mathrm{e}^{cp/k_{\mathrm{B}}T}-1}p^2\sin \theta \mathrm{d}p\mathrm{d}\theta \mathrm{d}\varphi =\frac{2c}{h^3}\frac{p^2\sin \theta \cos \theta}{\mathrm{e}^{cp/k_{\mathrm{B}}T}-1}\mathrm{d}p\mathrm{d}\theta \mathrm{d}\varphi ,
+            $$
+            计算能量泄流通量为
+            $$
+            J=\int{\varepsilon \mathrm{d}\varGamma}=\frac{2c^2}{h^3}\int_0^{2\pi}{\mathrm{d}\varphi \int_0^{\frac{\pi}{2}}{\sin \theta \cos \theta \mathrm{d}\theta \int_0^{\infty}{\frac{p^3}{\mathrm{e}^{cp/k_{\mathrm{B}}T}-1}\mathrm{d}p}}}=\frac{2\pi ^5}{15}\frac{\left( k_{\mathrm{B}}T \right) ^4}{h^3c^2}.
+            $$
+
+    \section{7-28}
+        \subsection{(1)}
+            记 $p_+$ 和 $p_-$ 分别是电子自旋平行与反平行于外磁场时的最大动量, 使用经典方法估计态数, 由于电子是 Fermi 子, 可达的量子态数就是相应的粒子数.
+            $$
+            N_+=\frac{V}{h^3}\frac{4\pi}{3}p_{+}^{3}=\frac{4\pi V}{3h^3}\left[ 2m\left( \varepsilon _{\mathrm{F}}+\mu _{\mathrm{B}}\mathscr{H} \right) \right] ^{\frac{3}{2}},
+            $$
+            $$
+            N_-=\frac{V}{h^3}\frac{4\pi}{3}p_{-}^{3}=\frac{4\pi V}{3h^3}\left[ 2m\left( \varepsilon _{\mathrm{F}}-\mu _{\mathrm{B}}\mathscr{H} \right) \right] ^{\frac{3}{2}}.
+            $$
+        \subsection{(2)}
+            \begin{align*}
+                M&=\mu _{\mathrm{B}}\left( N_+-N_- \right) =\frac{4\pi V\mu _{\mathrm{B}}}{3h^3}\left( \left[ 2m\left( \varepsilon _{\mathrm{F}}+\mu _{\mathrm{B}}\mathscr{H} \right) \right] ^{\frac{3}{2}}-\left[ 2m\left( \varepsilon _{\mathrm{F}}-\mu _{\mathrm{B}}\mathscr{H} \right) \right] ^{\frac{3}{2}} \right)
+                \\
+                &=\frac{4\pi V\mu _{\mathrm{B}}}{3h^3}\left( 2m\varepsilon _{\mathrm{F}} \right) ^{3/2}\left( \left[ 1+\frac{\mu _{\mathrm{B}}\mathscr{H}}{\varepsilon _{\mathrm{F}}} \right] ^{\frac{3}{2}}-\left[ 1-\frac{\mu _{\mathrm{B}}\mathscr{H}}{\varepsilon _{\mathrm{F}}} \right] ^{\frac{3}{2}} \right)
+                \\
+                &\sim \frac{4\pi V\mu _{\mathrm{B}}}{3h^3}\left( 2m\varepsilon _{\mathrm{F}} \right) ^{3/2}\left( \left[ 1+\frac{3}{2}\frac{\mu _{\mathrm{B}}\mathscr{H}}{\varepsilon _{\mathrm{F}}} \right] -\left[ 1-\frac{3}{2}\frac{\mu _{\mathrm{B}}\mathscr{H}}{\varepsilon _{\mathrm{F}}} \right] \right)
+                \\
+                &=\frac{4\pi V\mu _{\mathrm{B}}}{3h^3}\left( 2m\varepsilon _{\mathrm{F}} \right) ^{3/2}\frac{3\mu _{\mathrm{B}}\mathscr{H}}{\varepsilon _{\mathrm{F}}}=\frac{4\pi V\mu _{\mathrm{B}}^{2}\mathscr{H}}{h^3\varepsilon _{\mathrm{F}}}\left( 2m\varepsilon _{\mathrm{F}} \right) ^{3/2}.
+            \end{align*}
+            $$
+            N=N_++N_-\sim \frac{8\pi V}{h^3}\left( 2m\varepsilon _{\mathrm{F}} \right) ^{3/2}.
+            $$
+        \subsection{(3)}
+            $$
+            \chi =\left. \frac{\partial M}{\partial \mathscr{H}} \right|_{\mathscr{H} \rightarrow 0}=\frac{3}{2}\frac{N\mu _{\mathrm{B}}^{2}}{\varepsilon _{\mathrm{F}}},\qquad \frac{\chi}{N}=\frac{3}{2}\frac{\mu _{\mathrm{B}}^{2}}{\varepsilon _{\mathrm{F}}}.
+            $$
+\end{document}

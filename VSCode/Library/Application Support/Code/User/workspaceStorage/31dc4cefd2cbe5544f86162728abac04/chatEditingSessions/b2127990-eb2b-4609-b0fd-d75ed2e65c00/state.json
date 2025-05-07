@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "sessionId": "b2127990-eb2b-4609-b0fd-d75ed2e65c00",
+  "linearHistory": [
+    {
+      "requestId": "request_1eba61dd-29c6-4174-9dc1-6a2c8fd45b30",
+      "workingSet": [
+        [
+          "file:///Users/pastrysweet/Documents/tikz-draw/Jan22/pra3/pra3.tex",
+          {
+            "state": 4
+          }
+        ]
+      ],
+      "entries": []
+    }
+  ],
+  "linearHistoryIndex": 1,
+  "initialFileContents": [],
+  "pendingSnapshot": {
+    "workingSet": [
+      [
+        "file:///Users/pastrysweet/Documents/tikz-draw/Jan22/pra3/pra3.tex",
+        {
+          "state": 5
+        }
+      ]
+    ],
+    "entries": []
+  },
+  "recentSnapshot": {
+    "workingSet": [
+      [
+        "file:///Users/pastrysweet/Documents/tikz-draw/Jan22/pra3/pra3.tex",
+        {
+          "state": 4
+        }
+      ]
+    ],
+    "entries": []
+  },
+  "filesToSkipCreating": []
+}

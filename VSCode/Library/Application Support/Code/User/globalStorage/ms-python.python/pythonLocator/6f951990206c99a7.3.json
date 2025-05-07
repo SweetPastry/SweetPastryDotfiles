@@ -1,0 +1,60 @@
+{
+  "environment": {
+    "executable": "/opt/anaconda3/envs/cling/bin/python",
+    "prefix": "/opt/anaconda3/envs/cling",
+    "version": "3.12.5.final.0",
+    "is64Bit": true,
+    "symlinks": [
+      "/opt/anaconda3/envs/cling/bin/python",
+      "/opt/anaconda3/envs/cling/bin/python3",
+      "/opt/anaconda3/envs/cling/bin/python3.1",
+      "/opt/anaconda3/envs/cling/bin/python3.12"
+    ]
+  },
+  "symlinks": [
+    [
+      "/opt/anaconda3/envs/cling/bin/python",
+      {
+        "secs_since_epoch": 1726757994,
+        "nanos_since_epoch": 863979823
+      },
+      {
+        "secs_since_epoch": 1726757994,
+        "nanos_since_epoch": 823267914
+      }
+    ],
+    [
+      "/opt/anaconda3/envs/cling/bin/python3",
+      {
+        "secs_since_epoch": 1726757994,
+        "nanos_since_epoch": 863979823
+      },
+      {
+        "secs_since_epoch": 1726757994,
+        "nanos_since_epoch": 823267914
+      }
+    ],
+    [
+      "/opt/anaconda3/envs/cling/bin/python3.1",
+      {
+        "secs_since_epoch": 1726757994,
+        "nanos_since_epoch": 863979823
+      },
+      {
+        "secs_since_epoch": 1726757994,
+        "nanos_since_epoch": 823267914
+      }
+    ],
+    [
+      "/opt/anaconda3/envs/cling/bin/python3.12",
+      {
+        "secs_since_epoch": 1726757994,
+        "nanos_since_epoch": 863979823
+      },
+      {
+        "secs_since_epoch": 1726757994,
+        "nanos_since_epoch": 823267914
+      }
+    ]
+  ]
+}

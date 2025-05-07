@@ -1,0 +1,5 @@
+default:
+	xelatex pra4.tex
+	xelatex pra4.tex
+	xelatex pra4.tex
+	latexmk -c pra4

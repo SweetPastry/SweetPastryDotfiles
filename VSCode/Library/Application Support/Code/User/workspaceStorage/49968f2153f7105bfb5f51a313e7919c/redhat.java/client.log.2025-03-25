@@ -1,0 +1,57 @@
+{
+  message: "Use the JDK from '' as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2025-03-25 23:09:46.481'
+}
+{
+  message: 'Starting Java server with: /Users/pastrysweet/.vscode/extensions/redhat.java-1.40.0-darwin-arm64/jre/21.0.6-macosx-aarch64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/Users/pastrysweet/.vscode/extensions/redhat.java-1.40.0-darwin-arm64/lombok/lombok-1.18.36.jar -jar /Users/pastrysweet/.vscode/extensions/redhat.java-1.40.0-darwin-arm64/server/plugins/org.eclipse.equinox.launcher_1.6.1000.v20250131-0606.jar -configuration /Users/pastrysweet/Library/Application Support/Code/User/globalStorage/redhat.java/1.40.0/config_ss_mac -data /Users/pastrysweet/Library/Application Support/Code/User/workspaceStorage/49968f2153f7105bfb5f51a313e7919c/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2025-03-25 23:09:46.559'
+}
+{
+  message: 'Starting Java server with: /Users/pastrysweet/.vscode/extensions/redhat.java-1.40.0-darwin-arm64/jre/21.0.6-macosx-aarch64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/Users/pastrysweet/.vscode/extensions/redhat.java-1.40.0-darwin-arm64/lombok/lombok-1.18.36.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/Users/pastrysweet/Library/Application Support/Code/User/workspaceStorage/49968f2153f7105bfb5f51a313e7919c/redhat.java -Daether.dependencyCollector.impl=bf -jar /Users/pastrysweet/.vscode/extensions/redhat.java-1.40.0-darwin-arm64/server/plugins/org.eclipse.equinox.launcher_1.6.1000.v20250131-0606.jar -configuration /Users/pastrysweet/Library/Application Support/Code/User/globalStorage/redhat.java/1.40.0/config_mac -data /Users/pastrysweet/Library/Application Support/Code/User/workspaceStorage/49968f2153f7105bfb5f51a313e7919c/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2025-03-25 23:09:46.633'
+}
+{
+  message: 'Mar 25, 2025 11:09:48 PM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\n' +
+    'Mar 25, 2025 11:09:48 PM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2025-03-25 23:09:48.500'
+}
+{
+  message: '[Error - 11:11:01 PM] Mar 25, 2025, 11:11:01 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-03-25 23:11:01.629'
+}
+{
+  message: '[Error - 11:11:01 PM] Mar 25, 2025, 11:11:01 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-03-25 23:11:01.633'
+}

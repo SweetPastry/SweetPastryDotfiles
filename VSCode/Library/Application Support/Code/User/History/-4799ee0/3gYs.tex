@@ -1,0 +1,23 @@
+\documentclass[
+    lang = cn,
+    geomotry = b5,
+    coverpage = ./chapters/coverpage.tex,
+    ref = ref,
+    colorbox = true,
+    mathfont = palatino
+]{spBook}
+\spAuthor{林海轩}
+\spAffiliation{复旦大学}
+\spDate{\today}
+\spTitle{群论笔记}
+
+
+\begin{document}
+    \newcommand{\inputChapter}[1]{\input{./chapters/#1}}
+
+    \frontmatter
+    \inputChapter{preface}
+
+    \mainmatter
+    \inputChapter{basic}
+\end{document}

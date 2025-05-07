@@ -1,0 +1,9 @@
+default:
+	xelatex main
+	xelatex main
+
+c:
+	latexmk -c main
+
+C:
+	latexmk -C main

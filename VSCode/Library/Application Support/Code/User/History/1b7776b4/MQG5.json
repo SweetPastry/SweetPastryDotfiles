@@ -1,0 +1,9 @@
+{
+    "name": "My Server",
+    "host": "10.26.0.253",
+    "protocol": "sftp",
+    "port": 22,
+    "username": "hxlin",
+    "remotePath": "/",
+    "uploadOnSave": true
+}

@@ -1,0 +1,4 @@
+NOTE = spMathmaticalPhysics
+
+default:
+	xelatex 

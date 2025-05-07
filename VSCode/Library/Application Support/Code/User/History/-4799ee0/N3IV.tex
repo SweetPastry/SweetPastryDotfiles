@@ -1,0 +1,22 @@
+\documentclass[
+    lang = en,
+    geomotry = b5,
+    coverpage = ./chapters/coverpage.tex,
+    ref = ref.bib,
+    colorbox = true,
+    mathfont = palatino
+]{spBook}
+\spAuthor{林海轩}
+\spDate{\today}
+\spTitle{群论笔记}
+
+
+\begin{document}
+    \newcommand{\inputChapter}[1]{\input{./chapters/#1}}
+
+    \frontmatter
+    \inputChapter{preface}
+
+    \mainmatter
+    \inputChapter{basic_concept}
+\end{document}

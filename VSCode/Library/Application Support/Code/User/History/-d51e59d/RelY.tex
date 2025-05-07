@@ -1,0 +1,80 @@
+\section*{Problem 20}
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}
+        \draw (-3, 0) -- (3, 0);
+        \draw (-3, 0) -- (-3, 1.5);
+        \draw (3, 0) -- (3, 1.5);
+        \fill[pattern=north east lines, pattern color=gray!50] (-3, 0) -- (-3, 1.5) -- (-3.5, 1.5) -- (-3.5, -0.25) -- (3.5, -0.25) -- (3.5, 1.5) -- (3, 1.5) -- (3, 0) -- cycle;
+        \node (ball) at (-2, 0.5) [circle, ball color=gray!50, minimum size=1cm] {};
+        \node (text) at (-1, 0.75) {$m=1$};
+        \draw[thin, |<->|, >=Latex] (-3, 1.25) -- (3, 1.25);
+        \node[fill=white] at (0, 1.25) {$d$};
+    \end{tikzpicture}
+    \label{graph:ball bewteen walls}
+    \caption{A ball bounces between two walls}
+\end{figure}
+
+    \subsection*{(a)}
+        To calculate the action variable, we first consider its definition. 
+        \begin{equation}
+            J = \frac{1}{2\pi}\oint p\mathrm{d}q.
+        \end{equation}
+        The numerical value of the action vatiable is exactly equal to the area enclosed by a closed phase orbit; therefor, plot the phase diagram of this system.
+        \begin{figure}[H]
+            \centering
+            \begin{tikzpicture}[>=Latex]
+                \draw[->] (-2.5, 0) -- (2.5, 0) node[right] {$q$};
+                \draw[->] (0, -1.5) -- (0, 1.5) node[above] {$p$};
+                \filldraw[pattern=north east lines, pattern color=gray!50, thick] (-2, -1) rectangle (2, 1);
+                \draw[->] (-1.5, 1) -- (-1.51, 1);
+                \draw[->] (-2, -0.5) -- (-2, -0.6);
+                \draw[->] (1.5, -1) -- (1.51, -1);
+                \draw[->] (2, 0.5) -- (2, 0.6);
+                \node[anchor=north west] at (2, 0) {$d$};
+                \node[anchor=north east] at (-2, 0) {$-d$};
+            \end{tikzpicture}
+            \label{graph:phase graph for ball bewteen walls}
+            \caption{Phase orbit graph for ball beteen two walls}
+        \end{figure}
+        As a result,
+        $$
+        J = \frac{2p\cdot 2d}{2\pi} = \frac{2pd}{\pi}.
+        $$
+
+        By the ralationshio $E=p^2/2$, we express $E$ with $J$,
+        \begin{equation}
+            E = \frac{p^2}{2} =\frac{\pi^2 J^2}{8d^2},
+        \end{equation}
+        so
+        $$
+        \omega = \frac{\partial E}{\partial J} = \frac{\pi^2J}{4d^2} = \frac{\pi p}{2d}.
+        $$
+
+        The result given by elementary calculation is
+        $$
+        \omega = \frac{2\pi}{4d/v} = \frac{\pi p}{2d}.
+        $$
+
+        In conclusion, the period derived from angle variable theory is consistent with the classical method. Although the force in this scenario sometimes surges to infinity, making it discontinuous and thus impossible to properly define a Hamiltonian, we can imagine the evolution of this process from countless scenarios in which the force remains continuous and becomes increasingly sharper.
+
+    \subsection*{(b)}
+        Let $a=\pi/2d$ so $V\left(q\right)\to+\infty$ given $q\to\pm d$,
+        \begin{equation}
+            V\left(q\right)=U\tan^2\left(\frac{\pi q}{2d}\right),
+        \end{equation}
+        in the status, we need to let $U\to 0^+$,
+        \begin{equation}
+            \begin{cases}
+                \displaystyle\frac{aJ}{\sqrt{2}d} = \frac{\pi J}{2\sqrt{2}d}=\sqrt{E+U}-\sqrt{U} \to \sqrt{E},\\\\
+                \displaystyle\frac{\omega}{a\sqrt{2}} = \frac{\sqrt{2}d\omega}{\pi} = \sqrt{E+U} \to \sqrt{E}.
+            \end{cases}
+        \end{equation}
+        As a result,
+        $$
+        J = \frac{2pd}{\pi}\sqrt{2E} = \frac{2pd}{\pi},
+        \qquad
+        \omega = \frac{\pi}{2d}\sqrt{2E} = \frac{\pi p}{2d}.
+        $$
+
+        The results presented above are identical to those in part (a). Therefore, we can assert that, according to the proposed framework, even when the potential energy undergoes abrupt changes — rendering the Hamiltonian impossible to construct appropriately — the angle variable theory still holds.

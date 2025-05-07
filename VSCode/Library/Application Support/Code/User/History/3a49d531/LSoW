@@ -1,0 +1,9 @@
+NOTE = spMathmaticalPhysics
+
+default:
+	xelatex $(NOTE)
+	biber $(NOTE)
+	xelatex $(NOTE)
+	xelatex $(NOTE)
+	latexmk -c $(NOTE)
+	rm

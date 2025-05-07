@@ -1,0 +1,60 @@
+{
+  "environment": {
+    "executable": "/opt/anaconda3/bin/python",
+    "prefix": "/opt/anaconda3",
+    "version": "3.11.0.final.0",
+    "is64Bit": true,
+    "symlinks": [
+      "/opt/anaconda3/bin/python",
+      "/opt/anaconda3/bin/python3",
+      "/opt/anaconda3/bin/python3.1",
+      "/opt/anaconda3/bin/python3.11"
+    ]
+  },
+  "symlinks": [
+    [
+      "/opt/anaconda3/bin/python",
+      {
+        "secs_since_epoch": 1745496051,
+        "nanos_since_epoch": 491218325
+      },
+      {
+        "secs_since_epoch": 1745496051,
+        "nanos_since_epoch": 475114733
+      }
+    ],
+    [
+      "/opt/anaconda3/bin/python3",
+      {
+        "secs_since_epoch": 1745496051,
+        "nanos_since_epoch": 491218325
+      },
+      {
+        "secs_since_epoch": 1745496051,
+        "nanos_since_epoch": 475114733
+      }
+    ],
+    [
+      "/opt/anaconda3/bin/python3.1",
+      {
+        "secs_since_epoch": 1745496051,
+        "nanos_since_epoch": 491218325
+      },
+      {
+        "secs_since_epoch": 1745496051,
+        "nanos_since_epoch": 475114733
+      }
+    ],
+    [
+      "/opt/anaconda3/bin/python3.11",
+      {
+        "secs_since_epoch": 1745496051,
+        "nanos_since_epoch": 491218325
+      },
+      {
+        "secs_since_epoch": 1745496051,
+        "nanos_since_epoch": 475114733
+      }
+    ]
+  ]
+}

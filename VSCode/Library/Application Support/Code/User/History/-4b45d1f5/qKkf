@@ -1,0 +1,13 @@
+MAINFILE = testArticle
+
+default:
+	xelatex -synctex=1 -interaction=nonstopmode  $(MAINFILE)
+
+clean:
+	latexmk -c $(MAINFILE)
+
+Clean:
+	latexmk -C $(MAINFILE)
+
+con:
+	xelatex testArticleContrast

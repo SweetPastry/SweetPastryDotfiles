@@ -1,0 +1,5 @@
+default:
+	xelatex cover
+	xelatex cover
+	xelatex cover
+	convert -density 300 cover.pdf -quality 100 cover.png

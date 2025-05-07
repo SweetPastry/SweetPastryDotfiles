@@ -1,0 +1,9 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/pastrysweet/Documents/GitHub/maths_book'
+latexmk  -pretex="\def\all{1}" bookmain.tex
+# Update current number of pages in README.md
+A=$(pdfinfo bookmain.pdf | awk '/^Pages:/ {print $2}'); \
+	sed -i "s/Current.*/Current number of pages: $A./g" README.md
+latexmk  -jobname=tests/boxes tests/boxes.tex
+make: Leaving directory `/Users/pastrysweet/Documents/GitHub/maths_book'
+ 

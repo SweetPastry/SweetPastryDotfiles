@@ -1,0 +1,13 @@
+EN_ONE = enOnecol
+EN_TWO = enTwocol
+CN_ONE = cnOnecol
+CN_TWO = cnTwocol
+
+XE_COMPILE = xelatex -interaction=nonstopmode -shell-escape 
+
+EN_ONE:
+	$(XE_COMPILE) EN_ONE
+	biber EN_ONE
+	$(XE_COMPILE) EN_ONE
+	$(XE_COMPILE) EN_ONE
+	

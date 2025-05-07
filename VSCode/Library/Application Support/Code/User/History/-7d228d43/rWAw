@@ -1,0 +1,5 @@
+default:
+	xelatex pra1
+	xelatex pra1
+	xelatex pra1
+	latexmk -c pra1

@@ -1,0 +1,200 @@
+\documentclass[tikz, varwidth,border=1cm]{article}
+\usepackage[paperwidth=594mm, paperheight=841mm, margin=0mm, noheadfoot, nomarginpar]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{calligra}
+\usepackage{textcomp}
+\usepackage{tikz}
+\usetikzlibrary{backgrounds}
+\usetikzlibrary{arrows,shapes}
+\usetikzlibrary{tikzmark}
+\usetikzlibrary{calc}
+\usetikzlibrary{patterns}
+\usepackage{tcolorbox}
+\usepackage{smartdiagram}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{xeCJK}
+
+\newcommand{\hlmath}[2]{\colorbox{#1!17}{$\displaystyle #2$}}
+\newcommand{\hltext}[2]{\colorbox{#1!17}{#2}}
+\newcommand{\song}{\CJKfamily{song}}
+
+\title{\textbf{\scalebox{5}{强化学习在求解数学问题中的应用探索}}}\date{}
+\begin{document}
+    \maketitle
+    \par
+
+    \raisebox{-20cm}{
+    \begin{minipage}[t]{0.45\textwidth}
+        \scalebox{3}{%
+            \smartdiagram[bubble diagram]{\textbf{强化学习}\\ \small{Reinforcement Learning}, \textbf{符号回归}\\ \small{Symbolic Regression}, \textbf{样本利用率}\\\small{Sample utilization}, \textbf{稀疏奖励}\\\small{Sparse reward}, \textbf{泛化性}\\\small{Generalization}, \textbf{数学问题}\\\small{Mathematics}}
+            }
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.45\textwidth}
+        \raisebox{15cm}{%
+            \scalebox{4}{%
+                % \fbox{\emph{\shortstack{\textbf{成员}:\ 林海轩\ 杨奕乐\ 刘子逸\ 翟成蹊\\ \textbf{指导老师}:\ 杜恺}}}
+                \fbox{\parbox{7cm}{%
+                    \emph{\textbf{成员}}:\ \tikzmarknode{Me}{\hltext{blue}{林海轩}}\ \tikzmarknode{Mem}{\hltext{red}{杨奕乐\ 刘子逸\ 翟成蹊}}
+                    \par
+                    \begin{tikzpicture}[overlay, remember picture, >=stealth, nodes={align=left, inner ysep=2pt}, <-]
+                        \path (Me.north) ++ (0,+1.2em) node[anchor=south east, color=blue!67] (Me node){课题组学生负责人\\物理学系};
+                        \draw [color=blue!57](Me.north) |- ([xshift=-0.3ex, color=blue]Me node.south west);
+                    \end{tikzpicture}
+                    \begin{tikzpicture}[overlay, remember picture, >=stealth, nodes={align=left, inner ysep=2pt}, <-]
+                        \path (Mem.north) ++ (0,+1.2em) node[anchor=south west, color=red!67] (Mem node){课题组学生成员\\数学科学学院};
+                        \draw [color=red!57](Mem.north) |- ([xshift=-0.3ex, color=red]Mem node.south east);
+                    \end{tikzpicture}
+
+                    \par
+
+                    \emph{\textbf{指导老师}}:\ \tikzmarknode{Te}{\hltext{OliveGreen}{魏柯}}
+                    \par
+                    \begin{tikzpicture}[overlay, remember picture, >=stealth, nodes={align=left, inner ysep=2pt}, <-]
+                        \path (Te.west) ++ (6.5em,0em) node[anchor=west, color=OliveGreen!100] (Te node){课题组指导老师\\大数据学院教授};
+                        \draw [color=OliveGreen!100](Te.east) -- ([xshift=+0.3ex, color=OliveGreen]Te node.west);
+                    \end{tikzpicture}
+
+                    \par
+
+                    \emph{\textbf{课题简介}}:\ \small{\song 本课题聚焦强化学习在数学问题求解（如组合优化）中的应用，探讨其样本利用率、稀疏奖励、泛化性等关键问题，并尝试改进现有方法. 通过研究，培养学生的科研创新与跨学科思维能力，为人工智能相关工作奠定基础. }
+                }}
+            }
+        }
+    \end{minipage}
+    }
+
+    \par
+
+    \raisebox{0cm}{
+        \begin{minipage}[t]{0.45\textwidth}
+            \raisebox{20cm}{%
+                \scalebox{4}{%
+                    \fbox{\parbox{6cm}{
+                        \emph{\textbf{\large 成果介绍}}:\\\\ {\small{%
+                            在本课题中, 我们利用最小二乘法定义损失函数, 通过求解其极值来解决简单符号回归问题.
+                            \par
+                            设给定数据集 $D=\left\{\left(x_i, y_i\right)\right\}_{i=1}^{n}$, 其中 $x_i\in\mathbb{R}^d$ 是输入向量, $y_i\in\mathbb{R}$ 是输出. 对候选集 $f\in\mathbb{F}$, 定义损失函数
+                            $$
+                            l\left(f\right) = \sum_{i=1}^{n}\left(f\left(x_i\right)-y_i\right)^2,
+                            $$
+                            于是目标函数为 $f^* = \mathrm{arg}\min\limits
+                            _{f\in\mathbb{F}}l\left(f\right)$.
+                            \par
+                            我们采用了一种线性方法, 设目标函数为候选集全体成员的线性表出 $f\left(x, \theta\right)=\sum\limits_{h_j\in\mathbb{F}}\theta_jh_j\left(x\right)$, 将损失函数求梯度得到方程组,
+                            $$
+                            \scalebox{0.8}{$\left( \begin{array}{c}
+                                y_1\\
+                                \vdots\\
+                                y_n\\
+                            \end{array} \right) =\left( \begin{matrix}
+                                1&		f_1\left( x_1 \right)&		\cdots&		f_k\left( x_1 \right)\\
+                                \vdots&		\vdots&		\ddots&		\vdots\\
+                                1&		f_1\left( x_n \right)&		\cdots&		f_k\left( x_n \right)\\
+                            \end{matrix} \right) \left( \begin{array}{c}
+                                \theta _0\\
+                                \vdots\\
+                                \theta _k\\
+                            \end{array} \right),$}
+                            $$
+                            借用矩阵语言, 我们找到了系数的表达式 $\boldsymbol{\theta}=\left(\boldsymbol{U}^\mathrm{T}\boldsymbol{U}\right)^{-1}\boldsymbol{U}^\mathrm{T}\boldsymbol{Y}$.
+                            \par
+                            我们进行了如下实验检验我们的成果: 设拟合目标为 $f\left(x\right)=\sin x^2\cdot\cos x-1$, 库 1 为纯多项式库 $\left\{1, x, x^2, \dots\right\}$, 库 2 额外添加了一些非线性函数 $\sin x, \cos x, \mathrm{e}^x, \mathrm{sigmoid}\left(x\right)$.
+                        }}
+                    }}
+                }
+            }
+        \end{minipage}
+        \hfill
+        \begin{minipage}[t]{0.45\textwidth}
+            \raisebox{40cm}{\scalebox{2}{%
+                % Definition of blocks:
+                \tikzset{%
+                block/.style    = {draw, thick, rectangle, minimum height = 3em,
+                minimum width = 3em},
+                sum/.style      = {draw, circle, node distance = 2cm}, % Adder
+                input/.style    = {coordinate}, % Input
+                output/.style   = {coordinate} % Output
+                }
+                % Defining string as labels of certain blocks.
+                \newcommand{\suma}{\Large$+$}
+                \newcommand{\inte}{$\displaystyle \int$}
+                \newcommand{\derv}{\huge$\frac{d}{dt}$}
+
+                \begin{tikzpicture}[auto, thick, node distance=2cm, >=triangle 45, baseline]
+                    \draw
+                        % Drawing the blocks of first filter :
+                        node at (0,0)[right=-3mm]{\Large \textopenbullet}
+                        node [input, name=input1] {}
+                        node [sum, right of=input1] (suma1) {\suma}
+                        node [block, right of=suma1] (inte1) {\inte}
+                            node at (6.8,0)[block] (Q1) {\Large $Q_1$}
+                            node [block, below of=inte1] (ret1) {\Large$T_1$};
+                        % Joining blocks.
+                        % Commands \draw with options like [->] must be written individually
+                        \draw[->](input1) -- node {$X(Z)$}(suma1);
+                        \draw[->](suma1) -- node {} (inte1);
+                        \draw[->](inte1) -- node {} (Q1);
+                        \draw[->](ret1) -| node[near end]{} (suma1);
+                        % Adder
+                    \draw
+                        node at (5.4,-4) [sum, name=suma2] {\suma}
+                            % Second stage of filter
+                        node at  (1,-6) [sum, name=suma3] {\suma}
+                        node [block, right of=suma3] (inte2) {\inte}
+                        node [sum, right of=inte2] (suma4) {\suma}
+                        node [block, right of=suma4] (inte3) {\inte}
+                        node [block, right of=inte3] (Q2) {\Large$Q_2$}
+                        node at (9,-8) [block, name=ret2] {\Large$T_2$}
+                    ;
+                        % Joining the blocks of second filter
+                        \draw[->] (suma3) -- node {} (inte2);
+                        \draw[->] (inte2) -- node {} (suma4);
+                        \draw[->] (suma4) -- node {} (inte3);
+                        \draw[->] (inte3) -- node {} (Q2);
+                        \draw[->] (ret2) -| (suma3);
+                        \draw[->] (ret2) -| (suma4);
+                            % Third stage of filter:
+                        % Defining nodes:
+                    \draw
+                        node at (11.5, 0) [sum, name=suma5]{\suma}
+                        node [output, right of=suma5]{}
+                        node [block, below of=suma5] (deriv1){\derv}
+                        node [output, right of=suma5] (sal2){}
+                    ;
+                        % Joining the blocks:
+                        \draw[->] (suma2) -| node {}(suma3);
+                        \draw[->] (Q1) -- (8,0) |- node {}(ret1);
+                        \draw[->] (8,0) |- (suma2);
+                        \draw[->] (5.4,0) -- (suma2);
+                        \draw[->] (Q1) -- node {}(suma5);
+                        \draw[->] (deriv1) -- node {}(suma5);
+                        \draw[->] (Q2) -| node {}(deriv1);
+                            \draw[<->] (ret2) -| node {}(deriv1);
+                            \draw[->] (suma5) -- node {$Y(Z)$}(sal2);
+                            % Drawing nodes with \textbullet
+                    \draw
+                        node at (8,0) {\textbullet}
+                        node at (8,-2){\textbullet}
+                        node at (5.4,0){\textbullet}
+                            node at (5,-8){\textbullet}
+                            node at (11.5,-6){\textbullet}
+                            ;
+                        % Boxing and labelling noise shapers
+                        \draw [color=gray,thick](-0.5,-3) rectangle (9,1);
+                        % \node at (-0.5,1) [above=5mm, right=0mm] {\textsc{first-order noise shaper}};
+                        \draw [color=gray,thick](-0.5,-9) rectangle (12.5,-5);
+                        \node at (-0.5,-9) [below=5cm, right=0mm] {\textsc{%
+                            \scalebox{2}{\fbox{\parbox{6cm}{%
+                            我们发现, 使用线性方法，即使函数库包括了原本的目标函数，也会被函数库中的其他函数干扰而无法得到精确结果. 以上实验表明，符号回归问题无法使用线性方法完全解决，因此，本小组认为，在符号回归问题中引入强化学习方法是值得考虑的.
+                            }}}
+                        }};
+                        \vspace{2cm}
+                \end{tikzpicture}
+                }}
+                \scalebox{3}{海报制作: 林海轩\ \calligra Haixuan Lin\calligra xxx}
+        \end{minipage}
+    }
+\end{document}

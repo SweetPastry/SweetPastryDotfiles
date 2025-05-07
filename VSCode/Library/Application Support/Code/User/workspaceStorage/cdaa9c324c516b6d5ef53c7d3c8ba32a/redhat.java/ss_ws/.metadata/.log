@@ -1,0 +1,73 @@
+!SESSION 2025-03-25 22:14:47.383 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_CN
+Framework arguments:  --pipe=/private/var/folders/c5/kj9p5qmd7gndcqhl48t7wf9c0000gn/T/lsp-d64f2eb0a281bb2a03c4f2e18e5ac491.sock
+Command-line arguments:  -data /Users/pastrysweet/Library/Application Support/Code/User/workspaceStorage/cdaa9c324c516b6d5ef53c7d3c8ba32a/redhat.java/ss_ws --pipe=/private/var/folders/c5/kj9p5qmd7gndcqhl48t7wf9c0000gn/T/lsp-d64f2eb0a281bb2a03c4f2e18e5ac491.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-03-25 22:14:48.482
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-03-25 22:14:48.491
+!MESSAGE There is no bundle org.eclipse.buildship.core.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-03-25 22:14:48.492
+!MESSAGE There is no bundle org.eclipse.m2e.core.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-03-25 22:14:48.494
+!MESSAGE ProjectRegistryRefreshJob finished 2ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-03-25 22:14:48.566
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-03-25 22:14:48.587
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-03-25 22:14:48.588
+!MESSAGE Initializing Java Language Server 1.45.0.202502270430
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-03-25 22:14:49.197
+!MESSAGE Setting /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home as 'JavaSE-21' environment (id:net.java.openjdk.jdk)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-03-25 22:14:49.200
+!MESSAGE Setting /opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home as 'JavaSE-23' environment (id:1742912089199)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-03-25 22:14:49.200
+!MESSAGE Setting /Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home as 'JavaSE-11' environment (id:com.amazon.corretto.11)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-03-25 22:14:49.202
+!MESSAGE Setting java.home /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home as default global VM
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-03-25 22:14:49.208
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-03-25 22:14:49.216
+!MESSAGE Workspace initialized in 3ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-03-25 22:14:49.224
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-03-25 22:14:49.228
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-03-25 22:14:49.230
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-03-25 22:14:49.231
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-03-25 22:14:49.233
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-03-25 22:14:49.599
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-03-25 22:14:49.603
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-03-25 22:14:49.627
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-03-25 22:14:49.628
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:

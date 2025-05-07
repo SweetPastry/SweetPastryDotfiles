@@ -1,0 +1,23 @@
+\documentclass[
+    ref = refDemo.bib,
+    % coverpage = coverpage.tex,
+    geometry = b5,
+    % preface = 
+    lang = en,
+]{spBook}
+\spTitle{\texttt{spTitle} Document}
+\spAuthor{Sweet Pastry}
+\date{\today}
+
+\begin{document}
+    \frontmatter
+    \maketitle
+    \tableofcontents
+    \chapter{Preface}
+    \lipsum[1-10]
+
+    \mainmatter
+    \input{chapter1}
+    \input{chapter2}
+    \input{chapter3}
+\end{document}

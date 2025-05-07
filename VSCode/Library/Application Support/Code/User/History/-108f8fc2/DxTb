@@ -1,0 +1,10 @@
+default:
+	xelatex pra2
+	xelatex pra2
+	xelatex pra2
+
+clean:
+	latexmk -c pra2
+
+Clean:
+	latexmk -C pra2

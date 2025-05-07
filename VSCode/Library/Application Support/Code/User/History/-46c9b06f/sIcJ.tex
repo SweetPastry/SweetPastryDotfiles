@@ -1,0 +1,331 @@
+\documentclass[aspectratio=43]{beamer}
+%%
+\usepackage{tikz}
+\usetikzlibrary{backgrounds}
+\usetikzlibrary{arrows,shapes}
+\usetikzlibrary{tikzmark}
+\usetikzlibrary{calc}
+\usepackage{tcolorbox}
+\setlength{\fboxsep}{0pt}
+\newcommand{\hlmath}[2]{\colorbox{#1!70}{$\displaystyle #2$}}
+\newcommand{\hltext}[2]{\colorbox{#1!70}{#2}}
+%%
+\usepackage[english]{babel}
+\usepackage{extarrows}
+% \usepackage{ctex}
+\usepackage{xeCJK}
+\input{preamble}
+\title{\bfseries
+    Rayleigh's Dissipation Function at Work
+}
+\subtitle{
+    Classic Mechanics Term Report
+}
+\author[H.-X. Lin]{\bfseries Hai-Xuan Lin (林海轩)}
+\institute[\textit{
+    Department of Physics, Fudan University
+}]
+{\textit{
+    Department of Physics, Fudan University
+}}
+\date{
+    \today
+}
+\begin{document}
+
+    \frame{\titlepage}
+
+    \begin{frame}{Summary}
+        \tableofcontents
+    \end{frame}
+
+    \section{Introduction}
+    \frame{\sectionpage}
+        \begin{frame}{This Report is Based on Thesis: \cite{Minguzzi2015}}
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.95\textwidth]{ThesisInfo.png}
+            \end{figure}
+        \end{frame}
+
+        \begin{frame}{Raw Lagrange Equation}
+            \uncover<+->{As we all know, in case of potential $V$ is independent with velocity of $\dot{q}$ we have Lagrange Equation}
+            \uncover<+->{
+            \only<1,2>{\begin{equation}
+                \frac{\mathrm{d}}{\mathrm{d}t}\frac{\partial T}{\partial \dot{q}^k}-\frac{\partial T}{\partial q^k}+\frac{\partial V}{\partial q^k}=Q_{k}^{\left( \mathrm{nc} \right)}.
+            \end{equation}}}
+            \only<3>{\begin{equation}
+                \frac{\mathrm{d}}{\mathrm{d}t}\frac{\partial T}{\partial \dot{q}^{\tikzmarknode{k}{\hlmath{red}{k}}}}-\frac{\partial T}{\partial q^k}+\frac{\partial V}{\partial q^k}=Q_{k}^{\left( \mathrm{nc} \right)}.
+            \end{equation}\begin{tikzpicture}[overlay, remember picture, >=stealth, nodes={align=left, inner ysep=2pt}, <-]
+                \path (k.south) ++ (0,-0.8em) node[anchor=north west, color=red!67] (k node){Superscript, not exponent};
+                \draw [color=red!57](k.south) |- ([xshift=+0.3ex, color=red]k node.south east);
+            \end{tikzpicture}}
+            \only<4>{\begin{equation}
+                \frac{\mathrm{d}}{\mathrm{d}t}\frac{\partial T}{\partial \dot{q}^k}-\frac{\partial T}{\partial q^k}+\frac{\partial V}{\partial q^k}=Q_{k}^{\left(\tikzmarknode{nc}{\hlmath{red}{ \mathrm{nc}}} \right)}.
+            \end{equation}\begin{tikzpicture}[overlay, remember picture, >=stealth, nodes={align=left, inner ysep=2pt}, <-]
+                \path (nc.south) ++ (0,-1.8em) node[anchor=north east, color=red!67] (nc node){means non-conservative};
+                \draw [color=red!57](nc.south) |- ([xshift=-0.3ex, color=red]nc node.south west);
+            \end{tikzpicture}}
+        \end{frame}
+
+        \begin{frame}{Rayleigh's Disppative Protential}
+            \uncover<+->{If the non-conservative force linear correlate with velocities, consider particle $a$,}
+
+            \uncover<+->{
+            \only<1, 2>{\begin{equation}
+                F_{ai}=-K_{i j}v_{a}^{\tikzmarknode{j}{j}},
+            \end{equation}}}
+
+            \only<3>{\begin{equation}
+                F_{ai}=-K_{i \tikzmarknode{j1}{\hlmath{red}{j}}}v_{a}^{\tikzmarknode{j2}{\hlmath{red}{j}}},
+            \end{equation}\begin{tikzpicture}[overlay,remember picture,>=stealth,nodes={align=left,inner ysep=1pt},<-]
+            \node[anchor=north,color=red!67, yshift=-2em] (jtext) at ($(j1.south)!0.5!(j2.south)$) {Einstein Summation Convention};
+            \draw[<->,color=red!57] (j1.south) |- (jtext.north) -| (j2.south);
+            \end{tikzpicture}}
+
+            \only<4, 5, 6, 7, 8>{\begin{equation}
+                F_{ai}=-K_{i j}v_{a}^{\tikzmarknode{j}{j}},
+            \end{equation}
+
+            \uncover<5, 6, 7, 8>{and define Rayleigh disspative potential}\uncover<6, 7, 8>{
+            \begin{equation}
+                R=\frac{1}{2}\sum_a{K_{ij}v_{a}^{i}v_{a}^{j}}.
+            \end{equation}}}
+
+            \uncover<7, 8>{We can verify that}
+
+            \uncover<8>{
+                \begin{equation}
+                    Q_{k}^{\left( \mathrm{nc} \right)}=-\sum_a{\nabla _{\mathbf{v}_a}R\frac{\partial \mathbf{v}_a}{\partial \dot{q}^k}+Q_{k}^{\left( \mathrm{nc}^{\prime} \right)}}=-\frac{\partial R}{\partial \dot{q}^k}+Q_{k}^{\left( \mathrm{nc}^{\prime} \right)}.
+                \end{equation}
+            }
+        \end{frame}
+
+        \begin{frame}{Lagrange-Rayleigh Equation}
+            \only<1>{\begin{equation}
+                \frac{\mathrm{d}}{\mathrm{d}t} \frac{\partial T}{\partial \dot{q}^k}-\frac{\partial T}{\partial q^k}+\frac{\partial V}{\partial q^k}=-\frac{\partial R}{\partial \dot{q}^k}+Q_{k}^{\left( \mathrm{nc'} \right)}.\label{LReq}
+            \end{equation}}
+
+            \only<2>{\begin{equation}
+                \frac{\mathrm{d}}{\mathrm{d}t} \frac{\partial T}{\partial \dot{q}^k}-\frac{\partial T}{\partial q^k}+\frac{\partial V}{\partial q^k}=-\frac{\partial \tikzmarknode{R}{\hlmath{red}{R}}}{\partial \dot{q}^k}+Q_{k}^{\left( \mathrm{nc'} \right)}.
+            \end{equation}\begin{tikzpicture}[overlay, remember picture, >=stealth, nodes={align=left, inner ysep=2pt}, <-]
+                \path (R.south) ++ (0,-2.0em) node[anchor=north east, color=red!67] (R node){Rayleigh Dissipation Protential};
+                \draw [color=red!57](R.south) |- ([xshift=-0.3ex, color=red]R node.south west);
+            \end{tikzpicture}}
+
+            \only<3>{\begin{equation}
+                \frac{\mathrm{d}}{\mathrm{d}t} \frac{\partial T}{\partial \dot{q}^k}-\frac{\partial T}{\partial q^k}+\frac{\partial V}{\partial q^k}=-\frac{\partial R}{\partial \dot{q}^k}+Q_{k}^{\left( \tikzmarknode{nc}{\hlmath{red}{\mathrm{nc'}}}  \right)}.
+            \end{equation}\begin{tikzpicture}[overlay, remember picture, >=stealth, nodes={align=left, inner ysep=2pt}, <-]
+                \path (nc.south) ++ (0,-2.0em) node[anchor=north east, color=red!67] (nc node){non-conservative force except Rayleigh Linear Force};
+                \draw [color=red!57](nc.south) |- ([xshift=-0.3ex, color=red]nc node.south west);
+            \end{tikzpicture}}
+        \end{frame}
+
+        \begin{frame}{What did this paper do?}
+            \uncover<+->{The Rayleigh Protential is only suitable for linear friction force.}
+
+            \vspace{\baselineskip}
+
+            \uncover<+->{This paper promote Rayleigh Protential to general case when consider contact friction.}
+        \end{frame}
+
+    \section{Generalized Friction Protential}
+    \frame{\sectionpage}
+
+    \subsection{Derivation Process}
+    \frame{\subsectionpage}
+    \begin{frame}{Generalized Rayleigh Protential}
+        \uncover<+->{Surfaces contact friction can be write as}
+
+        \uncover<+->{\begin{equation}
+            \mathbf{F}=-N\mu \left( v \right) \hat{\mathbf{v}},
+        \end{equation}}     
+
+        \vspace{-0.8\baselineskip}
+
+        \uncover<+->{\only<1, 2, 3>{and let $\mathbf{v}_{a}^{\left( \mathrm{r} \right)}=\mathbf{v}_a-\mathbf{v}_b$. Here we allow the 2 surfaces move respectively, with consistent the same normal.}
+        \only<4>{and let $\mathbf{v}_{a}^{\left( \mathrm{r} \right)}=\mathbf{v}_{\tikzmarknode{a}{\hlmath{red}{a}}}-\mathbf{v}_b$. Here we allow the 2 surfaces move respectively, with consistent the same normal.\begin{tikzpicture}[overlay, remember picture, >=stealth, nodes={align=left, inner ysep=2pt}, <-]
+        \path (a.south) ++ (0,-2.0em) node[anchor=north west, color=red!67] (a node){Denote $S_1$ is the surface we concern and \\ $a$ is a point above it};
+        \draw [color=red!57](a.south) |- ([xshift=+0.3ex, color=red]a node.south east);
+        \end{tikzpicture}}
+        \only<5>{and let $\mathbf{v}_{a}^{\left( \mathrm{r} \right)}=\mathbf{v}_a-\mathbf{v}_{\tikzmarknode{b}{\hlmath{red}{b}}}$. Here we allow the 2 surfaces move respectively, with consistent the same normal.\begin{tikzpicture}[overlay, remember picture, >=stealth, nodes={align=left, inner ysep=2pt}, <-]
+            \path (b.south) ++ (0,-2.0em) node[anchor=north west, color=red!67] (b node){Denote $S_2$ is reference surface \\ and $b$ is the contact point with $a$};
+            \draw [color=red!57](b.south) |- ([xshift=+0.3ex, color=red]b node.south east);
+        \end{tikzpicture}}
+        }
+    \end{frame}
+
+    \begin{frame}{Generalized Rayleigh Protential}
+        \uncover<+->{
+            So the tiny friction of point $a$ is
+        }\uncover<+->{\begin{equation}
+            \mathbf{F}_{a}^{\left( \mathrm{nc} \right)}=-p_a\Delta A\mu \left( v_{a}^{\left( \mathrm{r} \right)} \right) {\hat{\mathbf{v}}_a}^{\left( \mathrm{r} \right)}.
+        \end{equation}}
+
+        \uncover<+->{\begin{theorem}
+            \uncover<+->{If we define $R$ as}
+            \uncover<+->{\begin{equation}
+                R=\Delta A\sum_a{p_a \int^{v_{a}^{\left( \mathrm{r} \right)}} {\hspace{-0.8em}\mu \mathrm{d}v}},
+            \end{equation}}
+            \uncover<+->{so that indeed}
+            \uncover<+->{\begin{equation}
+                -\nabla _{\mathbf{v}_a}R=-\frac{\partial R}{\partial v_{a}^{\left( \mathrm{r} \right)}}\nabla _{\mathbf{v}_a}v_{a}^{\left( \mathrm{r} \right)}=-\Delta Ap_a\mu \left( v_{a}^{\left( \mathrm{r} \right)} \right) \hat{\mathbf{v}}_{a}^{\left( \mathrm{r} \right)}=\mathbf{F}_{a}^{\left( \mathrm{nc} \right)}.
+            \end{equation}}
+        \end{theorem}}
+    \end{frame}
+
+    \begin{frame}{Generalized Rayleigh Protential}
+        \addtocounter{framenumber}{-1}
+
+        So the tiny friction of point $a$ is
+        \begin{equation}
+        \mathbf{F}_{a}^{\left( \mathrm{nc} \right)}=-p_a\Delta A\mu \left( v_{a}^{\left( \mathrm{r} \right)} \right) {\hat{\mathbf{v}}_a}^{\left( \mathrm{r} \right)}.
+        \end{equation}
+
+        \begin{theorem}
+            If we define $R$ as
+            \begin{equation}
+              \tikzmarknode{R}{\hlmath{red}{R=\Delta A\sum_a{p_a \int^{v_{a}^{\left( \mathrm{r} \right)}} {\hspace{-0.8em}\mu \mathrm{d}v}}}}  ,
+            \end{equation}
+            \begin{tikzpicture}[overlay, remember picture, >=stealth, nodes={align=left, inner ysep=2pt}, <-]
+                \path (R.south) ++ (0,-0.8em) node[anchor=north west, color=red!67] (R node){Generalized Rayleigh Protential};
+                \draw [color=red!57](R.south) |- ([xshift=+0.3ex, color=red]R node.south east);
+            \end{tikzpicture}
+            so that indeed
+            \begin{equation}
+                -\nabla _{\mathbf{v}_a}R=-\frac{\partial R}{\partial v_{a}^{\left( \mathrm{r} \right)}}\nabla _{\mathbf{v}_a}v_{a}^{\left( \mathrm{r} \right)}=-\Delta Ap_a\mu \left( v_{a}^{\left( \mathrm{r} \right)} \right) \hat{\mathbf{v}}_{a}^{\left( \mathrm{r} \right)}=\mathbf{F}_{a}^{\left( \mathrm{nc} \right)}.
+            \end{equation}
+        \end{theorem}
+    \end{frame}
+
+    \begin{frame}{Generalized Rayleigh Protential}
+        \uncover<+->{\begin{corollary}
+            Let $a$ to be infinitely tiny as well as $\Delta A\to \mathrm{d}A$,
+        \uncover<+->{\begin{equation}
+            R=\int_{S_1}{\mathrm{d}Ap\left( x \right) \int_{\,\,}^{v^{\left( \mathrm{r} \right)}\left( x \right)}{\hspace{-1.2em}\mu \mathrm{d}v}}.\label{CalR}
+        \end{equation}}
+        \end{corollary}}
+    \end{frame}
+
+    \subsection{Application}
+    \frame{\subsectionpage}
+
+    \begin{frame}{A Rotating Disk}
+        \uncover<+->{\begin{example}
+            \uncover<+->{A disk of mass $m$ and radius $r$ placed on horizontal surface of friction coefficient $\mu$.} \uncover<+->{At time $t=0$ disk has angular velocity $\omega$ about its center and zero translational velocity. Find out at which time $\tau$ it will stop.}
+        \end{example}}
+        \uncover<+->{\begin{solution}
+            \uncover<+->{The Generalized Rayleigh Protential can be written according to formula \eqref{CalR},}\uncover<+->{\begin{equation}
+                R=\int_{S_1}{\mathrm{d}A\frac{mg}{\pi r^2}}\int_{\,\,}^{\rho \dot{\varphi}}{\mu \mathrm{d}v}=\frac{\mu mg}{\pi r^2}\int_{S_1}{\mathrm{d}A}\int_{\,\,}^{\rho \dot{\varphi}}{\mu \mathrm{d}v}=\frac{2}{3}\mu mgR\dot{\varphi}.
+            \end{equation}}
+        \end{solution}}
+    \end{frame}
+
+    \begin{frame}
+        \uncover<+->{\begin{block}{}
+        \uncover<+->{And the Lagrangian $L=T=\frac{1}{4}mr^2\dot{\varphi}^2$. Take them into Lagrange-Rayleigh equation \eqref{LReq},} \uncover<+->{\begin{equation}
+            \frac{\mathrm{d}}{\mathrm{d}t}\left( \frac{1}{2}mr^2\dot{\varphi} \right) =-\frac{2}{3}\mu mgR.
+        \end{equation}}
+        \uncover<+->{
+            Thus $\ddot{\varphi}=-\frac{4}{3}\frac{\mu g}{r}$, and
+        }\uncover<+->{\begin{equation*}
+            \tau =\frac{3\omega R}{4\mu g}.
+        \end{equation*}}
+    \end{block}}
+    \end{frame}
+
+    \frame{\centering\Large How about more complex case?}
+
+    \begin{frame}{A Rotating Disk}
+        \uncover<+->{\begin{lemma}{\uncover<+->{(Reye's Hypothesis)}}
+            \uncover<+->{If the system exhibits point-by-point identical wear on contact surface, the $\mu$ satisfied}\uncover<+->{
+            \begin{equation}
+                \mathrm{d}N=\frac{k}{v^{\left( \mathrm{r} \right)}\left( x \right)}\mathrm{d}A,
+            \end{equation}}\uncover<+->{the $k$ is a coefficient satisfing the normalization condition.}
+        \end{lemma}}
+    \end{frame}
+
+    \begin{frame}{A Rotating Disk}
+        \uncover<+->{
+            \begin{example}
+                \uncover<+->{
+                    Find out $\tau$ under Reye's Hypothesis.
+                }
+            \end{example}
+        }
+
+        \uncover<+->{
+            \begin{solution}
+                \uncover<+->{
+                    Using formula \eqref{CalR} again, \uncover<+->{
+                        \begin{align}
+                            R&=\int_{S_1}{\mathrm{d}Ap\left( x \right) \int_{\,\,}^{\rho \dot{\varphi}}{\mu \mathrm{d}v}}\nonumber
+                            \\
+                            &=\mu \int_{S_1}{\mathrm{d}Ap\left( x \right)}\int_{\,\,}^{\rho \dot{\varphi}}{\mathrm{d}v}\nonumber
+                        \end{align}
+                    }
+                }
+            \end{solution}
+        }
+    \end{frame}
+
+    \begin{frame}
+    	\uncover<+->{
+            \begin{block}{}
+                \begin{align}
+                    &\uncover<+->{=\mu \int_{S_1}{\mathrm{d}N}\rho \dot{\varphi}\nonumber}
+                    \\
+                    &\uncover<+->{=\mu k\int_{S_1}{\frac{\mathrm{d}A}{\rho \dot{\varphi}}}\rho \dot{\varphi},\qquad \left( \int_D{\mathrm{d}N}=k\int_D{\frac{1}{v^{\left( \mathrm{r} \right)}}\mathrm{d}A}=mg \right) \nonumber}
+                    \\
+                    &\uncover<0>{=\mu mg\left[ \int_D{\frac{1}{\rho \dot{\varphi}}\rho \mathrm{d}\rho \mathrm{d}\varphi} \right] ^{-1}\int_D{\mathrm{d}A}=\frac{1}{2}\mu mgr\dot{\varphi}\nonumber}
+                \end{align}
+            \end{block}}
+    \end{frame}
+    
+    \addtocounter{framenumber}{-1}
+    \begin{frame}
+    	\uncover<+->{
+    		\begin{block}{}
+    			\begin{align}
+    				&{=\mu \int_{S_1}{\mathrm{d}N}\rho \dot{\varphi}\nonumber}
+    				\\
+    				&{\tikzmarknode{Re}{\hlmath{red}{=}}\mu k\int_{S_1}{\frac{\mathrm{d}A}{\rho \dot{\varphi}}}\rho \dot{\varphi},\qquad \left( \int_D{\mathrm{d}N}=k\int_D{\frac{1}{v^{\left( \mathrm{r} \right)}}\mathrm{d}A}=mg \right) \nonumber}
+    				\\
+    				&\uncover<+->{=\mu mg\left[ \int_D{\frac{1}{\rho \dot{\varphi}}\rho \mathrm{d}\rho \mathrm{d}\varphi} \right] ^{-1}\int_D{\mathrm{d}A}=\frac{1}{2}\mu mgr\dot{\varphi}}
+    			\end{align}
+    	\end{block}}
+        \begin{tikzpicture}[overlay, remember picture, >=stealth, nodes={align=left, inner ysep=2pt}, <-]
+            \path (Re.south) ++ (0,-7.0em) node[anchor=north west, color=red!67] (Re node){Reye's Hypothesis};
+            \draw [color=red!57](Re.south) |- ([xshift=+0.3ex, color=red]Re node.south east);
+        \end{tikzpicture}
+    \end{frame}
+    
+	\addtocounter{framenumber}{-1}
+    \begin{frame}
+            \begin{block}{}
+                \begin{align}
+                    &{=\mu \int_{S_1}{\mathrm{d}N}\rho \dot{\varphi}\nonumber}
+                    \\
+                    &{=\mu k\int_{S_1}{\frac{\mathrm{d}A}{\rho \dot{\varphi}}}\rho \dot{\varphi},\qquad \left( \int_D{\mathrm{d}N}=k\int_D{\frac{1}{v^{\left( \mathrm{r} \right)}}\mathrm{d}A}=mg \right) \nonumber}
+                    \\
+                    &{=\mu mg\left[ \int_D{\frac{1}{\rho \dot{\varphi}}\rho \mathrm{d}\rho \mathrm{d}\varphi} \right] ^{-1}\int_D{\mathrm{d}A}=\frac{1}{2}\mu mgr\dot{\varphi}\nonumber}
+                \end{align}
+            \end{block}
+            So $\tau=\frac{\omega r}{\mu g}$, using Lagrange-Rayleigh equation.
+    \end{frame}
+    
+
+
+    \section*{References}
+        \begin{frame}[allowframebreaks]{References}
+            \nocite{*}
+            \printbibliography
+       \end{frame}
+
+    \section{}
+    \begin{frame}{}
+        \centering
+            \Huge\bfseries
+        \textcolor{orange}{The End}
+    \end{frame}
+\end{document}

@@ -1,0 +1,49 @@
+\begin{titlepage}
+	\begin{tikzpicture}[remember picture, overlay, pencildraw/.style={
+		color=octa, thick,
+		decorate,
+		decoration={random steps, segment length=1pt, amplitude=0.7pt}
+	}] 
+		\node[anchor=center] (title) at ([xshift=19em, yshift=-10em] current page.north west)
+		{ \fontsize{45}{45}\texttt{群论学习笔记}};
+
+		\node[anchor=center] (volume) at ([yshift=-7em] title.center) {\fontsize{30}{30}\textbf{DEMO}};
+
+		\node[anchor=west] (author) at ([yshift=-5em, xshift=-4pt] volume.south west) {\fontsize{18}{18}林海轩};
+		\node[anchor=west] at ([xshift=-60pt, yshift=-15pt] author.east) {\fontsize{18}{18}};
+
+		\draw[line width=2pt, color=black!70!gray] ([xshift=-2.5em, yshift=1em] author.north west) -- ++(25em,0);
+		\shade[top color=gray, bottom color=black,] ([xshift=-1em, yshift=1em] title.north west) rectangle ++(-1em,-20em);
+
+		\coordinate (pic) at ([xshift=-23em, yshift=5em] current page.south east);
+		\coordinate (pic2) at ([xshift=3em, yshift=20em] pic);
+
+		\begin{scope}[shift = (pic2), scale=6, opacity=0.55]
+			\tikzstyle{vertex}=[draw,thick,circle,fill=pink!50,minimum size=20pt,inner sep=0pt]
+
+			\draw[draw=red,bottom color=red!50!black, top color=cyan!50] (-1*360/15:1) -- (-4*360/15:1) -- (-7*360/15:1) -- cycle;
+			\draw[draw=green,bottom color=green!50!black, top color=!50] (-6*360/15:1) -- (-9*360/15:1) -- (-12*360/15:1) -- cycle;
+			\draw[draw=blue,bottom color=red!50!black, top color=cyan!50] (-11*360/15:1) -- (-14*360/15:1) -- (-17*360/15:1) -- cycle;
+
+			\draw (-0*360/15:1) node[vertex] (v1) {$\alpha$};
+			\draw (-1*360/15:1) node[vertex] (v1) {$\beta$};
+			\draw (-2*360/15:1) node[vertex] (v1) {$\gamma$};
+			\draw (-3*360/15:1) node[vertex] (v1) {$\delta$};
+			\draw (-4*360/15:1) node[vertex] (v1) {$\epsilon$};
+			\draw (-5*360/15:1) node[vertex] (v1) {$\zeta$};
+			\draw (-6*360/15:1) node[vertex] (v1) {$\eta$};
+			\draw (-7*360/15:1) node[vertex] (v1) {$\theta$};
+			\draw (-8*360/15:1) node[vertex] (v1) {$\iota$};
+			\draw (-9*360/15:1) node[vertex] (v1) {$\kappa$};
+			\draw (-10*360/15:1) node[vertex] (v1) {$\lambda$};
+			\draw (-11*360/15:1) node[vertex] (v1) {$\mu$};
+			\draw (-12*360/15:1) node[vertex] (v1) {$\nu$};
+			\draw (-13*360/15:1) node[vertex] (v1) {$\xi$};
+			\draw (-14*360/15:1) node[vertex] (v1) {$\omega$};
+
+			\draw (-12*360/15:1) node[vertex] (v1) {$\pi$};
+			\draw (-13*360/15:1) node[vertex] (v1) {$\rho$};
+			\draw (-14*360/15:1) node[vertex] (v1) {$\sigma$};
+		\end{scope}	
+	\end{tikzpicture}
+\end{titlepage}

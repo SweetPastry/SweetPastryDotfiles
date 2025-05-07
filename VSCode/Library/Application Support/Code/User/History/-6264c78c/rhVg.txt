@@ -1,0 +1,1029 @@
+pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.264","timestamp":39335.017496,"dataLength":5396,"encodedDataLes
+  pw:protocol ◀ RECV {"method":"Network.requestWillBeSentExtraInfo","params":{"requestId":"50240.267","associatedCookies":[],"headers":{"Accept":s
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.264","timestamp":39335.01775,"dataLength":0,"encodedDataLengths
+  pw:protocol ◀ RECV {"method":"Network.loadingFinished","params":{"requestId":"50240.264","timestamp":39335.017507,"encodedDataLength":5653},"ses
+  pw:protocol ◀ RECV {"method":"Network.webSocketFrameSent","params":{"requestId":"50240.218","timestamp":39335.017811,"response":{"opcode":1,"mas
+  pw:protocol ◀ RECV {"method":"Network.responseReceivedExtraInfo","params":{"requestId":"50240.261","blockedCookies":[],"headers":{"Access-Contrs
+  pw:protocol ◀ RECV {"method":"Network.responseReceived","params":{"requestId":"50240.261","loaderId":"425CF8CC074868AFB5DB9B166F881FD1","timests
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.261","timestamp":39335.019206,"dataLength":3043,"encodedDataLes
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.261","timestamp":39335.019332,"dataLength":0,"encodedDataLengts
+  pw:protocol ◀ RECV {"method":"Network.loadingFinished","params":{"requestId":"50240.261","timestamp":39335.019173,"encodedDataLength":3299},"ses
+  pw:protocol ◀ RECV {"method":"Network.webSocketFrameSent","params":{"requestId":"50240.218","timestamp":39335.019383,"response":{"opcode":1,"mas
+  pw:channel <EVENT {"guid":"ws@ba14df390fd74a6f352f80ae37245063","method":"frameSent","params":{"opcode":1,"data":"{\"type\":\"custom\",\"event\s
+  pw:channel <EVENT {"guid":"ws@ba14df390fd74a6f352f80ae37245063","method":"frameSent","params":{"opcode":1,"data":"{\"type\":\"custom\",\"event\s
+  pw:channel <EVENT {"guid":"ws@ba14df390fd74a6f352f80ae37245063","method":"frameSent","params":{"opcode":1,"data":"{\"type\":\"custom\",\"event\s
+  pw:protocol ◀ RECV {"method":"Network.responseReceivedExtraInfo","params":{"requestId":"50240.262","blockedCookies":[],"headers":{"Access-Contrs
+  pw:protocol ◀ RECV {"method":"Network.responseReceived","params":{"requestId":"50240.262","loaderId":"425CF8CC074868AFB5DB9B166F881FD1","timests
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.262","timestamp":39335.020572,"dataLength":5299,"encodedDataLes
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.262","timestamp":39335.020719,"dataLength":0,"encodedDataLengts
+  pw:protocol ◀ RECV {"method":"Network.loadingFinished","params":{"requestId":"50240.262","timestamp":39335.020535,"encodedDataLength":5556},"ses
+  pw:protocol ◀ RECV {"method":"Network.webSocketFrameSent","params":{"requestId":"50240.218","timestamp":39335.020757,"response":{"opcode":1,"mas
+  pw:protocol ◀ RECV {"method":"Runtime.consoleAPICalled","params":{"type":"debug","args":[{"type":"string","value":"[vite] hot updated: /__uno_ps
+  pw:protocol ◀ RECV {"method":"Runtime.consoleAPICalled","params":{"type":"debug","args":[{"type":"string","value":"[vite] hot updated: /__uno_ts
+  pw:protocol ◀ RECV {"method":"Runtime.consoleAPICalled","params":{"type":"debug","args":[{"type":"string","value":"[vite] hot updated: /__uno_ss
+  pw:protocol ◀ RECV {"method":"Network.responseReceivedExtraInfo","params":{"requestId":"50240.266","blockedCookies":[],"headers":{"Access-Contrs
+  pw:protocol ◀ RECV {"method":"Runtime.consoleAPICalled","params":{"type":"debug","args":[{"type":"string","value":"[vite] hot updated: /__uno.cs
+  pw:protocol ◀ RECV {"method":"Network.responseReceived","params":{"requestId":"50240.266","loaderId":"425CF8CC074868AFB5DB9B166F881FD1","timests
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.266","timestamp":39335.020946,"dataLength":318,"encodedDataLens
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.266","timestamp":39335.021055,"dataLength":0,"encodedDataLengts
+  vite:load 3.12ms [fs] ../../../../../opt/homebrew/lib/node_modules/@slidev/cli/node_modules/@drauu/core/dist/index.mjs?v=de154867 +4ms
+  vite:import-analysis 0.26ms [no imports] /opt/homebrew/lib/node_modules/@slidev/cli/node_modules/@drauu/core/dist/index.mjs?v=de154867 +4ms
+  vite:transform 0.50ms ../../../../../opt/homebrew/lib/node_modules/@slidev/cli/node_modules/@drauu/core/dist/index.mjs?v=de154867 +4ms
+  vite:time 4.40ms ../../../../../opt/homebrew/lib/node_modules/@slidev/cli/node_modules/@drauu/core/dist/index.mjs?v=de154867 +6ms
+  pw:channel <EVENT {"guid":"ws@ba14df390fd74a6f352f80ae37245063","method":"frameSent","params":{"opcode":1,"data":"{\"type\":\"custom\",\"event\s
+  pw:protocol ◀ RECV {"method":"Network.loadingFinished","params":{"requestId":"50240.266","timestamp":39335.020917,"encodedDataLength":572},"sess
+  pw:protocol ◀ RECV {"method":"Network.responseReceivedExtraInfo","params":{"requestId":"50240.265","blockedCookies":[],"headers":{"Access-Contrs
+  pw:protocol ◀ RECV {"method":"Network.responseReceived","params":{"requestId":"50240.265","loaderId":"425CF8CC074868AFB5DB9B166F881FD1","timests
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.265","timestamp":39335.022296,"dataLength":1849,"encodedDataLes
+  pw:protocol ◀ RECV {"method":"Network.loadingFinished","params":{"requestId":"50240.265","timestamp":39335.022294,"encodedDataLength":2105},"ses
+  pw:protocol ◀ RECV {"method":"Network.policyUpdated","params":{},"sessionId":"2B7EB1871B5E4654FD65220FC791AF38"} +0ms
+  pw:protocol ◀ RECV {"method":"Page.frameAttached","params":{"frameId":"24BC4F33DF34EFE58BF012DFB0D699C3","parentFrameId":"30C5598E60B73D2B6CE0Cs
+  pw:browser [pid=50234][err] [0914/205600.941421:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +9s
+  pw:browser [pid=50234][err] [0914/205600.944477:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +0s
+  pw:channel <EVENT {"guid":"page@4579541b9a5038ca7db88623f5a74019","method":"__create__","params":{"type":"Frame","initializer":{"url":"","name"s
+  pw:channel <EVENT {"guid":"page@4579541b9a5038ca7db88623f5a74019","method":"frameAttached","params":{"frame":{"guid":"frame@e7d69c274e95c6b842ds
+  pw:protocol ◀ RECV {"method":"Page.lifecycleEvent","params":{"frameId":"24BC4F33DF34EFE58BF012DFB0D699C3","loaderId":"BC5B50C3484B13207CE19CE7As
+  pw:protocol ◀ RECV {"method":"Page.frameRequestedNavigation","params":{"frameId":"24BC4F33DF34EFE58BF012DFB0D699C3","reason":"initialFrameNavigs
+  pw:protocol ◀ RECV {"method":"Page.frameStartedLoading","params":{"frameId":"24BC4F33DF34EFE58BF012DFB0D699C3"},"sessionId":"2B7EB1871B5E4654FDs
+  pw:protocol ◀ RECV {"method":"Network.requestWillBeSent","params":{"requestId":"06D23945411ECD9B2C488B3358770C4D","loaderId":"06D23945411ECD9B2s
+  pw:protocol ◀ RECV {"method":"Network.requestWillBeSentExtraInfo","params":{"requestId":"06D23945411ECD9B2C488B3358770C4D","associatedCookies":s
+  pw:browser [pid=50234][err] [0914/205600.945771:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:channel <EVENT {"guid":"page@4579541b9a5038ca7db88623f5a74019","method":"__create__","params":{"type":"Request","initializer":{"frame":{"guis
+  pw:channel <EVENT {"guid":"browser-context@749b5143f39cf3129570de88184cfe90","method":"request","params":{"request":{"guid":"request@500805403ds
+  pw:protocol ◀ RECV {"method":"Network.responseReceivedExtraInfo","params":{"requestId":"50240.253","blockedCookies":[],"headers":{"Access-Contrs
+  pw:protocol ◀ RECV {"method":"Network.responseReceivedExtraInfo","params":{"requestId":"06D23945411ECD9B2C488B3358770C4D","blockedCookies":[],"s
+  pw:protocol ◀ RECV {"method":"Network.responseReceived","params":{"requestId":"06D23945411ECD9B2C488B3358770C4D","loaderId":"06D23945411ECD9B2Cs
+  pw:protocol ◀ RECV {"method":"Network.responseReceivedExtraInfo","params":{"requestId":"50240.267","blockedCookies":[],"headers":{"Access-Contrs
+  pw:protocol ◀ RECV {"method":"Network.requestWillBeSent","params":{"requestId":"50240.268","loaderId":"425CF8CC074868AFB5DB9B166F881FD1","docums
+  pw:protocol ◀ RECV {"method":"Network.requestServedFromCache","params":{"requestId":"50240.268"},"sessionId":"2B7EB1871B5E4654FD65220FC791AF38"s
+  pw:protocol ◀ RECV {"method":"Network.responseReceived","params":{"requestId":"50240.268","loaderId":"425CF8CC074868AFB5DB9B166F881FD1","timests
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.268","timestamp":39335.028813,"dataLength":380,"encodedDataLens
+  pw:protocol ◀ RECV {"method":"Network.loadingFinished","params":{"requestId":"50240.268","timestamp":39335.028814,"encodedDataLength":0},"sessis
+  pw:channel <EVENT {"guid":"request@500805403da37205d9f457216e280388","method":"__create__","params":{"type":"Response","initializer":{"request"s
+  pw:channel <EVENT {"guid":"browser-context@749b5143f39cf3129570de88184cfe90","method":"response","params":{"response":{"guid":"response@85d95c2s
+  pw:protocol ◀ RECV {"method":"Network.requestWillBeSent","params":{"requestId":"50240.211","loaderId":"425CF8CC074868AFB5DB9B166F881FD1","docums
+  pw:protocol ◀ RECV {"method":"Network.requestWillBeSent","params":{"requestId":"50240.269","loaderId":"425CF8CC074868AFB5DB9B166F881FD1","docums
+  pw:protocol ◀ RECV {"method":"Network.responseReceived","params":{"requestId":"50240.253","loaderId":"425CF8CC074868AFB5DB9B166F881FD1","timests
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.253","timestamp":39335.040254,"dataLength":3317,"encodedDataLes
+  pw:protocol ◀ RECV {"method":"Network.requestWillBeSentExtraInfo","params":{"requestId":"50240.269","associatedCookies":[],"headers":{"Accept":s
+  pw:protocol ◀ RECV {"method":"Page.lifecycleEvent","params":{"frameId":"24BC4F33DF34EFE58BF012DFB0D699C3","loaderId":"06D23945411ECD9B2C488B335s
+  pw:protocol ◀ RECV {"method":"Page.frameNavigated","params":{"frame":{"id":"24BC4F33DF34EFE58BF012DFB0D699C3","parentId":"30C5598E60B73D2B6CE0Cs
+  pw:api   navigated to "http://localhost:12445/manimslidedemo.html" +71ms
+  pw:protocol ◀ RECV {"method":"Network.policyUpdated","params":{},"sessionId":"2B7EB1871B5E4654FD65220FC791AF38"} +0ms
+  pw:protocol ◀ RECV {"method":"Runtime.executionContextCreated","params":{"context":{"id":5,"origin":"http://localhost:12445","name":"","uniqueIs
+  pw:protocol ◀ RECV {"method":"Runtime.executionContextCreated","params":{"context":{"id":6,"origin":"","name":"__playwright_utility_world__","us
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"06D23945411ECD9B2C488B3358770C4D","timestamp":39335.041867,"dataLengs
+  pw:protocol ◀ RECV {"method":"Network.requestWillBeSent","params":{"requestId":"50240.271","loaderId":"06D23945411ECD9B2C488B3358770C4D","docums
+  pw:channel <EVENT {"guid":"frame@e7d69c274e95c6b842d98d15b99df4bb","method":"loadstate","params":{"remove":"commit"}} +0ms
+  pw:channel <EVENT {"guid":"frame@e7d69c274e95c6b842d98d15b99df4bb","method":"loadstate","params":{"add":"commit"}} +0ms
+  pw:channel <EVENT {"guid":"frame@e7d69c274e95c6b842d98d15b99df4bb","method":"navigated","params":{"url":"http://localhost:12445/manimslidedemo.s
+  pw:protocol ◀ RECV {"method":"Network.requestWillBeSent","params":{"requestId":"50240.272","loaderId":"06D23945411ECD9B2C488B3358770C4D","docums
+  pw:protocol ◀ RECV {"method":"Network.requestWillBeSent","params":{"requestId":"50240.273","loaderId":"06D23945411ECD9B2C488B3358770C4D","docums
+  pw:protocol ◀ RECV {"method":"Network.requestWillBeSent","params":{"requestId":"50240.274","loaderId":"06D23945411ECD9B2C488B3358770C4D","docums
+  pw:protocol ◀ RECV {"method":"Network.responseReceived","params":{"requestId":"50240.267","loaderId":"425CF8CC074868AFB5DB9B166F881FD1","timests
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.267","timestamp":39335.042609,"dataLength":4822,"encodedDataLes
+  pw:protocol ◀ RECV {"method":"Network.responseReceivedExtraInfo","params":{"requestId":"50240.269","blockedCookies":[],"headers":{"Accept-Ranges
+  pw:protocol ◀ RECV {"method":"Network.requestWillBeSent","params":{"requestId":"50240.275","loaderId":"425CF8CC074868AFB5DB9B166F881FD1","docums
+  pw:protocol ◀ RECV {"method":"Network.requestServedFromCache","params":{"requestId":"50240.275"},"sessionId":"2B7EB1871B5E4654FD65220FC791AF38"s
+  pw:protocol ◀ RECV {"method":"Network.responseReceived","params":{"requestId":"50240.275","loaderId":"425CF8CC074868AFB5DB9B166F881FD1","timests
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.275","timestamp":39335.043741,"dataLength":547,"encodedDataLens
+  pw:protocol ◀ RECV {"method":"Network.loadingFinished","params":{"requestId":"50240.275","timestamp":39335.043742,"encodedDataLength":0},"sessis
+  pw:protocol ◀ RECV {"method":"Network.requestWillBeSent","params":{"requestId":"50240.276","loaderId":"425CF8CC074868AFB5DB9B166F881FD1","docums
+  pw:protocol ◀ RECV {"method":"Network.requestServedFromCache","params":{"requestId":"50240.276"},"sessionId":"2B7EB1871B5E4654FD65220FC791AF38"s
+  pw:protocol ◀ RECV {"method":"Network.responseReceived","params":{"requestId":"50240.276","loaderId":"425CF8CC074868AFB5DB9B166F881FD1","timests
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.276","timestamp":39335.044415,"dataLength":552,"encodedDataLens
+  pw:protocol ◀ RECV {"method":"Network.loadingFinished","params":{"requestId":"50240.276","timestamp":39335.044416,"encodedDataLength":0},"sessis
+  pw:protocol ◀ RECV {"method":"Network.requestWillBeSent","params":{"requestId":"50240.277","loaderId":"425CF8CC074868AFB5DB9B166F881FD1","docums
+  pw:protocol ◀ RECV {"method":"Network.requestServedFromCache","params":{"requestId":"50240.277"},"sessionId":"2B7EB1871B5E4654FD65220FC791AF38"s
+  pw:protocol ◀ RECV {"method":"Network.responseReceived","params":{"requestId":"50240.277","loaderId":"425CF8CC074868AFB5DB9B166F881FD1","timests
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.277","timestamp":39335.044972,"dataLength":177,"encodedDataLens
+  pw:protocol ◀ RECV {"method":"Network.loadingFinished","params":{"requestId":"50240.277","timestamp":39335.044973,"encodedDataLength":0},"sessis
+  pw:protocol ◀ RECV {"method":"Network.requestWillBeSent","params":{"requestId":"50240.278","loaderId":"425CF8CC074868AFB5DB9B166F881FD1","docums
+  pw:protocol ◀ RECV {"method":"Network.requestServedFromCache","params":{"requestId":"50240.278"},"sessionId":"2B7EB1871B5E4654FD65220FC791AF38"s
+  pw:protocol ◀ RECV {"method":"Network.responseReceived","params":{"requestId":"50240.278","loaderId":"425CF8CC074868AFB5DB9B166F881FD1","timests
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.278","timestamp":39335.045444,"dataLength":351,"encodedDataLens
+  pw:protocol ◀ RECV {"method":"Network.loadingFinished","params":{"requestId":"50240.278","timestamp":39335.045445,"encodedDataLength":0},"sessis
+  pw:protocol ◀ RECV {"method":"Network.requestWillBeSent","params":{"requestId":"50240.279","loaderId":"425CF8CC074868AFB5DB9B166F881FD1","docums
+  pw:protocol ◀ RECV {"method":"Network.requestServedFromCache","params":{"requestId":"50240.279"},"sessionId":"2B7EB1871B5E4654FD65220FC791AF38"s
+  pw:protocol ◀ RECV {"method":"Network.responseReceived","params":{"requestId":"50240.279","loaderId":"425CF8CC074868AFB5DB9B166F881FD1","timests
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.279","timestamp":39335.045787,"dataLength":242,"encodedDataLens
+  pw:protocol ◀ RECV {"method":"Network.loadingFinished","params":{"requestId":"50240.279","timestamp":39335.045788,"encodedDataLength":0},"sessis
+  pw:protocol ◀ RECV {"method":"Network.responseReceived","params":{"requestId":"50240.269","loaderId":"425CF8CC074868AFB5DB9B166F881FD1","timests
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.269","timestamp":39335.049659,"dataLength":14280,"encodedDataLs
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.269","timestamp":39335.049741,"dataLength":0,"encodedDataLengts
+  pw:protocol ◀ RECV {"method":"Network.loadingFinished","params":{"requestId":"50240.269","timestamp":39335.047501,"encodedDataLength":14636},"ss
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.253","timestamp":39335.050008,"dataLength":0,"encodedDataLengts
+  pw:protocol ◀ RECV {"method":"Network.loadingFinished","params":{"requestId":"50240.253","timestamp":39335.034373,"encodedDataLength":3573},"ses
+  pw:protocol ◀ RECV {"method":"Network.webSocketFrameReceived","params":{"requestId":"50240.218","timestamp":39335.050052,"response":{"opcode":1s
+  pw:protocol ◀ RECV {"method":"Network.requestWillBeSent","params":{"requestId":"50240.280","loaderId":"425CF8CC074868AFB5DB9B166F881FD1","docums
+  pw:protocol ◀ RECV {"method":"Network.requestWillBeSent","params":{"requestId":"50240.281","loaderId":"425CF8CC074868AFB5DB9B166F881FD1","docums
+  pw:protocol ◀ RECV {"method":"Network.requestWillBeSent","params":{"requestId":"50240.282","loaderId":"425CF8CC074868AFB5DB9B166F881FD1","docums
+  pw:protocol ◀ RECV {"method":"Network.requestWillBeSent","params":{"requestId":"50240.283","loaderId":"425CF8CC074868AFB5DB9B166F881FD1","docums
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.267","timestamp":39335.051123,"dataLength":0,"encodedDataLengts
+  pw:channel <EVENT {"guid":"ws@ba14df390fd74a6f352f80ae37245063","method":"frameReceived","params":{"opcode":1,"data":"{\"type\":\"update\",\"ups
+  pw:protocol ◀ RECV {"method":"Network.loadingFinished","params":{"requestId":"50240.267","timestamp":39335.036217,"encodedDataLength":5078},"ses
+  pw:protocol ◀ RECV {"method":"Network.requestWillBeSentExtraInfo","params":{"requestId":"50240.280","associatedCookies":[],"headers":{"Accept":s
+  pw:protocol ◀ RECV {"method":"Network.requestWillBeSent","params":{"requestId":"50240.288","loaderId":"425CF8CC074868AFB5DB9B166F881FD1","docums
+  pw:protocol ◀ RECV {"method":"Network.loadingFinished","params":{"requestId":"06D23945411ECD9B2C488B3358770C4D","timestamp":39335.034807,"encods
+  pw:protocol ◀ RECV {"method":"Network.requestWillBeSent","params":{"requestId":"50240.289","loaderId":"425CF8CC074868AFB5DB9B166F881FD1","docums
+  pw:protocol ◀ RECV {"method":"Network.requestWillBeSentExtraInfo","params":{"requestId":"50240.281","associatedCookies":[],"headers":{"Accept":s
+  pw:protocol ◀ RECV {"method":"Network.requestWillBeSentExtraInfo","params":{"requestId":"50240.282","associatedCookies":[],"headers":{"Accept":s
+  pw:protocol ◀ RECV {"method":"Network.requestWillBeSentExtraInfo","params":{"requestId":"50240.283","associatedCookies":[],"headers":{"Accept":s
+  pw:protocol ◀ RECV {"method":"Network.requestWillBeSentExtraInfo","params":{"requestId":"50240.288","associatedCookies":[],"headers":{"Accept":s
+  pw:channel <EVENT {"guid":"browser-context@749b5143f39cf3129570de88184cfe90","method":"requestFinished","params":{"request":{"guid":"request@50s
+  pw:protocol ◀ RECV {"method":"Network.requestWillBeSentExtraInfo","params":{"requestId":"50240.289","associatedCookies":[],"headers":{"Accept":s
+  pw:protocol ◀ RECV {"method":"Network.responseReceivedExtraInfo","params":{"requestId":"50240.280","blockedCookies":[],"headers":{"Access-Contrs
+  pw:protocol ◀ RECV {"method":"Network.responseReceived","params":{"requestId":"50240.280","loaderId":"425CF8CC074868AFB5DB9B166F881FD1","timests
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.280","timestamp":39335.056508,"dataLength":3043,"encodedDataLes
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.280","timestamp":39335.056868,"dataLength":0,"encodedDataLengts
+  pw:protocol ◀ RECV {"method":"Network.loadingFinished","params":{"requestId":"50240.280","timestamp":39335.05655,"encodedDataLength":3299},"sess
+  pw:protocol ◀ RECV {"method":"Network.webSocketFrameSent","params":{"requestId":"50240.218","timestamp":39335.056972,"response":{"opcode":1,"mas
+  pw:protocol ◀ RECV {"method":"Network.responseReceivedExtraInfo","params":{"requestId":"50240.281","blockedCookies":[],"headers":{"Access-Contrs
+  pw:protocol ◀ RECV {"method":"Network.responseReceived","params":{"requestId":"50240.281","loaderId":"425CF8CC074868AFB5DB9B166F881FD1","timests
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.281","timestamp":39335.060279,"dataLength":5299,"encodedDataLes
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.281","timestamp":39335.060579,"dataLength":0,"encodedDataLengts
+  pw:protocol ◀ RECV {"method":"Network.loadingFinished","params":{"requestId":"50240.281","timestamp":39335.060282,"encodedDataLength":5556},"ses
+  pw:protocol ◀ RECV {"method":"Network.webSocketFrameSent","params":{"requestId":"50240.218","timestamp":39335.060675,"response":{"opcode":1,"mas
+  pw:protocol ◀ RECV {"method":"Network.responseReceivedExtraInfo","params":{"requestId":"50240.282","blockedCookies":[],"headers":{"Access-Contrs
+  pw:channel <EVENT {"guid":"ws@ba14df390fd74a6f352f80ae37245063","method":"frameSent","params":{"opcode":1,"data":"{\"type\":\"custom\",\"event\s
+  pw:channel <EVENT {"guid":"ws@ba14df390fd74a6f352f80ae37245063","method":"frameSent","params":{"opcode":1,"data":"{\"type\":\"custom\",\"event\s
+  pw:protocol ◀ RECV {"method":"Network.responseReceived","params":{"requestId":"50240.282","loaderId":"425CF8CC074868AFB5DB9B166F881FD1","timests
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.282","timestamp":39335.063689,"dataLength":1565,"encodedDataLes
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.282","timestamp":39335.063867,"dataLength":0,"encodedDataLengts
+  pw:protocol ◀ RECV {"method":"Network.loadingFinished","params":{"requestId":"50240.282","timestamp":39335.063647,"encodedDataLength":1821},"ses
+  pw:protocol ◀ RECV {"method":"Network.webSocketFrameSent","params":{"requestId":"50240.218","timestamp":39335.063933,"response":{"opcode":1,"mas
+  pw:protocol ◀ RECV {"method":"Network.responseReceivedExtraInfo","params":{"requestId":"50240.283","blockedCookies":[],"headers":{"Access-Contrs
+  pw:protocol ◀ RECV {"method":"Network.responseReceived","params":{"requestId":"50240.283","loaderId":"425CF8CC074868AFB5DB9B166F881FD1","timests
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.283","timestamp":39335.06559,"dataLength":5503,"encodedDataLens
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.283","timestamp":39335.065984,"dataLength":0,"encodedDataLengts
+  pw:protocol ◀ RECV {"method":"Network.loadingFinished","params":{"requestId":"50240.283","timestamp":39335.065589,"encodedDataLength":5760},"ses
+  pw:protocol ◀ RECV {"method":"Network.webSocketFrameSent","params":{"requestId":"50240.218","timestamp":39335.066258,"response":{"opcode":1,"mas
+  pw:protocol ◀ RECV {"method":"Runtime.consoleAPICalled","params":{"type":"debug","args":[{"type":"string","value":"[vite] hot updated: /__uno_ps
+  pw:protocol ◀ RECV {"method":"Runtime.consoleAPICalled","params":{"type":"debug","args":[{"type":"string","value":"[vite] hot updated: /__uno_ts
+  pw:protocol ◀ RECV {"method":"Runtime.consoleAPICalled","params":{"type":"debug","args":[{"type":"string","value":"[vite] hot updated: /__uno_ss
+  pw:protocol ◀ RECV {"method":"Network.responseReceivedExtraInfo","params":{"requestId":"50240.288","blockedCookies":[],"headers":{"Access-Contrs
+  pw:channel <EVENT {"guid":"ws@ba14df390fd74a6f352f80ae37245063","method":"frameSent","params":{"opcode":1,"data":"{\"type\":\"custom\",\"event\s
+  pw:channel <EVENT {"guid":"ws@ba14df390fd74a6f352f80ae37245063","method":"frameSent","params":{"opcode":1,"data":"{\"type\":\"custom\",\"event\s
+  pw:protocol ◀ RECV {"method":"Runtime.consoleAPICalled","params":{"type":"debug","args":[{"type":"string","value":"[vite] hot updated: /__uno.cs
+  pw:protocol ◀ RECV {"method":"Network.responseReceived","params":{"requestId":"50240.288","loaderId":"425CF8CC074868AFB5DB9B166F881FD1","timests
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.288","timestamp":39335.066637,"dataLength":15891,"encodedDataLs
+  pw:protocol ◀ RECV {"method":"Network.responseReceivedExtraInfo","params":{"requestId":"50240.289","blockedCookies":[],"headers":{"Access-Contrs
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.288","timestamp":39335.06703,"dataLength":0,"encodedDataLengths
+  pw:protocol ◀ RECV {"method":"Network.loadingFinished","params":{"requestId":"50240.288","timestamp":39335.066692,"encodedDataLength":16167},"ss
+  pw:protocol ◀ RECV {"method":"Network.requestWillBeSent","params":{"requestId":"50240.290","loaderId":"425CF8CC074868AFB5DB9B166F881FD1","docums
+  pw:protocol ◀ RECV {"method":"Network.responseReceived","params":{"requestId":"50240.289","loaderId":"425CF8CC074868AFB5DB9B166F881FD1","timests
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.289","timestamp":39335.067271,"dataLength":3133,"encodedDataLes
+  pw:protocol ◀ RECV {"method":"Network.requestWillBeSentExtraInfo","params":{"requestId":"50240.290","associatedCookies":[],"headers":{"Accept":s
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.289","timestamp":39335.067506,"dataLength":0,"encodedDataLengts
+  pw:protocol ◀ RECV {"method":"Network.loadingFinished","params":{"requestId":"50240.289","timestamp":39335.067153,"encodedDataLength":3407},"ses
+  pw:protocol ◀ RECV {"method":"Network.responseReceivedExtraInfo","params":{"requestId":"50240.290","blockedCookies":[],"headers":{"Access-Contrs
+  pw:protocol ◀ RECV {"method":"Network.responseReceived","params":{"requestId":"50240.290","loaderId":"425CF8CC074868AFB5DB9B166F881FD1","timests
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.290","timestamp":39335.072402,"dataLength":838,"encodedDataLens
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.290","timestamp":39335.072658,"dataLength":0,"encodedDataLengts
+  pw:protocol ◀ RECV {"method":"Network.loadingFinished","params":{"requestId":"50240.290","timestamp":39335.07242,"encodedDataLength":1110},"sess
+  pw:protocol ◀ RECV {"method":"Network.requestWillBeSent","params":{"requestId":"50240.291","loaderId":"425CF8CC074868AFB5DB9B166F881FD1","docums
+  pw:protocol ◀ RECV {"method":"Network.requestWillBeSentExtraInfo","params":{"requestId":"50240.291","associatedCookies":[],"headers":{"Accept":s
+  pw:protocol ◀ RECV {"method":"Page.lifecycleEvent","params":{"frameId":"30C5598E60B73D2B6CE0C3263EBE2DA5","loaderId":"425CF8CC074868AFB5DB9B166s
+  pw:protocol ◀ RECV {"method":"Page.lifecycleEvent","params":{"frameId":"30C5598E60B73D2B6CE0C3263EBE2DA5","loaderId":"425CF8CC074868AFB5DB9B166s
+  pw:protocol ◀ RECV {"method":"Page.lifecycleEvent","params":{"frameId":"30C5598E60B73D2B6CE0C3263EBE2DA5","loaderId":"425CF8CC074868AFB5DB9B166s
+  pw:protocol ◀ RECV {"method":"Network.responseReceivedExtraInfo","params":{"requestId":"50240.291","blockedCookies":[],"headers":{"Access-Contrs
+  pw:protocol ◀ RECV {"method":"Network.requestWillBeSent","params":{"requestId":"50240.292","loaderId":"425CF8CC074868AFB5DB9B166F881FD1","docums
+  pw:protocol ◀ RECV {"method":"Network.resourceChangedPriority","params":{"requestId":"50240.292","newPriority":"High","timestamp":39335.07849},s
+  pw:protocol ◀ RECV {"method":"Network.responseReceived","params":{"requestId":"50240.291","loaderId":"425CF8CC074868AFB5DB9B166F881FD1","timests
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.291","timestamp":39335.079049,"dataLength":3819,"encodedDataLes
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.291","timestamp":39335.079532,"dataLength":193420,"encodedDatas
+  pw:protocol ◀ RECV {"method":"Network.loadingFinished","params":{"requestId":"50240.291","timestamp":39335.07925,"encodedDataLength":197516},"ss
+  pw:browser [pid=50234][err] [0914/205600.962514:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205600.976233:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ■ rendering...  pw:browser [pid=50234][err] [0914/205600.992552:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205601.009376:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205601.025713:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205601.042318:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205601.059437:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205601.076175:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205601.092403:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205601.109499:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205601.125728:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:protocol ◀ RECV {"method":"Network.requestWillBeSentExtraInfo","params":{"requestId":"50240.273","associatedCookies":[],"headers":{":authoris
+  pw:protocol ◀ RECV {"method":"Network.requestWillBeSentExtraInfo","params":{"requestId":"50240.271","associatedCookies":[],"headers":{":authoris
+  pw:protocol ◀ RECV {"method":"Network.requestWillBeSentExtraInfo","params":{"requestId":"50240.272","associatedCookies":[],"headers":{":authoris
+  pw:protocol ◀ RECV {"method":"Network.requestWillBeSentExtraInfo","params":{"requestId":"50240.274","associatedCookies":[],"headers":{":authoris
+  pw:browser [pid=50234][err] [0914/205601.142912:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205601.159614:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205601.176240:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ▲ rendering...  pw:browser [pid=50234][err] [0914/205601.192471:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205601.209638:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205601.226319:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:protocol ◀ RECV {"method":"Network.responseReceivedExtraInfo","params":{"requestId":"50240.271","blockedCookies":[],"headers":{"accept-ranges
+  pw:protocol ◀ RECV {"method":"Network.responseReceived","params":{"requestId":"50240.271","loaderId":"06D23945411ECD9B2C488B3358770C4D","timests
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.271","timestamp":39335.367388,"dataLength":46585,"encodedDataLs
+  pw:protocol ◀ RECV {"method":"Network.responseReceivedExtraInfo","params":{"requestId":"50240.273","blockedCookies":[],"headers":{"accept-ranges
+  pw:protocol ◀ RECV {"method":"Network.responseReceivedExtraInfo","params":{"requestId":"50240.272","blockedCookies":[],"headers":{"accept-ranges
+  pw:protocol ◀ RECV {"method":"Network.loadingFinished","params":{"requestId":"50240.271","timestamp":39335.367334,"encodedDataLength":9747},"ses
+  pw:protocol ◀ RECV {"method":"Network.responseReceived","params":{"requestId":"50240.273","loaderId":"06D23945411ECD9B2C488B3358770C4D","timests
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.273","timestamp":39335.369087,"dataLength":680,"encodedDataLens
+  pw:protocol ◀ RECV {"method":"Network.responseReceivedExtraInfo","params":{"requestId":"50240.274","blockedCookies":[],"headers":{"accept-ranges
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.273","timestamp":39335.369182,"dataLength":0,"encodedDataLengts
+  pw:protocol ◀ RECV {"method":"Network.loadingFinished","params":{"requestId":"50240.273","timestamp":39335.368288,"encodedDataLength":585},"sess
+  pw:protocol ◀ RECV {"method":"Network.responseReceived","params":{"requestId":"50240.272","loaderId":"06D23945411ECD9B2C488B3358770C4D","timests
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.272","timestamp":39335.369334,"dataLength":6491,"encodedDataLes
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.272","timestamp":39335.369607,"dataLength":0,"encodedDataLengts
+  pw:protocol ◀ RECV {"method":"Network.loadingFinished","params":{"requestId":"50240.272","timestamp":39335.368932,"encodedDataLength":1617},"ses
+  pw:protocol ◀ RECV {"method":"Network.responseReceived","params":{"requestId":"50240.274","loaderId":"06D23945411ECD9B2C488B3358770C4D","timests
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.274","timestamp":39335.371272,"dataLength":65770,"encodedDataLs
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.274","timestamp":39335.376316,"dataLength":25295,"encodedDataLs
+  pw:protocol ◀ RECV {"method":"Network.requestWillBeSent","params":{"requestId":"50240.295","loaderId":"06D23945411ECD9B2C488B3358770C4D","docums
+  pw:protocol ◀ RECV {"method":"Network.requestWillBeSent","params":{"requestId":"50240.293","loaderId":"06D23945411ECD9B2C488B3358770C4D","docums
+  pw:browser [pid=50234][err] [0914/205601.246046:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +2s
+  pw:protocol ◀ RECV {"method":"Network.loadingFinished","params":{"requestId":"50240.274","timestamp":39335.376131,"encodedDataLength":21769},"ss
+  pw:protocol ◀ RECV {"method":"Page.lifecycleEvent","params":{"frameId":"24BC4F33DF34EFE58BF012DFB0D699C3","loaderId":"06D23945411ECD9B2C488B335s
+  pw:channel <EVENT {"guid":"frame@e7d69c274e95c6b842d98d15b99df4bb","method":"loadstate","params":{"add":"domcontentloaded"}} +305ms
+  pw:browser [pid=50234][err] [0914/205601.258176:ERROR:ffmpeg_common.cc(970)] Unsupported pixel format: -1 +12ms
+  pw:browser [pid=50234][err] [0914/205601.260985:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +3s
+  pw:protocol ◀ RECV {"method":"Page.lifecycleEvent","params":{"frameId":"24BC4F33DF34EFE58BF012DFB0D699C3","loaderId":"06D23945411ECD9B2C488B335s
+  pw:protocol ◀ RECV {"method":"Page.lifecycleEvent","params":{"frameId":"24BC4F33DF34EFE58BF012DFB0D699C3","loaderId":"06D23945411ECD9B2C488B335s
+  pw:protocol ◀ RECV {"method":"Page.lifecycleEvent","params":{"frameId":"24BC4F33DF34EFE58BF012DFB0D699C3","loaderId":"06D23945411ECD9B2C488B335s
+  pw:protocol ◀ RECV {"method":"Page.lifecycleEvent","params":{"frameId":"24BC4F33DF34EFE58BF012DFB0D699C3","loaderId":"06D23945411ECD9B2C488B335s
+  pw:browser [pid=50234][err] [0914/205601.280571:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205601.294068:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205601.310484:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:protocol ◀ RECV {"method":"Network.requestWillBeSentExtraInfo","params":{"requestId":"50240.295","associatedCookies":[],"headers":{":authoris
+  pw:protocol ◀ RECV {"method":"Network.requestWillBeSentExtraInfo","params":{"requestId":"50240.293","associatedCookies":[],"headers":{":authoris
+  pw:browser [pid=50234][err] [0914/205601.327229:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205601.343841:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205601.360464:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205601.377302:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ● rendering...  pw:browser [pid=50234][err] [0914/205601.393954:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205601.410657:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:protocol ◀ RECV {"method":"Network.responseReceivedExtraInfo","params":{"requestId":"50240.295","blockedCookies":[],"headers":{"accept-ranges
+  pw:protocol ◀ RECV {"method":"Network.responseReceived","params":{"requestId":"50240.295","loaderId":"06D23945411ECD9B2C488B3358770C4D","timests
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.295","timestamp":39335.556058,"dataLength":10485,"encodedDataLs
+  pw:browser [pid=50234][err] [0914/205601.427225:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205601.444154:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205601.460645:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.295","timestamp":39335.601645,"dataLength":588,"encodedDataLens
+  pw:browser [pid=50234][err] [0914/205601.477446:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:protocol ◀ RECV {"method":"Page.lifecycleEvent","params":{"frameId":"30C5598E60B73D2B6CE0C3263EBE2DA5","loaderId":"425CF8CC074868AFB5DB9B166s
+  pw:protocol ◀ RECV {"method":"Page.lifecycleEvent","params":{"frameId":"30C5598E60B73D2B6CE0C3263EBE2DA5","loaderId":"425CF8CC074868AFB5DB9B166s
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.295","timestamp":39335.627265,"dataLength":2349,"encodedDataLes
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.295","timestamp":39335.628951,"dataLength":17854,"encodedDataLs
+  pw:browser [pid=50234][err] [0914/205601.493806:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205601.510427:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205601.526208:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205601.544119:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205601.560840:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.295","timestamp":39335.697975,"dataLength":2070,"encodedDataLes
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.295","timestamp":39335.699874,"dataLength":2348,"encodedDataLes
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.295","timestamp":39335.701599,"dataLength":21094,"encodedDataLs
+  pw:browser [pid=50234][err] [0914/205601.577614:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ◆ rendering...  pw:protocol ◀ RECV {"method":"Network.requestWillBeSentExtraInfo","params":{"requestId":"50240.211","associatedCookies":[],"heas
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.295","timestamp":39335.727732,"dataLength":249,"encodedDataLens
+  pw:browser [pid=50234][err] [0914/205601.594404:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205601.610289:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205601.626980:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.295","timestamp":39335.767446,"dataLength":2644,"encodedDataLes
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.295","timestamp":39335.772733,"dataLength":2922,"encodedDataLes
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.295","timestamp":39335.777052,"dataLength":28156,"encodedDataLs
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.295","timestamp":39335.777135,"dataLength":6438,"encodedDataLes
+  pw:browser [pid=50234][err] [0914/205601.642625:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:protocol ◀ RECV {"method":"Network.responseReceivedExtraInfo","params":{"requestId":"50240.211","blockedCookies":[],"headers":{"accept-ranges
+  pw:protocol ◀ RECV {"method":"Network.responseReceived","params":{"requestId":"50240.211","loaderId":"425CF8CC074868AFB5DB9B166F881FD1","timests
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.211","timestamp":39335.784435,"dataLength":2771,"encodedDataLes
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.211","timestamp":39335.787632,"dataLength":4170,"encodedDataLes
+  pw:browser [pid=50234][err] [0914/205601.659693:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.211","timestamp":39335.796782,"dataLength":6459,"encodedDataLes
+  pw:protocol ◀ RECV {"method":"Network.loadingFinished","params":{"requestId":"50240.211","timestamp":39335.796783,"encodedDataLength":13933},"ss
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.295","timestamp":39335.799642,"dataLength":1359,"encodedDataLes
+  pw:protocol ◀ RECV {"method":"Network.responseReceivedExtraInfo","params":{"requestId":"50240.293","blockedCookies":[],"headers":{"accept-ranges
+  pw:protocol ◀ RECV {"method":"Network.loadingFinished","params":{"requestId":"50240.295","timestamp":39335.799632,"encodedDataLength":99264},"ss
+  pw:protocol ◀ RECV {"method":"Network.responseReceived","params":{"requestId":"50240.293","loaderId":"06D23945411ECD9B2C488B3358770C4D","timests
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.293","timestamp":39335.801954,"dataLength":590,"encodedDataLens
+  pw:browser [pid=50234][err] [0914/205601.683021:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +2s
+  pw:browser [pid=50234][err] [0914/205601.693088:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.293","timestamp":39335.84137,"dataLength":4698,"encodedDataLens
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.293","timestamp":39335.843299,"dataLength":6775,"encodedDataLes
+  pw:browser [pid=50234][err] [0914/205601.708949:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.293","timestamp":39335.849613,"dataLength":4701,"encodedDataLes
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.293","timestamp":39335.850989,"dataLength":28161,"encodedDataLs
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.293","timestamp":39335.851426,"dataLength":23469,"encodedDataLs
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.293","timestamp":39335.852344,"dataLength":13483,"encodedDataLs
+  pw:browser [pid=50234][err] [0914/205601.726470:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.293","timestamp":39335.875414,"dataLength":4945,"encodedDataLes
+  pw:browser [pid=50234][err] [0914/205601.743066:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205601.759673:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.293","timestamp":39335.908994,"dataLength":4696,"encodedDataLes
+  pw:browser [pid=50234][err] [0914/205601.776329:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ■ rendering...  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.293","timestamp":39335.915324,"dataLength":234s
+  pw:protocol ◀ RECV {"method":"Page.lifecycleEvent","params":{"frameId":"24BC4F33DF34EFE58BF012DFB0D699C3","loaderId":"06D23945411ECD9B2C488B335s
+  pw:protocol ◀ RECV {"method":"Page.lifecycleEvent","params":{"frameId":"24BC4F33DF34EFE58BF012DFB0D699C3","loaderId":"06D23945411ECD9B2C488B335s
+  pw:protocol ◀ RECV {"method":"Network.dataReceived","params":{"requestId":"50240.293","timestamp":39335.924008,"dataLength":20461,"encodedDataLs
+  pw:protocol ◀ RECV {"method":"Network.loadingFinished","params":{"requestId":"50240.293","timestamp":39335.923945,"encodedDataLength":115000},"s
+  pw:browser [pid=50234][err] [0914/205601.794262:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205601.809579:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205601.825526:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205601.842912:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205601.859577:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205601.876052:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205601.893251:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205601.909333:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205601.926337:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205601.942570:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205601.959666:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205601.976288:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ▲ rendering...  pw:browser [pid=50234][err] [0914/205601.992722:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205602.009412:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205602.026145:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205602.041950:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:protocol ◀ RECV {"method":"Network.requestWillBeSentExtraInfo","params":{"requestId":"50240.292","associatedCookies":[],"headers":{"Accept":s
+  pw:browser [pid=50234][err] [0914/205602.059515:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205602.076054:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205602.092896:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205602.109434:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205602.126206:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205602.142824:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205602.159535:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205602.175486:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ● rendering...  pw:browser [pid=50234][err] [0914/205602.192512:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205602.210628:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205602.226028:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205602.244657:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:channel <EVENT {"guid":"frame@e7d69c274e95c6b842d98d15b99df4bb","method":"loadstate","params":{"add":"networkidle"}} +1s
+  ◆ rendering...  pw:protocol ◀ RECV {"method":"Page.lifecycleEvent","params":{"frameId":"24BC4F33DF34EFE58BF012DFB0D699C3","loaderId":"06D239454s
+  ■ rendering...  pw:browser [pid=50234][err] [0914/205603.480330:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205603.494020:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205603.509931:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205603.526420:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205603.543088:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205603.559638:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205603.576333:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205603.592709:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ▲ rendering...  pw:browser [pid=50234][err] [0914/205603.609786:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205603.626705:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205603.642905:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205603.659434:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205603.676135:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205603.692693:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205603.709492:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205603.726261:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205603.742532:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205603.759490:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205603.776189:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205603.792848:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ● rendering...  pw:browser [pid=50234][err] [0914/205603.809400:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205603.825738:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205603.842776:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205603.859600:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205603.875990:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205603.892761:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205603.909519:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205603.926228:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205603.942584:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205603.959673:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205603.976109:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205603.992871:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ◆ rendering...  pw:browser [pid=50234][err] [0914/205604.009573:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205604.026073:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205604.042394:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205604.059605:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205604.076257:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:protocol ◀ RECV {"method":"Network.responseReceivedExtraInfo","params":{"requestId":"50240.292","blockedCookies":[],"headers":{"Connection":s
+  pw:protocol ◀ RECV {"method":"Network.loadingFailed","params":{"requestId":"50240.292","timestamp":39338.255643,"type":"Image","errorText":"nets
+  pw:browser [pid=50234][err] [0914/205604.128158:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +5s
+  ● rendering...  pw:api   "networkidle" event fired +4s
+  pw:channel <EVENT {"guid":"frame@ba776a16c44e3b12cac6ff2bf6c21998","method":"loadstate","params":{"add":"networkidle"}} +2s
+  pw:channel <RECV {"id":4,"result":{"response":{"guid":"response@271a1e230158f5db67412ce32f3d9e33"}}} +0ms
+  pw:api <= page.goto succeeded +1ms
+  pw:api => page.waitForLoadState started +1ms
+  pw:channel SEND> {"id":5,"guid":"page@4579541b9a5038ca7db88623f5a74019","method":"waitForEventInfo","params":{"info":{"waitId":"b18810ca4a173d9s
+  pw:channel SEND> {"id":6,"guid":"page@4579541b9a5038ca7db88623f5a74019","method":"waitForEventInfo","params":{"info":{"waitId":"b18810ca4a173d9s
+  pw:channel SEND> {"id":7,"guid":"page@4579541b9a5038ca7db88623f5a74019","method":"waitForEventInfo","params":{"info":{"waitId":"b18810ca4a173d9s
+  pw:api <= page.waitForLoadState succeeded +3ms
+  pw:api => page.emulateMedia started +0ms
+  pw:channel SEND> {"id":8,"guid":"page@4579541b9a5038ca7db88623f5a74019","method":"emulateMedia","params":{"media":"screen","colorScheme":"lights
+  pw:api   not waiting, "networkidle" event already fired +0ms
+  pw:protocol SEND ► {"id":24,"method":"Emulation.setEmulatedMedia","params":{"media":"screen","features":[{"name":"prefers-color-scheme","value"s
+  pw:channel <RECV {"id":5} +2ms
+  pw:channel <RECV {"id":6} +0ms
+  pw:channel <RECV {"id":7} +0ms
+  pw:protocol ◀ RECV {"method":"Page.lifecycleEvent","params":{"frameId":"30C5598E60B73D2B6CE0C3263EBE2DA5","loaderId":"425CF8CC074868AFB5DB9B166s
+  pw:protocol ◀ RECV {"id":24,"result":{},"sessionId":"2B7EB1871B5E4654FD65220FC791AF38"} +0ms
+  pw:channel <RECV {"id":8} +1ms
+  pw:api <= page.emulateMedia succeeded +3ms
+  pw:api => locator.waitFor started +0ms
+  pw:channel SEND> {"id":9,"guid":"frame@ba776a16c44e3b12cac6ff2bf6c21998","method":"waitForSelector","params":{"selector":"body","strict":true,"s
+  pw:api waiting for locator('body') to be visible +4ms
+  pw:protocol SEND ► {"id":25,"method":"Runtime.evaluate","params":{"expression":"\n        (() => {\n        const module = {};\n        \nvar _s
+  pw:browser [pid=50234][err] [0914/205604.650779:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +5s
+  pw:protocol ◀ RECV {"id":25,"result":{"result":{"type":"object","className":"InjectedScript","description":"InjectedScript","objectId":"-127076s
+  pw:protocol SEND ► {"id":26,"method":"Runtime.evaluate","params":{"expression":"\n      (() => {\n        const module = {};\n        \nvar __cs
+  pw:protocol ◀ RECV {"id":26,"result":{"result":{"type":"object","className":"UtilityScript","description":"UtilityScript","objectId":"-12707647s
+  pw:protocol SEND ► {"id":27,"method":"Runtime.callFunctionOn","params":{"functionDeclaration":"(utilityScript, ...args) => utilityScript.evaluas
+  pw:protocol ◀ RECV {"id":27,"result":{"result":{"type":"object","className":"Object","description":"Object","objectId":"-1270764772231756568.4.s
+  pw:protocol SEND ► {"id":28,"method":"Runtime.callFunctionOn","params":{"functionDeclaration":"(utilityScript, ...args) => utilityScript.evaluas
+  pw:protocol ◀ RECV {"id":28,"result":{"result":{"type":"object","value":{"o":[{"k":"log","v":"  locator resolved to visible <body>…</body>"},{"s
+  pw:api   locator resolved to visible <body>…</body> +49ms
+  pw:protocol SEND ► {"id":29,"method":"Runtime.releaseObject","params":{"objectId":"-1270764772231756568.4.3"},"sessionId":"2B7EB1871B5E4654FD65s
+  pw:channel <RECV {"id":9,"result":{}} +53ms
+  pw:api <= locator.waitFor succeeded +1ms
+  pw:api => locator.count started +0ms
+  pw:channel SEND> {"id":10,"guid":"frame@ba776a16c44e3b12cac6ff2bf6c21998","method":"queryCount","params":{"selector":"body >> .slidev-slide-loas
+  pw:protocol SEND ► {"id":30,"method":"Runtime.callFunctionOn","params":{"functionDeclaration":"(utilityScript, ...args) => utilityScript.evaluas
+  pw:protocol ◀ RECV {"id":29,"result":{},"sessionId":"2B7EB1871B5E4654FD65220FC791AF38"} +1ms
+  pw:protocol ◀ RECV {"id":30,"result":{"result":{"type":"number","value":0,"description":"0"}},"sessionId":"2B7EB1871B5E4654FD65220FC791AF38"} +s
+  pw:channel <RECV {"id":10,"result":{"value":0}} +1ms
+  pw:api <= locator.count succeeded +1ms
+  pw:api => locator.count started +0ms
+  pw:channel SEND> {"id":11,"guid":"frame@ba776a16c44e3b12cac6ff2bf6c21998","method":"queryCount","params":{"selector":"body >> [data-waitfor]"}}s
+  pw:protocol SEND ► {"id":31,"method":"Runtime.callFunctionOn","params":{"functionDeclaration":"(utilityScript, ...args) => utilityScript.evaluas
+  pw:protocol ◀ RECV {"id":31,"result":{"result":{"type":"number","value":0,"description":"0"}},"sessionId":"2B7EB1871B5E4654FD65220FC791AF38"} +s
+  pw:channel <RECV {"id":11,"result":{"value":0}} +2ms
+  pw:api <= locator.count succeeded +2ms
+  pw:api => frame.waitForLoadState started +0ms
+  pw:channel SEND> {"id":12,"guid":"page@4579541b9a5038ca7db88623f5a74019","method":"waitForEventInfo","params":{"info":{"waitId":"8fcdafbd26c99cs
+  pw:channel SEND> {"id":13,"guid":"page@4579541b9a5038ca7db88623f5a74019","method":"waitForEventInfo","params":{"info":{"waitId":"8fcdafbd26c99cs
+  pw:channel SEND> {"id":14,"guid":"page@4579541b9a5038ca7db88623f5a74019","method":"waitForEventInfo","params":{"info":{"waitId":"8fcdafbd26c99cs
+  pw:api => frame.waitForLoadState started +0ms
+  pw:channel SEND> {"id":15,"guid":"page@4579541b9a5038ca7db88623f5a74019","method":"waitForEventInfo","params":{"info":{"waitId":"e6fd3593e7c72ds
+  pw:api <= frame.waitForLoadState succeeded +0ms
+  pw:api   not waiting, "load" event already fired +0ms
+  pw:channel <RECV {"id":12} +0ms
+  pw:channel <RECV {"id":13} +0ms
+  pw:channel <RECV {"id":14} +0ms
+  pw:channel <RECV {"id":15} +0ms
+  ● rendering...  pw:browser [pid=50234][err] [0914/205605.478261:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205605.494067:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205605.509901:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205605.526289:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205605.542614:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205605.559561:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205605.576354:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205605.592799:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205605.609490:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ◆ rendering...  pw:browser [pid=50234][err] [0914/205605.626300:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205605.643102:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205605.659582:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205605.676073:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205605.692174:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205605.709449:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205605.725207:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205605.742849:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205605.759388:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205605.776194:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205605.792817:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205605.809369:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ■ rendering...  pw:browser [pid=50234][err] [0914/205605.825401:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205605.842363:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205605.859505:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205605.876112:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205605.892711:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205605.909489:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205605.926026:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205605.942929:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:protocol ◀ RECV {"method":"Page.lifecycleEvent","params":{"frameId":"30C5598E60B73D2B6CE0C3263EBE2DA5","loaderId":"425CF8CC074868AFB5DB9B166s
+  pw:browser [pid=50234][err] [0914/205605.959430:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205605.975485:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205605.992546:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205606.009384:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ▲ rendering...  pw:browser [pid=50234][err] [0914/205606.025521:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205606.042855:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205606.059102:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205606.075912:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ● rendering...  pw:protocol ◀ RECV {"method":"Page.lifecycleEvent","params":{"frameId":"24BC4F33DF34EFE58BF012DFB0D699C3","loaderId":"06D239454s
+  ■ rendering...  pw:browser [pid=50234][err] [0914/205607.477272:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205607.493082:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205607.509546:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205607.526117:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ▲ rendering...  pw:browser [pid=50234][err] [0914/205607.542780:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205607.559391:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205607.576038:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205607.592707:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205607.609565:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205607.625983:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205607.642126:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205607.659436:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205607.675880:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205607.692653:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205607.709305:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205607.725791:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ● rendering...  pw:browser [pid=50234][err] [0914/205607.742541:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205607.759261:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205607.775702:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205607.792707:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205607.809348:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205607.826076:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205607.842754:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205607.859522:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205607.876164:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205607.892823:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205607.908660:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205607.926088:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ◆ rendering...  pw:browser [pid=50234][err] [0914/205607.942141:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205607.959440:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205607.976197:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205607.992768:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205608.009511:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205608.025986:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205608.042735:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205608.059324:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205608.076074:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ● rendering...  pw:browser [pid=50234][err] [0914/205609.479507:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205609.494151:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205609.509749:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205609.526206:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205609.542843:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ◆ rendering...  pw:browser [pid=50234][err] [0914/205609.558733:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205609.575754:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205609.591959:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205609.609805:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205609.626287:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205609.642677:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205609.659287:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205609.675958:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205609.692749:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205609.709330:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205609.725861:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205609.742271:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ■ rendering...  pw:browser [pid=50234][err] [0914/205609.759428:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205609.775997:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205609.792000:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205609.809373:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205609.826038:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205609.842832:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205609.858305:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205609.876057:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205609.892670:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205609.909470:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205609.926012:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205609.942669:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ▲ rendering...  pw:browser [pid=50234][err] [0914/205609.959365:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205609.975490:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205609.992896:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205610.009662:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205610.025888:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205610.042448:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205610.059246:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205610.075870:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ■ rendering...  pw:browser [pid=50234][err] [0914/205611.479245:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205611.493284:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205611.509357:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205611.526315:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205611.542823:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205611.559466:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ▲ rendering...  pw:browser [pid=50234][err] [0914/205611.576076:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205611.592951:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205611.609311:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205611.626014:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205611.642631:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205611.659253:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205611.675920:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205611.692766:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205611.709354:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205611.725924:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205611.742507:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205611.759207:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ● rendering...  pw:browser [pid=50234][err] [0914/205611.775983:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205611.791822:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205611.809639:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205611.826433:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  vite:hmr [file change] main.md +11s
+  vite:hmr [no modules matched] main.md +1ms
+  pw:browser [pid=50234][err] [0914/205611.842624:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205611.859293:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205611.875894:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205611.892590:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205611.909384:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205611.925886:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205611.942641:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205611.959266:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ◆ rendering...  pw:browser [pid=50234][err] [0914/205611.975805:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205611.992678:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205612.009302:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205612.025945:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205612.042725:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205612.058368:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205612.075963:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ● rendering...  pw:browser [pid=50234][err] [0914/205613.477065:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205613.493249:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205613.509252:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205613.526071:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205613.542513:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205613.559509:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205613.576137:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205613.592511:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ◆ rendering...  pw:browser [pid=50234][err] [0914/205613.609210:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205613.625126:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205613.642328:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205613.659033:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205613.675734:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205613.692267:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205613.709040:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205613.725717:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205613.742506:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205613.759042:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205613.775861:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205613.792391:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ■ rendering...  pw:browser [pid=50234][err] [0914/205613.808741:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205613.825846:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205613.842447:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205613.858884:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205613.875679:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205613.892105:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205613.909069:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205613.925749:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205613.942243:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205613.958273:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205613.975798:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205613.992515:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ▲ rendering...  pw:browser [pid=50234][err] [0914/205614.009291:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205614.026052:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205614.042433:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205614.059255:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205614.075841:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ■ rendering...  pw:browser [pid=50234][err] [0914/205615.478812:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205615.493893:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205615.509568:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205615.526304:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205615.542567:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205615.559254:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205615.575951:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205615.592556:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ▲ rendering...  pw:browser [pid=50234][err] [0914/205615.608974:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205615.625896:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205615.642453:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205615.659103:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205615.676016:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205615.692554:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205615.709160:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205615.725796:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205615.742404:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205615.759089:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205615.775835:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205615.792353:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205615.809091:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ● rendering...  pw:browser [pid=50234][err] [0914/205615.826203:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205615.842653:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205615.859414:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205615.875863:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205615.892425:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205615.908222:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205615.924804:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205615.941718:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205615.959082:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205615.975870:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205615.992447:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205616.009177:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ◆ rendering...  pw:browser [pid=50234][err] [0914/205616.025861:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205616.042499:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205616.059239:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205616.075713:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ● rendering...  pw:browser [pid=50234][err] [0914/205617.479075:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205617.493907:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205617.509583:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205617.526115:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205617.542538:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205617.559119:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205617.575713:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205617.592346:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205617.608652:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ◆ rendering...  pw:browser [pid=50234][err] [0914/205617.625820:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205617.642620:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205617.659369:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205617.675640:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205617.692160:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205617.709008:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205617.725184:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205617.742319:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205617.758115:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205617.774753:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205617.792578:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205617.809103:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205617.825897:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ■ rendering...  pw:browser [pid=50234][err] [0914/205617.842508:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205617.859101:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205617.875710:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205617.892326:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205617.909042:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205617.925698:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205617.942302:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205617.959090:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205617.975528:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205617.992584:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205618.009155:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205618.025681:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ▲ rendering...  pw:browser [pid=50234][err] [0914/205618.042360:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205618.059117:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  vite:hmr [file change] main.md +6s
+  vite:hmr [no modules matched] main.md +0ms
+  pw:browser [pid=50234][err] [0914/205618.075680:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ■ rendering...  pw:browser [pid=50234][err] [0914/205619.478503:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205619.492908:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205619.508909:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205619.525786:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205619.542433:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205619.559081:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205619.575618:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205619.591723:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205619.609158:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205619.625694:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205619.642313:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ▲ rendering...  pw:browser [pid=50234][err] [0914/205619.658510:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205619.675823:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205619.692322:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205619.708977:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205619.725614:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205619.742386:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205619.758992:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205619.775612:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205619.792544:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +2s
+  pw:browser [pid=50234][err] [0914/205619.809028:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205619.825595:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205619.842464:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ● rendering...  pw:browser [pid=50234][err] [0914/205619.858969:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205619.875461:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205619.892182:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205619.908832:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205619.924645:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205619.942164:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205619.958830:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205619.975532:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205619.992147:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205620.007853:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205620.025551:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205620.042218:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ◆ rendering...  pw:browser [pid=50234][err] [0914/205620.059172:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205620.075853:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ● rendering...  pw:browser [pid=50234][err] [0914/205621.476966:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205621.494480:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205621.508560:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205621.525707:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205621.542422:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205621.558988:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205621.575266:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205621.591482:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205621.609048:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205621.625731:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205621.642308:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205621.658966:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ◆ rendering...  pw:browser [pid=50234][err] [0914/205621.675690:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205621.692349:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205621.709026:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205621.725673:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205621.741870:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205621.758920:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205621.775502:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205621.791800:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205621.808844:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205621.825559:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205621.842250:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205621.858945:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ■ rendering...  pw:browser [pid=50234][err] [0914/205621.875133:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205621.892233:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205621.908856:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205621.925636:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205621.942252:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205621.958911:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205621.975583:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205621.992481:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205622.008856:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205622.025454:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205622.042219:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205622.058696:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ▲ rendering...  pw:browser [pid=50234][err] [0914/205622.075624:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  ■ rendering...  pw:browser [pid=50234][err] [0914/205623.479063:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205623.491711:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205623.509326:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205623.525825:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205623.542268:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205623.558391:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205623.575583:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ▲ rendering...  pw:browser [pid=50234][err] [0914/205623.592162:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205623.608780:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205623.625526:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205623.642314:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205623.658943:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205623.675346:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205623.692240:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205623.708173:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205623.725411:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205623.741332:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205623.758786:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205623.775453:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ● rendering...  pw:browser [pid=50234][err] [0914/205623.791637:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205623.808860:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205623.825482:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205623.841822:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205623.858961:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205623.875533:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205623.892290:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205623.908955:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205623.925533:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205623.942836:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205623.958792:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205623.976025:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ◆ rendering...  pw:browser [pid=50234][err] [0914/205623.992248:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205624.008540:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205624.024769:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205624.042149:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205624.058978:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205624.075510:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ● rendering...  pw:browser [pid=50234][err] [0914/205625.478804:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205625.492035:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205625.508890:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205625.524777:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205625.542074:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205625.558887:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205625.575419:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205625.592166:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ◆ rendering...  pw:browser [pid=50234][err] [0914/205625.608985:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205625.625168:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205625.642157:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205625.658329:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205625.675444:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205625.692099:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205625.708790:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205625.725601:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205625.741580:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205625.758797:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205625.775589:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205625.792177:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ■ rendering...  pw:browser [pid=50234][err] [0914/205625.808802:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205625.824798:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205625.842049:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205625.858779:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205625.875474:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205625.892181:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205625.908986:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205625.925532:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205625.941909:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205625.958133:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205625.975458:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205625.991715:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ▲ rendering...  pw:browser [pid=50234][err] [0914/205626.008912:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205626.025447:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205626.041481:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205626.058500:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205626.075589:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ■ rendering...  pw:browser [pid=50234][err] [0914/205627.478775:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205627.493443:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205627.509094:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205627.525793:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205627.541641:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205627.558744:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205627.574856:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205627.592114:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205627.608262:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ▲ rendering...  pw:browser [pid=50234][err] [0914/205627.625397:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205627.642137:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205627.658750:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205627.675569:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205627.692063:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205627.708665:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205627.725415:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205627.741878:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205627.758131:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205627.775494:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205627.792054:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205627.808864:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ● rendering...  pw:browser [pid=50234][err] [0914/205627.825427:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205627.842105:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205627.858283:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205627.875431:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205627.891925:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205627.907980:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205627.925502:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205627.942026:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205627.958233:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205627.974735:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205627.992195:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205628.008760:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ◆ rendering...  pw:browser [pid=50234][err] [0914/205628.025380:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205628.042107:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205628.058758:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205628.075388:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ● rendering...  pw:browser [pid=50234][err] [0914/205629.478450:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205629.492780:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205629.509143:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205629.525600:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205629.542092:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205629.558252:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205629.575531:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205629.592003:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205629.608590:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205629.625506:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205629.642427:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ◆ rendering...  pw:browser [pid=50234][err] [0914/205629.658803:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205629.674793:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205629.692051:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205629.708636:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205629.725423:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205629.742064:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205629.758753:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205629.775479:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205629.791712:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205629.808863:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205629.825459:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205629.842046:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ■ rendering...  pw:browser [pid=50234][err] [0914/205629.858120:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205629.875536:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205629.892225:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205629.908840:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205629.925418:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205629.942086:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205629.958730:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205629.975951:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205629.992061:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205630.008329:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205630.025274:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205630.041894:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ▲ rendering...  pw:browser [pid=50234][err] [0914/205630.058645:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205630.075699:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ◆ rendering...  pw:protocol ◀ RECV {"method":"Network.webSocketFrameSent","params":{"requestId":"50240.218","timestamp":39364.706342,"response"s
+  pw:channel <EVENT {"guid":"ws@ba14df390fd74a6f352f80ae37245063","method":"frameSent","params":{"opcode":1,"data":"{\"type\":\"ping\"}"}} +26s
+  ■ rendering...  pw:browser [pid=50234][err] [0914/205631.476668:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205631.493377:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205631.508982:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205631.525745:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205631.542038:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205631.558685:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205631.575333:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205631.591701:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205631.608699:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205631.625407:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205631.642140:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205631.658295:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ▲ rendering...  pw:browser [pid=50234][err] [0914/205631.675260:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205631.692068:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205631.708844:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205631.725310:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205631.741959:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205631.758707:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205631.775228:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205631.792003:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205631.808270:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205631.825343:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205631.842015:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205631.858879:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ● rendering...  pw:browser [pid=50234][err] [0914/205631.874558:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205631.891937:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205631.908537:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205631.925399:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205631.941741:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205631.958197:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205631.975250:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205631.991935:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205632.008583:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205632.025224:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205632.041860:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205632.058561:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ◆ rendering...  pw:browser [pid=50234][err] [0914/205632.075287:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  ▲ rendering...  pw:browser [pid=50234][err] [0914/205633.478717:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  ● rendering...  pw:browser [pid=50234][err] [0914/205633.492281:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205633.508882:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205633.525211:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205633.541942:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205633.558595:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205633.575171:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205633.591887:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205633.608097:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205633.625206:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205633.641671:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205633.658658:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205633.675074:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ◆ rendering...  pw:browser [pid=50234][err] [0914/205633.691730:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205633.708330:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205633.723982:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205633.741671:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205633.757727:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205633.773943:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205633.791633:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205633.808445:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205633.825022:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205633.841887:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205633.858463:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205633.875108:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ■ rendering...  pw:browser [pid=50234][err] [0914/205633.891794:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bs
+  pw:browser [pid=50234][err] [0914/205633.907937:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205633.925187:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205633.941816:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205633.958467:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205633.975035:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205633.991874:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205634.008678:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205634.025327:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205634.041952:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205634.058280:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  pw:browser [pid=50234][err] [0914/205634.075194:ERROR:gl_display.cc(497)] EGL Driver message (Error) eglQueryDeviceAttribEXT: Bad attribute. +1s
+  ◆ rendering...  pw:channel SEND> {"id":16,"guid":"page@4579541b9a5038ca7db88623f5a74019","method":"waitForEventInfo","params":{"info":{"waitId"s
+  pw:api <= frame.waitForLoadState failed +30s
+frame.waitForLoadState: Timeout 30000ms exceeded.
+    at /opt/homebrew/lib/node_modules/@slidev/cli/dist/export-FTRUCBWA.js:191:53
+    at go (/opt/homebrew/lib/node_modules/@slidev/cli/dist/export-FTRUCBWA.js:191:32)
+    at async genPagePdfOnePiece (/opt/homebrew/lib/node_modules/@slidev/cli/dist/export-FTRUCBWA.js:283:5)
+    at async exportSlides (/opt/homebrew/lib/node_modules/@slidev/cli/dist/export-FTRUCBWA.js:432:5)
+    at async Object.handler (/opt/homebrew/lib/node_modules/@slidev/cli/dist/cli.js:430:22) {
+  name: 'TimeoutError'
+}
+  pw:browser [pid=50234] <kill> +619ms
+  pw:browser [pid=50234] <will force kill> +0ms
+  pw:browser [pid=50234] starting temporary directories cleanup +0ms
+  pw:browser [pid=50234] finished temporary directories cleanup +18ms

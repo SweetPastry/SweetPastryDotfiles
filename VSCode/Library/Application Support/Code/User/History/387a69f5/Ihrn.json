@@ -1,0 +1,130 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "cmd+m",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+        "snippet": "$${0}$"
+    }
+  },
+  {
+    "key": "cmd+n",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+        "snippet": "`${0}`"
+    }
+  },
+  {
+    "key": "cmd+shift+t",
+    "command": "openInTerminal",
+    "when": "editorFocus"
+  },
+  {
+    "key": "alt+l",
+    "command": "cursorEnd",
+    "when": "true"
+  },
+  {
+    "key": "alt+q",
+    "command": "cursorHome",
+    "when": "true"
+  },
+    // Option + A for moving left
+    {
+      "key": "alt+a",
+      "command": "cursorLeft",
+      "when": "true"
+    },
+    // Option + S for moving down
+    {
+      "key": "alt+s",
+      "command": "cursorDown",
+      "when": "true"
+    },
+    // Option + D for moving right
+    {
+      "key": "alt+d",
+      "command": "cursorRight",
+      "when": "true"
+    },
+    // Option + W for moving up
+    {
+      "key": "alt+w",
+      "command": "cursorUp",
+      "when": "true"
+    },
+    // Option + J for moving candidate selection down
+    {
+      "key": "alt+j",
+      "command": "selectNextSuggestion",
+      "when": "true"
+    },
+    // Option + K for moving candidate selection up
+    {
+      "key": "alt+k",
+      "command": "selectPrevSuggestion",
+      "when": "true"
+    },
+    {
+      "key": "alt+shift+l",
+      "command": "cursorWordStartRight",
+      "when": "true"
+    },
+    // {
+    //   "key": "alt+shift+l",
+    //   "comamnd": "cursorWordStartLeft",
+    //   "when": "true"
+    // },
+    {
+      "key": "cmd+enter",
+      "command": "jupyter.runcurrentcelladvance",
+      "when": "editorTextFocus && isWorkspaceTrusted && jupyter.hascodecells && !editorHasSelection && !isCompositeNotebook && !notebookEditorFocused"
+    },
+    {
+      "key": "shift+enter",
+      "command": "-jupyter.runcurrentcelladvance",
+      "when": "editorTextFocus && isWorkspaceTrusted && jupyter.hascodecells && !editorHasSelection && !isCompositeNotebook && !notebookEditorFocused"
+    },
+    {
+      "key": "cmd+\\",
+      "command": "notebook.cell.executeAndSelectBelow",
+      "when": "notebookCellListFocused && !interactiveEditorFocused && notebookCellType == 'code' || editorTextFocus && inputFocus && notebookEditorFocused && !interactiveEditorFocused"
+    },
+    {
+      "key": "shift+enter",
+      "command": "-notebook.cell.executeAndSelectBelow",
+      "when": "notebookCellListFocused && !interactiveEditorFocused && notebookCellType == 'code' || editorTextFocus && inputFocus && notebookEditorFocused && !interactiveEditorFocused"
+    },
+    {
+      "key": "shift+enter",
+      "command": "editor.action.insertLineAfter",
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "key": "cmd+enter",
+      "command": "-editor.action.insertLineAfter",
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "key": "cmd+enter",
+      "command": "notebook.cell.executeAndInsertBelow",
+      "when": "notebookCellListFocused && notebookCellType == 'markup' || notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
+    },
+    {
+      "key": "alt+enter",
+      "command": "-notebook.cell.executeAndInsertBelow",
+      "when": "notebookCellListFocused && notebookCellType == 'markup' || notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
+    },
+    {
+      "key": "ctrl+c",
+      "command": "extension.vim_cmd+c",
+      "when": "editorTextFocus && vim.active && vim.overrideCopy && vim.use<D-c> && !inDebugRepl"
+    },
+    {
+      "key": "cmd+c",
+      "command": "-extension.vim_cmd+c",
+      "when": "editorTextFocus && vim.active && vim.overrideCopy && vim.use<D-c> && !inDebugRepl"
+    }
+]

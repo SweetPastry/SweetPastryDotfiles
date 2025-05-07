@@ -1,0 +1,10 @@
+EN_ONE = enOnecol
+EN_TWO = enTwocol
+CN_ONE = cnOnecol
+CN_TWO = cnTwocol
+TEX_FILE = enOnecol, enTwocol, cnOnecol, cnTwocol
+
+XE_COMPILE = xelatex -interaction=nonstopmode -shell-escape 
+
+default: 
+	

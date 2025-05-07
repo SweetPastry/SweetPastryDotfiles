@@ -72,6 +72,10 @@
       },
       "memberInvitesRequireApproval": true,
       "conflictDetectionEnabled": true,
+      "aiEnabled": true,
+      "ssoEnabled": false,
+      "ssoEnforced": false,
+      "ssoProvision": false,
       "createdAt": "2025-02-27T09:31:50.430763Z",
       "updatedAt": "2025-02-27T09:31:50.43516Z"
     }
@@ -146,10 +150,37 @@
       "name": "gkApi"
     },
     {
+      "name": "gkdConflictPreventionFeedback_11_1_0"
+    },
+    {
+      "name": "gkDevConflictPreventionSetting"
+    },
+    {
+      "name": "gkdevEnableAllAutomationProviders"
+    },
+    {
+      "name": "gkDevReferralSystem"
+    },
+    {
       "name": "gkdOnboardingTutorial_10_5_0"
     },
     {
       "name": "gkDotDevAutomations"
+    },
+    {
+      "name": "gkDotDevCycleTime"
+    },
+    {
+      "name": "gkDotDevPurchaseCheckoutShowPlanFeatures"
+    },
+    {
+      "name": "gkDotDevPurchaseMonthlyPriceAndNoCoupon"
+    },
+    {
+      "name": "gkdReferralProgram_11_0_0"
+    },
+    {
+      "name": "gkdTrialStartModalPromoMessage_11_1_0"
     },
     {
       "name": "gkdTutorialSkipFirstStep_10_8_0"
@@ -171,6 +202,9 @@
     },
     {
       "name": "unregisteredTrials"
+    },
+    {
+      "name": "useNewTrialStartModalTest_10_8_0"
     },
     {
       "name": "velocityInClient_9_0_0"

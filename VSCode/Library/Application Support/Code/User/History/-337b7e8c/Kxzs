@@ -1,0 +1,4 @@
+default:
+	xelatex cover
+	xelatex cover
+	xelatex cover

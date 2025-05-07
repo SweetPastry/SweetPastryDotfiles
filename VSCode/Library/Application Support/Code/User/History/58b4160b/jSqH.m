@@ -1,0 +1,2 @@
+
+function result func_demo

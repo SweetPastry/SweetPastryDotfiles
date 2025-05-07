@@ -1,0 +1,7 @@
+MAINFILE = spArticle
+
+default:
+	xelatex $(MAINFILE)
+
+clean:
+	latexmk

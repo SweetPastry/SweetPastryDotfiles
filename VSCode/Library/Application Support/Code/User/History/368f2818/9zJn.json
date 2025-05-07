@@ -1,0 +1,9 @@
+{
+    "slidev.force-enabled": true,
+    "slidev.include": [
+        "**/slides.md",
+        "Draft/main.md",
+        "Draft/init.md"
+    ],
+    "slidev.port": 3030
+}

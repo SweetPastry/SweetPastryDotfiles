@@ -1,0 +1,14 @@
+# TODO
+# ignore .pth (Pytorch trained model) and .zip (unknown compressed file)
+*.pth
+*.zip
+
+# 
+*.exe
+*.o
+*.out
+
+*.log
+
+
+.DS_Store

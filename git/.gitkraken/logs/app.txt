@@ -114,3 +114,13 @@
 [2025-03-18T06:19:56.661Z] Open repository /Users/pastrysweet/Documents/GitHub/spTemplate/: finished.
 [2025-03-18T06:19:56.664Z] Set profile setting ["tabInfo"] to {"permanentTabs":{"FOCUS_VIEW":{"closed":true},"REPO_MANAGEMENT":{}},"selectedTabId":"1f2c32d9-6865-40a8-b779-a58ae49f3364","tabs":[{"id":"1f2c32d9-6865-40a8-b779-a58ae49f3364","type":"REPO","isWorktree":false,"repoName":"spTemplate","repoPath":"/Users/pastrysweet/Documents/GitHub/spTemplate/","skipWSLChecks":false}]}: started.
 [2025-03-18T06:19:56.665Z] Set profile setting ["tabInfo"] to {"permanentTabs":{"FOCUS_VIEW":{"closed":true},"REPO_MANAGEMENT":{}},"selectedTabId":"1f2c32d9-6865-40a8-b779-a58ae49f3364","tabs":[{"id":"1f2c32d9-6865-40a8-b779-a58ae49f3364","type":"REPO","isWorktree":false,"repoName":"spTemplate","repoPath":"/Users/pastrysweet/Documents/GitHub/spTemplate/","skipWSLChecks":false}]}: finished. gk-log://duration?t=1
+[2025-05-07T00:43:39.848Z] Open repository /Users/pastrysweet/Documents/GitHub/spTemplate/: started.
+[2025-05-07T00:43:39.938Z] Detecting Git and Git LFS: started
+[2025-05-07T00:43:40.149Z] Open repository /Users/pastrysweet/Documents/GitHub/spTemplate/: finished.
+[2025-05-07T00:43:40.165Z] Set profile setting ["tabInfo"] to {"permanentTabs":{"FOCUS_VIEW":{"closed":true},"REPO_MANAGEMENT":{}},"selectedTabId":"1f2c32d9-6865-40a8-b779-a58ae49f3364","tabs":[{"id":"1f2c32d9-6865-40a8-b779-a58ae49f3364","type":"REPO","isWorktree":false,"repoName":"spTemplate","repoPath":"/Users/pastrysweet/Documents/GitHub/spTemplate/","skipWSLChecks":false}]}: started.
+[2025-05-07T00:43:40.178Z] Set profile setting ["tabInfo"] to {"permanentTabs":{"FOCUS_VIEW":{"closed":true},"REPO_MANAGEMENT":{}},"selectedTabId":"1f2c32d9-6865-40a8-b779-a58ae49f3364","tabs":[{"id":"1f2c32d9-6865-40a8-b779-a58ae49f3364","type":"REPO","isWorktree":false,"repoName":"spTemplate","repoPath":"/Users/pastrysweet/Documents/GitHub/spTemplate/","skipWSLChecks":false}]}: finished. gk-log://duration?t=13
+[2025-05-07T00:43:40.455Z] Detected Git: 2.47.2
+[2025-05-07T00:43:40.471Z] Detected Git LFS: 3.5.1
+[2025-05-07T00:43:40.535Z] Detecting Git and Git LFS: finished gk-log://duration?t=597
+[2025-05-07T00:43:41.348Z] Set profile setting ["projects"] to {}: started.
+[2025-05-07T00:43:41.358Z] Set profile setting ["projects"] to {}: finished. gk-log://duration?t=439

@@ -1,0 +1,6 @@
+# TODO
+# ignore .pth (Pytorch trained model) and .zip (unknown compressed file)
+*.pth
+*.zip
+
+# 

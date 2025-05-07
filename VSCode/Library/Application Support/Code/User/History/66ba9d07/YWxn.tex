@@ -1,0 +1,20 @@
+\documentclass[
+    lang=cn,
+    colorbox=true,
+    geometry=b5,
+    coverpage=coverpage,
+    mathfont=times,
+    ref=ref
+]{spBook}
+\spTitle{数理方法新讲}
+\spAuthor{林海轩}
+
+\begin{document}
+    \newcommand{\load}[1]{\input{chapters/#1.tex}}
+
+    \frontmatter
+    \load{preface}
+
+    \mainmatter
+    \load{}
+\end{document}

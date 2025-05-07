@@ -1,0 +1,49 @@
+\documentclass[twocolumn]{ctexart}
+\pagestyle{plain}
+\usepackage{amsmath, amssymb, amsfonts, physics, esint}
+
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{float}
+\usepackage{cuted}
+\usepackage{tikz}
+\usepackage{array}
+\usepackage[final]{pdfpages}
+
+\usepackage{titlesec}
+\titleformat{\section}[block]
+{\centering\bfseries\Large}
+{\thesection}{1em}{}
+
+\usepackage[style=ieee, backend=biber]{biblatex}
+\addbibresource{ref.bib}
+\usepackage[colorlinks,urlcolor=blue,linkcolor=blue,anchorcolor=blue,citecolor=blue]{hyperref}
+
+\title{\bf{
+    Here is Title
+}}
+\author{
+    Author, Arthor
+    \quad
+    \textit{\quad
+        Buddhist Department of MIT
+    }}
+\date{
+    \today
+}
+
+\begin{document}
+    \maketitle
+    \begin{strip}
+        \noindent\textbf{Abstract}.
+            \small{
+                Here is abstract.
+        }
+    \end{strip}\leavevmode
+
+    \section{Introduction}
+    Here is Introduction
+
+    \nocite{*}
+    \printbibliography
+\end{document}

@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/pastrysweet/Documents/AlJabr-1'
+# Generating Al-jabr-1.pdf
+latexmk -pdf -pdflatex="xelatex -synctex=1 -shell-escape -interaction=nonstopmode %O %S" Al-jabr-1
+make: Leaving directory `/Users/pastrysweet/Documents/AlJabr-1'
+ 

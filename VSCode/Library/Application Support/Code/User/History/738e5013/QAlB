@@ -1,0 +1,1 @@
+XE_COMPILE = XE_COMPILE = xelatex -interaction=nonstopmode -shell-escape 

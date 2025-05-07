@@ -1,0 +1,30 @@
+\section*{Problem 22}   
+
+    In the most general case, consider the Hamiltonian expressed in a curvilinear coordinate system as
+    \begin{equation*}
+        H = \frac{1}{2} m g_{ij} \dot{q}^i \dot{q}^j  +  V\left(\boldsymbol{r}\right),
+    \end{equation*
+    where the Einstein summation convention is employed. In parabolic coordinates ¥(\xi, \eta, \phi), the induced metric g_{ij} can be written as
+    \begin{equation}
+        \left(g_{ij}\right)  = \left(
+        \begin{matrix}
+            \xi + \eta  &               &           \\
+                        & \xi + \eta    &           \\
+                        &               &  \xi\eta
+        \end{matrix}
+        \right),
+    \end{equation}
+    thus,
+    \begin{equation}
+        H = \frac{1}{2m} \frac{1}{\xi+\eta} \left( p_\xi^2 + p_\eta^2 \right)  +  V\left(\boldsymbol{r}\right).
+    \end{equation}
+
+    So, when we consider Hamilton-Jacobi equation,
+    \begin{equation}
+        \frac{1}{2m} \left(\frac{\partial W}{\partial\xi}\right)^2 + \frac{1}{2m} \left(\frac{\partial W}{\partial\eta}\right)^2  +  \left(\xi+\eta\right)V\left(\boldsymbol{r}\right) = E,
+    \end{equation}
+    we can natrually notce that the potential $V\left(\boldsymbol{r}\right)$ must satisfy
+    \begin{equation}
+        \left(\xi+\eta\right)V\left(\boldsymbol{r}\right) = A\left(\xi\right) + B\left(\eta\right)
+    \end{equation}
+    so as to be seperatable.

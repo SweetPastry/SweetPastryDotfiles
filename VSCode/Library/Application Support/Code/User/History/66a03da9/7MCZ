@@ -1,0 +1,4 @@
+default:
+	xelatex essay
+	biber essay
+	

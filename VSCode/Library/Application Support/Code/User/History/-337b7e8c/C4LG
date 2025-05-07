@@ -1,0 +1,6 @@
+default:
+	xelatex cover
+	xelatex cover
+	xelatex cover
+	# convert -density 600 cover.pdf -quality 100 cover.png
+	rm *.aux *.log

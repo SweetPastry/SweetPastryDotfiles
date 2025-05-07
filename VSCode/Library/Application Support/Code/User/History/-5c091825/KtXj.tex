@@ -1,0 +1,31 @@
+\documentclass[
+    ref = ./chapters/ref.bib,
+    coverpage = ./chapters/coverpage.tex,
+    geometry = b5,
+    lang = en,
+]{spBook}
+\spTitle{\texttt{spTitle} Document}
+\spAuthor{Sweet Pastry}
+\date{\today}
+
+
+
+\begin{document}
+    \newcommand{\inputChapter}[1]{\input{./chapters/#1}}
+
+    \frontmatter
+    \maketitle
+    \tableofcontents
+    \inputChapter{preface}
+
+    \mainmatter
+    \inputChapter{how_to_use}
+
+    \backmatter
+    \appendix
+    \listtheorems{definiton}
+    \listtheorems{theorem}
+    \listoffigures
+    \listoftables
+    % \printindex
+\end{document}

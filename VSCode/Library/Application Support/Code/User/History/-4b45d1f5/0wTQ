@@ -1,0 +1,13 @@
+MAINFILE = testArticle
+
+default:
+	xelatex -file-line-error $(MAINFILE)
+
+clean:
+	latexmk -c $(MAINFILE)
+
+Clean:
+	latexmk -C $(MAINFILE)
+
+con:
+	xelatex testArticleContrast
