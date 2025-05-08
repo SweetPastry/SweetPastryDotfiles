@@ -23,11 +23,23 @@ export PATH="/Applications/Wolfram/Wolfram Engine.app/Contents/Resources/Wolfram
 ## export DYLD_LIBRARY_PATH="/Applications/MATLAB_R2024b.app/bin/maca64:$DYLD_LIBRARY_PATH"     # 这部分会干扰 Anaconda 的 Qt 库导致无法启动 Anaconda
 export PATH="/Applications/MATLAB_R2024b.app/bin:$PATH"
 
-
 # Alacrity
 export PATH="$PATH:/Applications/Alacritty.app/Contents/MacOS"
 
 . "$HOME/.local/bin/env"
+
+# >>> mamba initialize >>>
+# !! Contents within this block are managed by 'mamba shell init' !!
+export MAMBA_EXE='/opt/anaconda3/bin/mamba';
+export MAMBA_ROOT_PREFIX='/opt/anaconda3';
+__mamba_setup="$("$MAMBA_EXE" shell hook --shell zsh --root-prefix "$MAMBA_ROOT_PREFIX" 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__mamba_setup"
+else
+    alias mamba="$MAMBA_EXE"  # Fallback on help from mamba activate
+fi
+unset __mamba_setup
+# <<< mamba initialize <<<
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
