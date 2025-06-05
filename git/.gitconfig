@@ -1,6 +1,6 @@
 [user]
-	email = SweetPastryLHX@gmail.com
-	name = Sweet Pastry
+	email = haixuan.lin2005@gmail.com
+	name = SweetPastry
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f

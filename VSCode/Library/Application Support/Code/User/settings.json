@@ -4,11 +4,13 @@
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[python]": {
-    "editor.defaultFormatter": "ms-python.black-formatter"
+    "editor.defaultFormatter": "njpwerner.autodocstring"
   },
   "[latex]": {
     "editor.defaultFormatter": "nickfode.latex-formatter"
   },
+  "notebook.defaultFormatter": "njpwerner.autodocstring",
+  "editor.defaultFormatter": "njpwerner.autodocstring",
   // <<< VSCode Formatter <<<
 
 
@@ -19,10 +21,9 @@
 
 
   // >>> VSCode Workbench >>>
-  "workbench.colorCustomizations": {}, // Do not override any colorTheme customizes
-  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.colorCustomizations": {},
   "workbench.editor.empty.hint": "hidden", // Hide hints displayed in empty editor area
-  "workbench.editor.enablePreview": false, // Disable preview mode, create perminent tab when opening file
+  // "workbench.editor.enablePreview": false, // Disable preview mode, create perminent tab when opening file
   "workbench.editor.scrollToSwitchTabs": true,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.layoutControl.enabled": false, // Hide layout control bottom
@@ -50,14 +51,14 @@
   "editor.bracketPairColorization.enabled": true,
   "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": "explicit",
-  "editor.fontFamily": "JetBrains Mono, Consolas,Fira Code,'Courier New', monospace",
+  "editor.fontFamily": "Fira Code,JetBrains Mono, Consolas,'Courier New', monospace",
   "editor.fontLigatures": false,  // Disables fancy character combinations (e.g., => as single glyph)
   "editor.fontSize": 16,
   "editor.fontWeight": "bold",
   "editor.guides.bracketPairs": true,
   "editor.lineHeight": 1.5,
   "editor.minimap.size": "fit",
-  "editor.minimap.enabled": false,  // Disables the minimap (code overview sidebar)
+  "editor.minimap.enabled": true,  // the minimap (code overview sidebar)
   "editor.mouseWheelZoom": true,
   "editor.smoothScrolling": true,
   "editor.suggest.snippetsPreventQuickSuggestions": false,
@@ -142,7 +143,7 @@
     "file:///Users/pastrysweet/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
   ],
   "animations.CursorAnimation": true,
-  "animations.Install-Method": "Custom UI Style",
+  "animations.Install-Method": "Custom CSS and JS",
   "animations.UseCursorColorForCursorAnimation": true,
   "animations.CursorAnimationOptions": {
     "TrailLength": 2
@@ -368,7 +369,7 @@
 
 
   // >>> C/C++ (Microsoft extension) >>>
-  "C_Cpp.autoAddFileAssociations": true,  // Auto-associate C/C++ files (.c, .cpp, .h, etc.) with the C/C++ extension
+  "C_Cpp.autoAddFileAssociations": true,
   "C_Cpp.default.customConfigurationVariables": {},
   "C_Cpp.files.exclude": {
     "**/.vscode": true,
@@ -390,13 +391,13 @@
 
 
   // >>> Markdown >>>
-  "markdown-preview-enhanced.codeBlockTheme": "atom-light.css",
+  "markdown-preview-enhanced.codeBlockTheme": "atom-dark.css",
   "markdown-preview-enhanced.enablePreviewZenMode": false,
   "markdown-preview-enhanced.enableScriptExecution": true,
   "markdown-preview-enhanced.HTML5EmbedIsAllowedHttp": true,
   "markdown-preview-enhanced.latexEngine": "xelatex",
   "markdown-preview-enhanced.mathRenderingOption": "MathJax",
-  "markdown-preview-enhanced.previewTheme": "atom-light.css",
+  "markdown-preview-enhanced.previewTheme": "atom-dark.css",
   "markdown-preview-enhanced.printBackground": true,
   "markdown-preview-enhanced.puppeteerWaitForTimeout": 3000,
   "markdown-preview-enhanced.revealjsTheme": "black.css",
@@ -442,7 +443,154 @@
   "todohighlight.isEnable": false,
   // <<< TODO Highlight <<<
 
-  // >>> vscode-icons >>>
+
+  // >>> Vscode-icons >>>
   "vsicons.dontShowNewVersionMessage": true,
-  // <<< vscode-icons <<<
+  "animations.Enabled": true,
+  "vscode_custom_css.imports": [
+    "file:///c:/Users/sweet/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+  ],
+  "lldb.suppressUpdateNotifications": true,
+  "apc.imports": [],
+  "workbench.colorTheme": "Catppuccin Mocha",
+  // <<< Vscode-icons <<<
+
+
+  // >>> Spell Checker >>>
+    "cSpell.userWords": [
+      "addbibresource",
+      "amsfonts",
+      "amsmath",
+      "amssymb",
+      "amsthm",
+      "arev",
+      "aspectratio",
+      "Beamer",
+      "beamercolorbox",
+      "biber",
+      "biblatex",
+      "boxrule",
+      "boxsep",
+      "breaklinks",
+      "chemfig",
+      "chemstyle",
+      "circuitikz",
+      "cmbridge",
+      "cmbright",
+      "coeff",
+      "colback",
+      "colframe",
+      "colorlet",
+      "colorlinks",
+      "ctex",
+      "cuted",
+      "definecolor",
+      "dimexpr",
+      "esint",
+      "etoolbox",
+      "eulerpx",
+      "fancyvrb",
+      "footline",
+      "fouriernc",
+      "frametitle",
+      "graphicx",
+      "hyperref",
+      "ifcase",
+      "ifhyperref",
+      "ifpdf",
+      "ifxetex",
+      "imwrite",
+      "infolines",
+      "infty",
+      "insertframenumber",
+      "insertsection",
+      "insertshortauthor",
+      "insertshortinstitute",
+      "inserttotalframenumber",
+      "Ising",
+      "Keyval",
+      "kmath",
+      "kvoptions",
+      "leavevmode",
+      "linspace",
+      "lipsum",
+      "makeatletter",
+      "makeatother",
+      "mathdesign",
+      "mathptmx",
+      "mathrm",
+      "mathscr",
+      "mathtools",
+      "meshgrid",
+      "mhchem",
+      "multicol",
+      "newcommand",
+      "newpxmath",
+      "newtx",
+      "newtxmath",
+      "newtxtext",
+      "nocite",
+      "nolinkurl",
+      "palatino",
+      "paperwidth",
+      "parskip",
+      "pdfpagelabels",
+      "pdfpages",
+      "pgfplots",
+      "pmatrix",
+      "professionalfonts",
+      "ptmx",
+      "sectionpagestyle",
+      "setbeamercolor",
+      "setbeamercovered",
+      "setbeamertemplate",
+      "setbox",
+      "setlength",
+      "sidebartab",
+      "sprintf",
+      "tabularx",
+      "tcolorbox",
+      "tempdima",
+      "textcolor",
+      "tikz",
+      "tikzmark",
+      "usebeamerfont",
+      "usecolortheme",
+      "usefonttheme",
+      "useinnertheme",
+      "useoutertheme",
+      "usetikzlibrary",
+      "widering",
+      "xcolor",
+      "xkcdcolors",
+      "xlabel",
+      "xlim",
+      "xstring",
+      "xurl",
+      "yhmath",
+      "ylabel",
+      "ylim"
+    ],
+    "cSpell.customDictionaries": {
+      "custom-dictionary-user": {
+        "name": "custom-dictionary-user",
+        "path": "~/.cspell/custom-dictionary-user.txt",
+        "addWords": true,
+        "scope": "user"
+      }
+    },
+    "cSpell.allowCompoundWords": true,
+    "mssql.connectionGroups": [
+      {
+        "name": "ROOT",
+        "id": "EA37D97B-D71D-4F72-9624-59438B388629"
+      }
+    ],
+    "mssql.connections": [],
+  // <<< Spell Checker <<<
+
+
+  // >>> New configurations will be HEAR >>>
+
+  // <<< New configurations will be HEAR <<<
 }

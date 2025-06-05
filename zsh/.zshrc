@@ -21,7 +21,7 @@ export PATH="/Applications/Wolfram/Wolfram Engine.app/Contents/Resources/Wolfram
 
 # MATLAB
 ## export DYLD_LIBRARY_PATH="/Applications/MATLAB_R2024b.app/bin/maca64:$DYLD_LIBRARY_PATH"     # 这部分会干扰 Anaconda 的 Qt 库导致无法启动 Anaconda
-export PATH="/Applications/MATLAB_R2024b.app/bin:$PATH"
+export PATH="/Applications/MATLAB_R2025a.app/bin:$PATH"
 
 # Alacrity
 export PATH="$PATH:/Applications/Alacritty.app/Contents/MacOS"
