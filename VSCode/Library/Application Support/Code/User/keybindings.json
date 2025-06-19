@@ -1,162 +1,198 @@
-// Place your key bindings in this file to override the defaults
+// Place your key bindings in this file to override the defaultsauto[]
 [
-  {
-    "key": "cmd+m",
-    "command": "editor.action.insertSnippet",
-    "when": "editorTextFocus",
-    "args": {
-        "snippet": "$${0}$"
-    }
-  },
-  {
-    "key": "cmd+n",
-    "command": "editor.action.insertSnippet",
-    "when": "editorTextFocus",
-    "args": {
-        "snippet": "`${0}`"
-    }
-  },
-  {
-    "key": "cmd+shift+t",
-    "command": "openInTerminal",
-    "when": "editorFocus"
-  },
-  {
-    "key": "alt+l",
-    "command": "cursorEnd",
-    "when": "true"
-  },
-  {
-    "key": "alt+q",
-    "command": "cursorHome",
-    "when": "true"
-  },
-  {
-    "key": "alt+shift+l",
-    "command": "cursorLineEnd",
-    "when": "true"
-  },
-  {
-    "key": "alt+shift+q",
-    "command": "cursorLineStart",
-    "when": "true"
-  },
-  // Option + A for moving left
-  {
-    "key": "alt+a",
-    "command": "cursorLeft",
-    "when": "true"
-  },
-  // Option + S for moving down
-  {
-    "key": "alt+s",
-    "command": "cursorDown",
-    "when": "true"
-  },
-  // Option + D for moving right
-  {
-    "key": "alt+d",
-    "command": "cursorRight",
-    "when": "true"
-  },
-  // Option + W for moving up
-  {
-    "key": "alt+w",
-    "command": "cursorUp",
-    "when": "true"
-  },
-  {
-    "key": "alt+shift+s",
-    "command": "runCommands",
-    "args": {
-        "commands": [
-            "cursorDown",
-            "cursorDown",
-            "cursorDown"
-        ]
+    // >>> Run Code >>>
+    {
+        "key": "ctrl+shift+f10",
+        "command": "python.execInTerminal-icon"
     },
-  },
-  {
-    "key": "alt+shift+w",
-    "command": "runCommands",
-    "args": {
-        "commands": [
-            "cursorUp",
-            "cursorUp",
-            "cursorUp"
-        ]
+    {
+        "key": "ctrl+shift+f10",
+        "command": "latex-workshop.build",
+        "when": "!config.latex-workshop.bind.altKeymap.enabled && !virtualWorkspace && editorLangId =~ /^latex$|^latex-expl3$|^doctex$|^rsweave$|^jlweave$|^pweave$/"
     },
-  },
-  // Option + J for moving candidate selection down
-  {
-    "key": "alt+j",
-    "command": "selectNextSuggestion",
-    "when": "true"
-  },
-  // Option + K for moving candidate selection up
-  {
-    "key": "alt+k",
-    "command": "selectPrevSuggestion",
-    "when": "true"
-  },
-  {
-    "key": "alt+shift+a",
-    "command": "cursorWordEndLeft",
-    "when": "true"
-  },
-  {
-    "key": "alt+shift+d",
-    "command": "cursorWordStartRight",
-    "when": "true"
-  },
-  {
-    "key": "cmd+enter",
-    "command": "jupyter.runcurrentcelladvance",
-    "when": "editorTextFocus && isWorkspaceTrusted && jupyter.hascodecells && !editorHasSelection && !isCompositeNotebook && !notebookEditorFocused"
-  },
-  {
-    "key": "shift+enter",
-    "command": "-jupyter.runcurrentcelladvance",
-    "when": "editorTextFocus && isWorkspaceTrusted && jupyter.hascodecells && !editorHasSelection && !isCompositeNotebook && !notebookEditorFocused"
-  },
-  {
-    "key": "cmd+\\",
-    "command": "notebook.cell.executeAndSelectBelow",
-    "when": "notebookCellListFocused && !interactiveEditorFocused && notebookCellType == 'code' || editorTextFocus && inputFocus && notebookEditorFocused && !interactiveEditorFocused"
-  },
-  {
-    "key": "shift+enter",
-    "command": "-notebook.cell.executeAndSelectBelow",
-    "when": "notebookCellListFocused && !interactiveEditorFocused && notebookCellType == 'code' || editorTextFocus && inputFocus && notebookEditorFocused && !interactiveEditorFocused"
-  },
-  {
-    "key": "shift+enter",
-    "command": "editor.action.insertLineAfter",
-    "when": "editorTextFocus && !editorReadonly"
-  },
-  {
-    "key": "cmd+enter",
-    "command": "-editor.action.insertLineAfter",
-    "when": "editorTextFocus && !editorReadonly"
-  },
-  {
-    "key": "cmd+enter",
-    "command": "notebook.cell.executeAndInsertBelow",
-    "when": "notebookCellListFocused && notebookCellType == 'markup' || notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
-  },
-  {
-    "key": "alt+enter",
-    "command": "-notebook.cell.executeAndInsertBelow",
-    "when": "notebookCellListFocused && notebookCellType == 'markup' || notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
-  },
-  {
-    "key": "ctrl+c",
-    "command": "extension.vim_cmd+c",
-    "when": "editorTextFocus && vim.active && vim.overrideCopy && vim.use<D-c> && !inDebugRepl"
-  },
-  {
-    "key": "cmd+c",
-    "command": "-extension.vim_cmd+c",
-    "when": "editorTextFocus && vim.active && vim.overrideCopy && vim.use<D-c> && !inDebugRepl"
-  }
+    {
+        "key": "ctrl+shift+f11",
+        "command": "latex-workshop.view",
+        "when": "!config.latex-workshop.bind.altKeymap.enabled && !virtualWorkspace && editorLangId =~ /^latex$|^latex-expl3$|^doctex$|^rsweave$|^jlweave$|^pweave$/"
+    },
+    {
+        "key": "ctrl+shift+f10",
+        "command": "code-runner.run"
+    },
+    // <<< Run Code <<<
+
+
+    // >>> Custom VIM >>>
+    {
+        "key": "w",
+        "command": "cursorUp",
+        "when": "editorTextFocus && vim.mode == 'Normal'"
+    },
+    {
+        "key": "a",
+        "command": "cursorLeft",
+        "when": "editorTextFocus && vim.mode == 'Normal'"
+    },
+    {
+        "key": "s",
+        "command": "cursorDown",
+        "when": "editorTextFocus && vim.mode == 'Normal'"
+    },
+    {
+        "key": "d",
+        "command": "cursorRight",
+        "when": "editorTextFocus && vim.mode == 'Normal'"
+    },
+    {
+        "key": "ctrl+a",
+        "command": "-extension.vim_ctrl+a",
+        "when": "editorTextFocus && vim.active && vim.use<C-a> && !inDebugRepl"
+    },
+    {
+        "key": "ctrl+c",
+        "command": "-extension.vim_ctrl+c",
+        "when": "editorTextFocus && vim.active && vim.overrideCtrlC && vim.use<C-c> && !inDebugRepl"
+    },
+    // <<< Custom VIM <<<
+
+
+    // >>> InsertLineAfter >>>
+    {
+        "key": "shift+enter",
+        "command": "editor.action.insertLineAfter",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-editor.action.insertLineAfter",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    // <<< InsertLineAfter <<<
+
+
+    // >>> Cursor Move >>>
+    {
+        "key": "alt+l",
+        "command": "cursorEnd"
+    },
+    {
+        "key": "alt+q",
+        "command": "cursorHome"
+    },
+    {
+        "key": "alt+shift+l",
+        "command": "cursorLineEnd"
+    },
+    {
+        "key": "alt+shift+q",
+        "command": "cursorLineStart"
+    },
+    {
+        "key": "alt+a",
+        "command": "cursorLeft"
+    },
+    {
+        "key": "alt+d",
+        "command": "cursorRight"
+    },
+    {
+        "key": "alt+w",
+        "command": "cursorUp"
+    },
+    {
+        "key": "alt+s",
+        "command": "cursorDown"
+    },
+    {
+        "key": "alt+shift+w",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "cursorUp",
+                "cursorUp",
+                "cursorUp",
+            ]
+        }
+    },
+    {
+        "key": "alt+shift+s",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "cursorDown",
+                "cursorDown",
+                "cursorDown",
+            ]
+        }
+    },
+    {
+        "key": "alt+shift+a",
+        "command": "cursorWordStartLeft",
+    },
+    {
+        "key": "alt+shift+d",
+        "command": "cursorWordStartRight",
+    },
+    {
+        "key": "alt+j",
+        "command": "selectNextSuggestion",
+        "when": "suggestWidgetVisible"
+    },
+    {
+        "key": "alt+k",
+        "command": "selectPrevSuggestion",
+        "when": "suggestWidgetVisible"
+    },
+    {
+        "key": "alt+j",
+        "command": "selectNextCodeAction",
+        "when": "codeActionMenuVisible"
+    },
+    {
+        "key": "alt+k",
+        "command": "selectPrevCodeAction",
+        "when": "codeActionMenuVisible"
+    },
+    {
+        "key": "alt+j",
+        "command": "workbench.action.quickOpenSelectNext",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "alt+k",
+        "command": "workbench.action.quickOpenSelectPrevious",
+        "when": "inQuickOpen"
+    },
+    // <<< Cursor Move <<<
+
+
+    // {
+    //     "key": "alt+f",
+    //     "command": "latex-workshop.synctex",
+    //     "when": "editorTextFocus && !isMac"
+    // },
+    {
+        "key": "ctrl+m",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus && editorLangId == 'latex'",
+        "args": {
+            "snippet": "$${1}$"
+        }
+    },
+    {
+        "key": "ctrl+n",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+            "snippet": "`${1}`"
+        }
+    },
+    {
+        "key": "ctrl+e",
+        "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "-editor.action.toggleTabFocusMode"
+    },
 ]
