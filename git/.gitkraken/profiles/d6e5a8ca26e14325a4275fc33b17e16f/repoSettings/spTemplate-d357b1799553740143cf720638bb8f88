@@ -1,0 +1,105 @@
+{
+  "pullRequests": {
+    "filters": [
+      {
+        "id": "3ce05027-e523-4f7e-bba5-005395b8ffdd",
+        "filter": "author:SweetPastry",
+        "name": "My Pull Requests",
+        "author": [
+          {
+            "not": false,
+            "values": [
+              "SweetPastry"
+            ]
+          }
+        ],
+        "in": [
+          {
+            "not": false,
+            "values": [
+              "title",
+              "body"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "97a7c5ae-f88a-4ea9-b167-e402ab695f63",
+        "filter": "assignee:SweetPastry",
+        "name": "Assigned To Me",
+        "assignee": [
+          {
+            "not": false,
+            "values": [
+              "SweetPastry"
+            ]
+          }
+        ],
+        "in": [
+          {
+            "not": false,
+            "values": [
+              "title",
+              "body"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "0037aa14-7b8e-4699-ab60-0a8fbfbbbdbd",
+        "filter": "review-requested:SweetPastry",
+        "name": "Awaiting My Review",
+        "review-requested": [
+          {
+            "not": false,
+            "values": [
+              "SweetPastry"
+            ]
+          }
+        ],
+        "in": [
+          {
+            "not": false,
+            "values": [
+              "title",
+              "body"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d1cdcc60-06d4-4e15-b8d6-9a460fcb9955",
+        "filter": "",
+        "name": "All Pull Requests",
+        "in": [
+          {
+            "not": false,
+            "values": [
+              "title",
+              "body"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "teams": {
+    "hasFinishedSettingUpTeams": true
+  },
+  "remoteParents": {
+    "github": {
+      "sweetpastry": {
+        "spTemplate": {
+          "hostingServiceType": "github",
+          "owner": "SweetPastry",
+          "name": "spTemplate"
+        }
+      }
+    }
+  },
+  "remoteHeadCollectionByRemoteName": {
+    "gitee": {},
+    "origin": {}
+  },
+  "expandedSections": []
+}

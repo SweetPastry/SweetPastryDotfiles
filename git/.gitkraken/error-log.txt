@@ -1,0 +1,4 @@
+[Wed Jul 23 2025 15:27:03 GMT+0800 (China Standard Time)] Open Failed: Could not find a compatible repository at 'spTemplate'.
+[Wed Jul 23 2025 15:27:52 GMT+0800 (China Standard Time)] Open Failed: Could not find a compatible repository at 'spTemplate'.
+[Wed Jul 23 2025 15:28:02 GMT+0800 (China Standard Time)] Open Failed: Could not find a compatible repository at 'spTemplate'.
+[Wed Jul 23 2025 15:28:20 GMT+0800 (China Standard Time)] Open Failed: Could not find a compatible repository at 'spTemplate'.

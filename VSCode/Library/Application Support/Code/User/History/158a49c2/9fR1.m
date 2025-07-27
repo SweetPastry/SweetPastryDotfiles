@@ -1,2 +1,0 @@
-load im.mat;
-% im

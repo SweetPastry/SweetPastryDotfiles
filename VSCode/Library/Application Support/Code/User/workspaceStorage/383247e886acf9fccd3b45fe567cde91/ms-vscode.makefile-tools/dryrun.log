@@ -1,9 +1,0 @@
-make --dry-run --always-make --keep-going --print-directory
-/bin/sh: gawk: command not found
-make: *** No rule to make target `.pdf', needed by `all'.
-
-make: Entering directory `/Users/pastrysweet/Documents/annotated_latex_equations'
-latexmk -C
-rm -f *.bbl
-make: Leaving directory `/Users/pastrysweet/Documents/annotated_latex_equations'
- 

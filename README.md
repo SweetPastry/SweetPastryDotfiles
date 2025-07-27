@@ -19,7 +19,7 @@ Place all configuration files you want to manage (e.g., for Neovim, Zsh, Git, et
 ```sh
 mkdir -p ~/.dotfiles/<Username>/.config/nvim
 ```
-2.	Add your Neovim config files (e.g., init.vim or init.lua) to the `~/.dotfiles/<Username>/`.config/nvim folder.
+2.	Add your Neovim config files (e.g., init.vim or init.lua) to the `~/.dotfiles/<Username>/.config/nvim` folder.
 3.	Run stow from within your `~/.dotfiles` directory to create symbolic links:
 ```sh
 cd ~/.dotfiles

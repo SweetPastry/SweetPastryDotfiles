@@ -1,5 +1,5 @@
 {
-  "lastUpgradeScriptRun": "v10.6.0",
+  "lastUpgradeScriptRun": "v11.3.0",
   "appId": "9cb7cd8b02994e660ab57091bea9600d8c0dda64",
   "appLocale": "en-CN",
   "appDateFormat": null,
@@ -19,10 +19,11 @@
     "firstTimeCommitSelected": true,
     "createACommit": true,
     "mergeABranch": true,
-    "introTutorialWelcomeStepSkipped": true
+    "introTutorialWelcomeStepSkipped": true,
+    "connectIntegration": true
   },
   "sslWhitelist": [],
-  "lastReleaseNotesDisplayed": "10.8.1",
+  "lastReleaseNotesDisplayed": "11.2.1",
   "ui": {
     "shouldShowStartupPromoModal": false
   },
@@ -42,7 +43,26 @@
     }
   },
   "userId": "c8935397-c732-4341-a8c8-d379c1b9ce44",
-  "licensedFeatures": [],
+  "licensedFeatures": [
+    "advanced",
+    "gitgui:advanced",
+    "gitlens:advanced",
+    "bundle:advanced",
+    "gitkraken_v1:advanced",
+    "suite:advanced",
+    "pro",
+    "gitgui:pro",
+    "gitlens:pro",
+    "bundle:pro",
+    "gitkraken_v1:pro",
+    "suite:pro",
+    "trial",
+    "gitgui:trial",
+    "gitlens:trial",
+    "bundle:trial",
+    "gitkraken_v1:trial",
+    "suite:trial"
+  ],
   "windowSettings": {
     "x": 0,
     "y": 6,
@@ -73,6 +93,8 @@
       "memberInvitesRequireApproval": true,
       "conflictDetectionEnabled": true,
       "aiEnabled": true,
+      "enforceAiProviders": false,
+      "aiProviders": {},
       "ssoEnabled": false,
       "ssoEnforced": false,
       "ssoProvision": false,
@@ -94,14 +116,22 @@
           "id": "openRepo-/Users/pastrysweet/Documents/GitHub/spTemplate",
           "timestamps": [
             1740648967571,
-            1742278072494
+            1742278072494,
+            1753255672600
           ],
-          "total": 2
+          "total": 3
         },
         "openRepo-/Users/pastrysweet/Documents/GitHub/Hand-TeX": {
           "id": "openRepo-/Users/pastrysweet/Documents/GitHub/Hand-TeX",
           "timestamps": [
             1741266128772
+          ],
+          "total": 1
+        },
+        "openRepo-/Users/Lin/Documents/GitHub/spTemplate": {
+          "id": "openRepo-/Users/Lin/Documents/GitHub/spTemplate",
+          "timestamps": [
+            1753255714717
           ],
           "total": 1
         }
@@ -150,16 +180,19 @@
       "name": "gkApi"
     },
     {
+      "name": "gkdAIFeedback_11_2_0"
+    },
+    {
       "name": "gkdConflictPreventionFeedback_11_1_0"
     },
     {
       "name": "gkDevConflictPreventionSetting"
     },
     {
-      "name": "gkdevEnableAllAutomationProviders"
+      "name": "gkDevReferralSystem"
     },
     {
-      "name": "gkDevReferralSystem"
+      "name": "gkDevTeamLaunchpadEntitlement"
     },
     {
       "name": "gkdOnboardingTutorial_10_5_0"
@@ -171,13 +204,25 @@
       "name": "gkDotDevCycleTime"
     },
     {
+      "name": "gkDotDevEnforceAiControls"
+    },
+    {
       "name": "gkDotDevPurchaseCheckoutShowPlanFeatures"
     },
     {
       "name": "gkDotDevPurchaseMonthlyPriceAndNoCoupon"
     },
     {
+      "name": "gkDotDevSupportADO"
+    },
+    {
       "name": "gkdReferralProgram_11_0_0"
+    },
+    {
+      "name": "gkdShowToolbarInviteButton_11_2_0"
+    },
+    {
+      "name": "gkdTeamLaunchpadStillInPreview"
     },
     {
       "name": "gkdTrialStartModalPromoMessage_11_1_0"
@@ -213,5 +258,37 @@
       "name": "workspacesPRComplexity"
     }
   ],
-  "hasSeenTrialStartedModal": true
+  "hasSeenTrialStartedModal": true,
+  "ai": {
+    "enabled": true,
+    "providers": {
+      "ConfigurableOpenAI": {}
+    }
+  },
+  "webConfig": {
+    "lastUpdatedAt": "2025-07-23T07:32:29.731Z",
+    "config": {
+      "callouts": [],
+      "promos": [
+        {
+          "key": "2XTOKENS25",
+          "code": "2XTOKENS",
+          "startsOn": "2025-07-21T23:59:00.000Z",
+          "expiresOn": "2025-07-31T09:59:00.000Z",
+          "content": {
+            "advancedPromoLabelSmall": "66% Off Single Seat",
+            "toolbarLinkLabelOverride": "66% off Advanced"
+          }
+        },
+        {
+          "key": "50OFFADV",
+          "code": "50OFFADV",
+          "content": {
+            "advancedPromoLabelSmall": "SAVE 50% for a limited time!"
+          }
+        }
+      ]
+    },
+    "dismissedCallouts": {}
+  }
 }

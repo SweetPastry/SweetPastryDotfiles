@@ -1,9 +1,0 @@
-make --dry-run --always-make --keep-going --print-directory
-make: Entering directory `/Users/pastrysweet/Documents/物理实验/思政大课海报'
-xelatex cover
-xelatex cover
-xelatex cover
-convert -density 600 cover.pdf -quality 100 cover.png
-rm *.aux *.log
-make: Leaving directory `/Users/pastrysweet/Documents/物理实验/思政大课海报'
- 

@@ -1,1 +1,0 @@
-str = input('Please enter a string: ', 's');

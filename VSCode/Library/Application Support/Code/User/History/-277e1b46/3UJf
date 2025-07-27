@@ -1,6 +1,0 @@
-default:
-	xelatex mechanism-report
-	biber mechanism-report
-	xelatex mechanism-report
-	xelatex mechanism-report
-	latexmk -c mechanism-report

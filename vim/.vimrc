@@ -34,3 +34,6 @@ set softtabstop=4
 
 " 光标
 set guicursor=n-v:block,i:ver25
+
+" 自动写入
+set autowrite

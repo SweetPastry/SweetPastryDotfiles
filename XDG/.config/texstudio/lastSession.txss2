@@ -6,24 +6,16 @@
     "Session": {
         "Bookmarks": [
         ],
-        "CurrentFile": "../../Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/d2b397ecf9c2175fa4a6e6ba1a458ff0/Message/MessageTemp/82440739059b840c611891c8e42166ea/OpenData/cover.tex",
+        "CurrentFile": "../../../../usr/local/texlive/2024/texmf-dist/tex/latex/ntheorem/ntheorem.sty",
         "FileVersion": 1,
         "Files": [
             {
-                "Col": 0,
+                "Col": 24,
                 "EditorGroup": 0,
                 "FileName": "../../../../usr/local/texlive/2024/texmf-dist/tex/latex/ntheorem/ntheorem.sty",
                 "FirstLine": 984,
                 "FoldedLines": "",
-                "Line": 1188
-            },
-            {
-                "Col": 24,
-                "EditorGroup": 0,
-                "FileName": "../../Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/d2b397ecf9c2175fa4a6e6ba1a458ff0/Message/MessageTemp/82440739059b840c611891c8e42166ea/OpenData/cover.tex",
-                "FirstLine": 0,
-                "FoldedLines": "",
-                "Line": 40
+                "Line": 996
             }
         ],
         "MasterFile": "",

@@ -1,5 +1,0 @@
-default:
-	xelatex pra2
-	xelatex pra2
-	xelatex pra2
-	latexmk -c pra2

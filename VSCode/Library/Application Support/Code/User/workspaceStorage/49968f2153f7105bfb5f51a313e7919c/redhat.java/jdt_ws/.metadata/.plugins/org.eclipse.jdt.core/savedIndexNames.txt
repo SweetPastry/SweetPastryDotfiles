@@ -1,7 +1,0 @@
-INDEX VERSION 1.134+/Users/pastrysweet/Library/Application Support/Code/User/workspaceStorage/49968f2153f7105bfb5f51a313e7919c/redhat.java/jdt_ws/.metadata/.plugins/org.eclipse.jdt.core
-1865797976.index
-1508729745.index
-65642515.index
-3863339863.index
-3402860320.index
-848574609.index

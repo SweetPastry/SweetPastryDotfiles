@@ -1,1 +1,0 @@
-Homeschooling is time-saving, which is 

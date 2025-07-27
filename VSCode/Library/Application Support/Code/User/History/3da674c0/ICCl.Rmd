@@ -1,7 +1,0 @@
-# Here is Rmd file
-
-```{R}
-print("Hello World")
-```
-
-code block end!

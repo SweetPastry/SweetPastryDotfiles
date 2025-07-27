@@ -1,1 +1,0 @@
-Homeschooling is time-saving, which is convinient for those students who live far from school and waste lots of time on commute

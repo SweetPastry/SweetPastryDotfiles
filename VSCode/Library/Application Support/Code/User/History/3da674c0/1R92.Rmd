@@ -1,5 +1,0 @@
-# Here is Rmd file
-
-```{R}
-print("Hello World")
-

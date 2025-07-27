@@ -1,1 +1,0 @@
-function result = derive_

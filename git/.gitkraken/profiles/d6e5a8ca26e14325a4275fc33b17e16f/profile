@@ -1,6 +1,13 @@
 {
   "integration": {
-    "hasConnectedIntegrationByType": {}
+    "hasConnectedIntegrationByType": {
+      "github": true
+    },
+    "accessTokenMetadata": {
+      "github": {
+        "version": "legacy"
+      }
+    }
   },
   "tabInfo": {
     "permanentTabs": {
@@ -9,15 +16,15 @@
       },
       "REPO_MANAGEMENT": {}
     },
-    "selectedTabId": "1f2c32d9-6865-40a8-b779-a58ae49f3364",
+    "selectedTabId": "7532ae06-ee2a-421e-a840-34fa239fa8ea",
     "tabs": [
       {
-        "id": "1f2c32d9-6865-40a8-b779-a58ae49f3364",
+        "id": "7532ae06-ee2a-421e-a840-34fa239fa8ea",
         "type": "REPO",
         "isWorktree": false,
         "repoName": "spTemplate",
-        "repoPath": "/Users/pastrysweet/Documents/GitHub/spTemplate/",
-        "skipWSLChecks": false
+        "repoPath": "/Users/Lin/Documents/GitHub/spTemplate/",
+        "skipWSLChecks": null
       }
     ]
   },
@@ -36,11 +43,292 @@
     "tagForceSignAnnotated": false
   },
   "repoInit": {
-    "lastOpenedRepoPath": "/Users/pastrysweet/Documents/GitHub/Hand-TeX"
+    "lastOpenedRepoPath": "/Users/Lin/Documents/GitHub/spTemplate"
   },
   "layout": {
     "HistoryPanel": {
       "width": 352
+    }
+  },
+  "focusView": {
+    "focusViewTabSettingsById": {
+      "personalPullRequest": {
+        "id": "personalPullRequest",
+        "name": "Pull Requests",
+        "viewType": "PERSONAL",
+        "pageType": "PULL_REQUEST",
+        "filters": {
+          "workspaceId": null,
+          "pullRequestProvider": "github",
+          "issueProvider": null,
+          "userIds": null,
+          "labelIds": null,
+          "involvement": null,
+          "pullRequestOrganizationId": null,
+          "milestoneIds": null,
+          "fixVersionIds": null,
+          "sprintIds": null,
+          "iterationIds": null,
+          "azureDevops": null,
+          "jiraCloud": null,
+          "jiraServer": null,
+          "trello": null
+        },
+        "settings": {
+          "density": "standard",
+          "fields": {
+            "linesChanged": true,
+            "useInitials": false,
+            "comments": true,
+            "likes": true,
+            "fixVersions": true,
+            "sprints": true,
+            "labels": true,
+            "milestones": true,
+            "mentions": true
+          }
+        },
+        "type": "local"
+      },
+      "personalIssue": {
+        "id": "personalIssue",
+        "name": "Issues",
+        "viewType": "PERSONAL",
+        "pageType": "ISSUE",
+        "filters": {
+          "workspaceId": null,
+          "pullRequestProvider": null,
+          "issueProvider": "github",
+          "userIds": null,
+          "labelIds": null,
+          "involvement": null,
+          "pullRequestOrganizationId": null,
+          "milestoneIds": null,
+          "fixVersionIds": null,
+          "sprintIds": null,
+          "iterationIds": null,
+          "azureDevops": null,
+          "jiraCloud": null,
+          "jiraServer": null,
+          "trello": null
+        },
+        "settings": {
+          "density": "standard",
+          "fields": {
+            "linesChanged": true,
+            "useInitials": false,
+            "comments": true,
+            "likes": true,
+            "fixVersions": true,
+            "sprints": true,
+            "labels": true,
+            "milestones": true,
+            "mentions": true
+          }
+        },
+        "type": "local"
+      },
+      "personalWip": {
+        "id": "personalWip",
+        "name": "WIPs",
+        "viewType": "PERSONAL",
+        "pageType": "WIP",
+        "filters": {
+          "workspaceId": null,
+          "pullRequestProvider": null,
+          "issueProvider": null,
+          "userIds": null,
+          "labelIds": null,
+          "involvement": null,
+          "pullRequestOrganizationId": null,
+          "milestoneIds": null,
+          "fixVersionIds": null,
+          "sprintIds": null,
+          "iterationIds": null,
+          "azureDevops": null,
+          "jiraCloud": null,
+          "jiraServer": null,
+          "trello": null
+        },
+        "settings": {
+          "density": "standard",
+          "fields": {
+            "linesChanged": true,
+            "useInitials": false,
+            "comments": true,
+            "likes": true,
+            "fixVersions": true,
+            "sprints": true,
+            "labels": true,
+            "milestones": true,
+            "mentions": true
+          }
+        },
+        "type": "local"
+      },
+      "personalAll": {
+        "id": "personalAll",
+        "name": "All",
+        "viewType": "PERSONAL",
+        "pageType": "ALL",
+        "filters": {
+          "workspaceId": null,
+          "pullRequestProvider": "github",
+          "issueProvider": "github",
+          "userIds": null,
+          "labelIds": null,
+          "involvement": null,
+          "pullRequestOrganizationId": null,
+          "milestoneIds": null,
+          "fixVersionIds": null,
+          "sprintIds": null,
+          "iterationIds": null,
+          "azureDevops": null,
+          "jiraCloud": null,
+          "jiraServer": null,
+          "trello": null
+        },
+        "settings": {
+          "density": "standard",
+          "fields": {
+            "linesChanged": true,
+            "useInitials": false,
+            "comments": true,
+            "likes": true,
+            "fixVersions": true,
+            "sprints": true,
+            "labels": true,
+            "milestones": true,
+            "mentions": true
+          }
+        },
+        "type": "local"
+      },
+      "personalSnoozed": {
+        "id": "personalSnoozed",
+        "name": "Snoozed",
+        "viewType": "PERSONAL",
+        "pageType": "SNOOZED",
+        "filters": {
+          "workspaceId": null,
+          "pullRequestProvider": "github",
+          "issueProvider": "github",
+          "userIds": null,
+          "labelIds": null,
+          "involvement": null,
+          "pullRequestOrganizationId": null,
+          "milestoneIds": null,
+          "fixVersionIds": null,
+          "sprintIds": null,
+          "iterationIds": null,
+          "azureDevops": null,
+          "jiraCloud": null,
+          "jiraServer": null,
+          "trello": null
+        },
+        "settings": {
+          "density": "standard",
+          "fields": {
+            "linesChanged": true,
+            "useInitials": false,
+            "comments": true,
+            "likes": true,
+            "fixVersions": true,
+            "sprints": true,
+            "labels": true,
+            "milestones": true,
+            "mentions": true
+          }
+        },
+        "type": "local"
+      },
+      "teamPullRequest": {
+        "id": "teamPullRequest",
+        "name": "Pull Requests",
+        "viewType": "TEAM",
+        "pageType": "PULL_REQUEST",
+        "filters": {
+          "workspaceId": null,
+          "pullRequestProvider": "github",
+          "issueProvider": null,
+          "userIds": null,
+          "labelIds": null,
+          "involvement": null,
+          "pullRequestOrganizationId": null,
+          "milestoneIds": null,
+          "fixVersionIds": null,
+          "sprintIds": null,
+          "iterationIds": null,
+          "azureDevops": null,
+          "jiraCloud": null,
+          "jiraServer": null,
+          "trello": null
+        },
+        "settings": {
+          "density": "standard",
+          "fields": {
+            "linesChanged": true,
+            "useInitials": false,
+            "comments": true,
+            "likes": true,
+            "fixVersions": true,
+            "sprints": true,
+            "labels": true,
+            "milestones": true,
+            "mentions": true
+          }
+        },
+        "type": "local"
+      },
+      "teamIssue": {
+        "id": "teamIssue",
+        "name": "Issues",
+        "viewType": "TEAM",
+        "pageType": "ISSUE",
+        "filters": {
+          "workspaceId": null,
+          "pullRequestProvider": null,
+          "issueProvider": "github",
+          "userIds": null,
+          "labelIds": null,
+          "involvement": null,
+          "pullRequestOrganizationId": null,
+          "milestoneIds": null,
+          "fixVersionIds": null,
+          "sprintIds": null,
+          "iterationIds": null,
+          "azureDevops": null,
+          "jiraCloud": null,
+          "jiraServer": null,
+          "trello": null
+        },
+        "settings": {
+          "density": "standard",
+          "fields": {
+            "linesChanged": true,
+            "useInitials": false,
+            "comments": true,
+            "likes": true,
+            "fixVersions": true,
+            "sprints": true,
+            "labels": true,
+            "milestones": true,
+            "mentions": true
+          }
+        },
+        "type": "local"
+      }
+    }
+  },
+  "fileNodeList": {
+    "viewMode": "full_path"
+  },
+  "fileView": {
+    "diffDisplayMode": "split"
+  },
+  "actions": {
+    "commit": {
+      "ignoreWhiteSpace": true
     }
   }
 }

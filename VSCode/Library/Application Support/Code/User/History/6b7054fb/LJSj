@@ -1,5 +1,0 @@
-default:
-	xelatex pra3
-	xelatex pra3
-	xelatex pra3
-	

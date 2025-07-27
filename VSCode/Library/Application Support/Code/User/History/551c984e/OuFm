@@ -1,8 +1,0 @@
-# Raman
-
-This repository is currently privately owned by the laboratory of Zhang Hao from Fudan University, aiming at computation related to Raman .
-
-## Gitee Hosting Illutration
-
-## LFS service
-Administrator Haixuan Lin had start up Git LFS service on own server cluster `hxlin@10.26.0.253:/home2/Raman`. The LFS is tracking some resulted file like `.pth` (torched trained model), `.cif`

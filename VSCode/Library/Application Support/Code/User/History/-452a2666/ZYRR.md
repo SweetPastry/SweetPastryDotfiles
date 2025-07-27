@@ -1,5 +1,0 @@
----
-theme: seriph
----
-
-# Title

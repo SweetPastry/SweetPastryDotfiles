@@ -1,7 +1,0 @@
-default:
-	xelatex pra1
-	xelatex pra1
-	xelatex pra1
-
-clean:
-	latexmk -c 

@@ -108,3 +108,7 @@ key_bindings:
   - { key: Right, mods: Command, chars: "\x05" } # End
   - { key: Back, mods: Command, chars: "\x15" } # Delete line
   - { key: Back, mods: Alt, chars: "\x1b\x7f" } # Delete word
+  - { key: W, mods: Alt, chars: "\x1b[A" }
+  - { key: A, mods: Alt, chars: "\x1b[D" }
+  - { key: S, mods: Alt, chars: "\x1b[B" }
+  - { key: D, mods: Alt, chars: "\x1b[C" }

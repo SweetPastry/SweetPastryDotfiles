@@ -1,9 +1,0 @@
-default:
-	pdflatex main
-	biber main
-	pdflatex main
-	pdflatex main
-	latexmk -c
-	@rm -f *.aux *.log *.idx *.ind *.ilg *.thm *.toc *.blg *.bbl *.bcf *.out
-	@rm -f *.fls *.fdb_latexmk *.run.xml *.synctex.gz *.xdv *~ *.lof *.lot
-	@rm -f .metadonnees*

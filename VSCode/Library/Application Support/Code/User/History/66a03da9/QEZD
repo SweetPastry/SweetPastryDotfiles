@@ -1,6 +1,0 @@
-default:
-	xelatex essay
-	biber essay
-	xelatex essay
-	xelatex essay
-	latexmk -c essay

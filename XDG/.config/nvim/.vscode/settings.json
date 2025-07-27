@@ -1,0 +1,16 @@
+{
+    "Lua.diagnostics.globals": [
+        "vim"
+    ],
+    "cSpell.words": [
+        "autocmd",
+        "autocmds",
+        "Autocmds",
+        "habamax",
+        "lazyrepo",
+        "matchparen",
+        "netrw",
+        "noremap",
+        "tohtml"
+    ]
+}
