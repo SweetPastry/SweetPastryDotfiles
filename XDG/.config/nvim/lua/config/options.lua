@@ -13,6 +13,6 @@ opt.breakindent = true
 opt.autowrite = true
 opt.autowriteall = true
 
-vim.cmd("colorscheme default")
-vim.opt.termguicolors = false
-vim.cmd("set t_Co=256")
+-- vim.cmd("colorscheme default")
+-- vim.cmd("set t_Co=256")
+-- vim.opt.termguicolors = false
