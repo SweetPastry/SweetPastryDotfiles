@@ -7,11 +7,11 @@
 --     },
 -- }
 
-
 return { -- https://github.com/navarasu/onedark.nvim
 	{
 		"navarasu/onedark.nvim",
-		lazy = true,
+		lazy = false,
+		priority=1000,
 		opts = {
 			style = "darker", -- dark, darker, cool, deep, warm, warmer, light
 			transparent = true,
@@ -30,14 +30,14 @@ return { -- https://github.com/navarasu/onedark.nvim
 				transparent = true,
 			},
 			highlights = {
-				Normal   = { bg = "NONE", ctermbg = "NONE" },
-				NormalNC = { bg = "NONE", ctermbg = "NONE" },
-				NormalFloat  = { bg = "NONE" },
-				FloatBorder  = { bg = "NONE" },
-				SignColumn   = { bg = "NONE" },
-				StatusLine   = { bg = "NONE" },
-				StatusLineNC = { bg = "NONE" },
-				EndOfBuffer  = { bg = "NONE" },
+				Normal = { guibg = "NONE", bg = "NONE", ctermbg = "NONE" },
+				NormalNC = { guibg = "NONE", bg = "NONE", ctermbg = "NONE" },
+				NormalFloat = { guibg = "NONE", bg = "NONE", ctermbg = "NONE" },
+				FloatBorder = { guibg = "NONE", bg = "NONE", ctermbg = "NONE" },
+				SignColumn = { guibg = "NONE", bg = "NONE", ctermbg = "NONE" },
+				StatusLine = { guibg = "NONE", bg = "NONE", ctermbg = "NONE" },
+				StatusLineNC = { guibg = "NONE", bg = "NONE", ctermbg = "NONE" },
+				EndOfBuffer = { guibg = "NONE", bg = "NONE", ctermbg = "NONE" },
 			},
 		},
 	},
