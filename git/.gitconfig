@@ -7,7 +7,7 @@
 	process = git-lfs filter-process
 	required = true
 [core]
-	excludesfile = /Users/pastrysweet/.gitignore_global
+	excludesfile = /Users/Lin/.gitignore_global
 	editor = vim
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
@@ -16,7 +16,7 @@
 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 [commit]
-	template = /Users/pastrysweet/.stCommitMsg
+	template = /Users/Lin/.stCommitMsg
 [http]
 	postBuffer = 524288000
 	version = HTTP/1.1

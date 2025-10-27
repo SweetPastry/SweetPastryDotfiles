@@ -1,8 +1,8 @@
 {
-  "coc-python|/Users/pastrysweet/Documents/GitHub": {
+  "coc-python|/Users/Lin/Documents/GitHub": {
     "INTERPRETERS_CACHE_v3_PipEnvService:18c8c156784440ab6de04d88ba8bd901": [],
     "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:18c8c156784440ab6de04d88ba8bd901": [],
-    "autoSelectedWorkspacePythonInterpreter-/Users/pastrysweet/Documents/GitHub": {
+    "autoSelectedWorkspacePythonInterpreter-/Users/Lin/Documents/GitHub": {
       "architecture": 3,
       "path": "/opt/anaconda3/bin/python",
       "version": {
@@ -1267,10 +1267,10 @@
       "expiry": 1746694842028
     }
   },
-  "coc-python|/Users/pastrysweet/Documents/GitHub/cling-src": {
+  "coc-python|/Users/Lin/Documents/GitHub/cling-src": {
     "INTERPRETERS_CACHE_v3_PipEnvService:aa9c66d8d8f012f54db1c13db4e00d55": [],
     "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:aa9c66d8d8f012f54db1c13db4e00d55": [],
-    "autoSelectedWorkspacePythonInterpreter-/Users/pastrysweet/Documents/GitHub/cling-src": {
+    "autoSelectedWorkspacePythonInterpreter-/Users/Lin/Documents/GitHub/cling-src": {
       "architecture": 3,
       "path": "/opt/homebrew/bin/python3",
       "version": {

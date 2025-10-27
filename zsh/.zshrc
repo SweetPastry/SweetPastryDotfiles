@@ -3,15 +3,15 @@ export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH
 # Oh My Zsh
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="simple"
-plugins=(git) # Nov 9, swtpstry disabled this line, deleted 'git'
+plugins=(git) # Nov 9, Lin disabled this line, deleted 'git'
 source $ZSH/oh-my-zsh.sh
 
 # Cling
-export CPLUS_INCLUDE_PATH="$(xcrun --show-sdk-path)/usr/include:$CPLUS_INCLUDE_PATH"
-export LIBRARY_PATH="$(brew --prefix ncurses)/lib:$LIBRARY_PATH"
-export DYLD_LIBRARY_PATH="$(brew --prefix ncurses)/lib:$DYLD_LIBRARY_PATH"
-export CLING_RESOURCE_DIR="$HOME/Documents/GitHub/cling/lib/clang/18"
-export PATH="$HOME/Documents/GitHub/cling/bin:$PATH"
+# export CPLUS_INCLUDE_PATH="$(xcrun --show-sdk-path)/usr/include:$CPLUS_INCLUDE_PATH"
+# export LIBRARY_PATH="$(brew --prefix ncurses)/lib:$LIBRARY_PATH"
+# export DYLD_LIBRARY_PATH="$(brew --prefix ncurses)/lib:$DYLD_LIBRARY_PATH"
+# export CLING_RESOURCE_DIR="$HOME/Documents/GitHub/cling/lib/clang/18"
+# export PATH="$HOME/Documents/GitHub/cling/bin:$PATH"
 ## export PATH="/Volumes/MacintoshHD/Applications/Github/CKernelCling/cling-build/bin:$PATH"
 ## export CLING_STANDARD_PCH="/Volumes/MacintoshHD/Applications/Github/CKernelCling/cling-build/lib/clang/other_version"
 
@@ -68,3 +68,6 @@ eval $(thefuck --alias)
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Homebrew
+HOMEBREW_NO_ENV_HINTS=1 # 隐藏提示, 视觉优化

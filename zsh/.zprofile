@@ -5,11 +5,11 @@ export HOMEBREW_PIP_INDEX_URL=https://mirrors.aliyun.com/pypi/simple/ #brew.iday
 
 
 # Added by Toolbox App
-export PATH="$PATH:/Users/pastrysweet/Library/Application Support/JetBrains/Toolbox/scripts"
+export PATH="$PATH:/Users/Lin/Library/Application Support/JetBrains/Toolbox/scripts"
 
 
 ##
-# Your previous /Users/pastrysweet/.zprofile file was backed up as /Users/pastrysweet/.zprofile.macports-saved_2025-07-01_at_03:38:32
+# Your previous /Users/Lin/.zprofile file was backed up as /Users/Lin/.zprofile.macports-saved_2025-07-01_at_03:38:32
 ##
 
 # MacPorts Installer addition on 2025-07-01_at_03:38:32: adding an appropriate PATH variable for use with MacPorts.

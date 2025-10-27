@@ -1,0 +1,86 @@
+(* Content-type: application/vnd.wolfram.cdf.text *)
+
+(*** Wolfram CDF File ***)
+(* http://www.wolfram.com/cdf *)
+
+(* CreatedBy='Mathematica 14.0' *)
+
+(*************************************************************************)
+(*                                                                       *)
+(*                                                                       *)
+(*  This file was created under the Wolfram Enterprise licensing terms.  *)
+(*                                                                       *)
+(*       For additional information concerning CDF licensing see:        *)
+(*                                                                       *)
+(*        www.wolfram.com/cdf/adopting-cdf/licensing-options.html        *)
+(*                                                                       *)
+(*                                                                       *)
+(*                                                                       *)
+(*************************************************************************)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[      1064,         20]
+NotebookDataLength[      2111,         63]
+NotebookOptionsPosition[      2450,         58]
+NotebookOutlinePosition[      2848,         74]
+CellTagsIndexPosition[      2805,         71]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"Needs", "[", 
+  RowBox[{
+  "\"\<WolframLanguageForJupyter`\>\"", ",", " ", 
+   "\"\</Users/Lin/Documents/GitHub/WolframLanguageForJupyter/\
+WolframLanguageForJupyter/WolframLanguageForJupyter.m\>\""}], "]"}]], "Input",\
+
+ CellChangeTimes->{{3.9705264730452538`*^9, 3.970526477721839*^9}, {
+  3.970526550584544*^9, 3.970526588605914*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"14a59f27-9b32-44b9-8a89-c0c55927a3ef"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"Needs", "[", "\"\<WolframLanguageForJupyter`\>\"", "]"}], "\n", 
+ RowBox[{"InstallWolframLanguageForJupyter", "[", "]"}]}], "Input",
+ CellChangeTimes->{{3.9705266718312893`*^9, 3.97052667183241*^9}},
+ CellLabel->"In[2]:=",ExpressionUUID->"f9b06d4d-1259-4e5d-a904-8082616f0ec1"],
+
+Cell[BoxData[
+ RowBox[{"InstallWolframLanguageForJupyter", "[", "]"}]], "Output",
+ CellChangeTimes->{3.970526672464617*^9},
+ CellLabel->"Out[3]=",ExpressionUUID->"40498e8b-7836-4956-9855-d8e326b92292"]
+}, Open  ]]
+},
+WindowSize->{808, 796},
+WindowMargins->{{274, Automatic}, {43, Automatic}},
+FrontEndVersion->"14.0 for Mac OS X ARM (64-bit) (December 12, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"d1b6d905-2e59-426b-94d3-cd46412d4432"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[1464, 33, 439, 9, 90, "Input",ExpressionUUID->"14a59f27-9b32-44b9-8a89-c0c55927a3ef"],
+Cell[CellGroupData[{
+Cell[1928, 46, 302, 4, 64, "Input",ExpressionUUID->"f9b06d4d-1259-4e5d-a904-8082616f0ec1"],
+Cell[2233, 52, 201, 3, 42, "Output",ExpressionUUID->"40498e8b-7836-4956-9855-d8e326b92292"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
