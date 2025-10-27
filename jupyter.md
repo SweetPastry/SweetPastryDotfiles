@@ -65,6 +65,7 @@ git clone https://github.com/WolframResearch/WolframLanguageForJupyter.git
 
 ```bash
 cd WolframLanguageForJupyter
+wolframscript -activate
 ./configure-jupyter.wls add
 ```
 
@@ -76,7 +77,9 @@ cd WolframLanguageForJupyter
 ```wolfram
 Needs["WolframLanguageForJupyter`", </your/path/to/WolframLanguageForJupyter/WolframLanguageForJupyter.m>]
 ```
+
 例如
+
 ```wolfram
 Needs["WolframLanguageForJupyter`", \
 "/Users/Lin/Documents/GitHub/WolframLanguageForJupyter/\

@@ -10,3 +10,4 @@ map({ "n", "v" }, "<C-a>", "0", opts)
 
 map("i", "<C-e>", "<Esc>A", opts)
 map("i", "<C-a>", "<Esc>I", opts)
+

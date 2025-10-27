@@ -7,13 +7,9 @@ plugins=(git) # Nov 9, Lin disabled this line, deleted 'git'
 source $ZSH/oh-my-zsh.sh
 
 # Cling
-# export CPLUS_INCLUDE_PATH="$(xcrun --show-sdk-path)/usr/include:$CPLUS_INCLUDE_PATH"
-# export LIBRARY_PATH="$(brew --prefix ncurses)/lib:$LIBRARY_PATH"
-# export DYLD_LIBRARY_PATH="$(brew --prefix ncurses)/lib:$DYLD_LIBRARY_PATH"
-# export CLING_RESOURCE_DIR="$HOME/Documents/GitHub/cling/lib/clang/18"
-# export PATH="$HOME/Documents/GitHub/cling/bin:$PATH"
-## export PATH="/Volumes/MacintoshHD/Applications/Github/CKernelCling/cling-build/bin:$PATH"
-## export CLING_STANDARD_PCH="/Volumes/MacintoshHD/Applications/Github/CKernelCling/cling-build/lib/clang/other_version"
+## 注意, 自己编译的在 ~/Documents/GitHub/cling-build/
+export SDKROOT="$(xcrun --show-sdk-path)"
+export PATH="/Users/Lin/Documents/GitHub/cling-build/bin:$PATH"
 
 # Mathematica/Wolfram Engine
 export WOLFRAMSCRIPT_KERNELPATH="/Applications/Wolfram/Wolfram Engine.app/Contents/MacOS/WolframKernel"
@@ -71,3 +67,8 @@ export NVM_DIR="$HOME/.nvm"
 
 # Homebrew
 HOMEBREW_NO_ENV_HINTS=1 # 隐藏提示, 视觉优化
+# homebrew 安装的 llvm, 不要使用
+# echo 'export PATH="/opt/homebrew/opt/llvm/bin:$PATH"' >> ~/.zshrc
+# export CMAKE_PREFIX_PATH="/opt/homebrew/opt/llvm"
+# export LDFLAGS="-L/opt/homebrew/opt/llvm/lib"
+# export CPPFLAGS="-I/opt/homebrew/opt/llvm/include"
